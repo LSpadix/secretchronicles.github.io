@@ -1,0 +1,2522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link rel="self" type="application/atom+xml" href="https://secretchronicles.org/fi/feed/"/>
+  <link rel="alternate" type="text/html" href="https://secretchronicles.org/fi/"/>
+  <title>Secretchronicles fi Feed</title>
+  <updated>2022-09-04T20:25:05Z</updated>
+  <id>secretchronicles.org;fifeed</id>
+
+  
+  <entry>
+    <link href="/fi/news/2022/09/04/tsc-for-jammy-and-bullseye-many-cpu-platforms-available/"/>
+    <title>TSC .deb paketit Ubuntu 22.04 amd64/arm64/s390x ja Debian 11 amd64/i386/arm64/ppc64el/s390x saatavilla</title>
+    <id>secretchronicles.org/fi;34</id>
+    <updated>2022-09-04</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">TSC .deb paketit Ubuntu 22.04 amd64/arm64/s390x ja Debian 11 amd64/i386/arm64/ppc64el/s390x saatavilla</summary>
+    <content type="html">
+&lt;p&gt;xet7 on tänään julkaissut TSC .deb paketit monille CPU alustoille,
+joille vaaditut riippuvuudet ovat saatavilla:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ubuntu 22.04 Jammy Jellyfish: amd64/arm64/s390x. (Ei ole Ubuntu 22.04:sta ppc64el POWER8:lle)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Debian 11 Bullseye: amd64/i386/arm64/ppc64el/s390x&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Näistä:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;amd64 on x64 PC-koneet&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;i386 on vanhemmat x32 PC-koneet&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;arm64 on tietokoneille Raspberry Pi 3 tai 4, ja muut tietokoneet jossa distro toimii.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ppc64el on PowerPC 64bit litte-endian tietokoneille.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;s390x on IBM Z sarjan mainframe tietokoneille.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Näillä paketeilla on nyt myös riippuvuus &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/703&quot;&gt;libboost-chrono1.74.0 joka puuttui aiemmin&lt;/a&gt;.
+Kiitos pirate486743186 tiedoista että on puuttuva riippuvuus.&lt;/p&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+&lt;h2 id=&quot;lataa&quot;&gt;Lataa&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/fi/download/&quot;&gt;Lataukset sivulta&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2021/09/01/tsc-for-hirsute-and-bullseye-many-cpu-platforms-available/"/>
+    <title>TSC .deb paketit Ubuntu 21.04 amd64/arm64/ppc64el/s390x ja Debian 11 amd64/i386/arm64/ppc64el/s390x saatavilla</title>
+    <id>secretchronicles.org/fi;33</id>
+    <updated>2021-09-01</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">TSC .deb paketit Ubuntu 21.04 amd64/arm64/ppc64el/s390x ja Debian 11 amd64/i386/arm64/ppc64el/s390x saatavilla</summary>
+    <content type="html">
+&lt;p&gt;xet7 on tänään julkaissut TSC .deb paketit monille CPU alustoille,
+joille vaaditut riippuvuudet ovat saatavilla:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ubuntu 21.04 Hirsute Hippo: amd64/arm64/ppc64el/s390x&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Debian 11 Bullseye: amd64/i386/arm64/ppc64el/s390x&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Näistä:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;amd64 on x64 PC-koneet&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;i386 on vanhemmat x32 PC-koneet&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;arm64 on tietokoneille Raspberry Pi 3 tai 4, tai muu tietokone jossa distro toimii.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ppc64el on PowerPC 64bit litte-endian tietokoneille.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;s390x on IBM Z sarjan mainframe tietokoneille.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+&lt;h2 id=&quot;lataa&quot;&gt;Lataa&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/fi/download/&quot;&gt;Lataukset sivulta&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2021/08/26/tsc-for-hirsute-available/"/>
+    <title>TSC .deb paketti Ubuntu 21.04 x64:lle saatavilla</title>
+    <id>secretchronicles.org/fi;32</id>
+    <updated>2021-08-26</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">TSC .deb paketti Ubuntu 21.04 x64:lle saatavilla</summary>
+    <content type="html">
+&lt;p&gt;xet7 on tänään julkaissut TSC .deb paketin Ubuntu 21.04 x64:lle.&lt;/p&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+&lt;h2 id=&quot;lataa&quot;&gt;Lataa&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/fi/download/#bit-ubuntu-2104&quot;&gt;Lataukset sivulta&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2020/11/16/tsc-for-s390x-available/"/>
+    <title>TSC s390x mainframeille saatavilla</title>
+    <id>secretchronicles.org/fi;31</id>
+    <updated>2020-11-16</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">TSC s390x mainframeille saataville</summary>
+    <content type="html">
+&lt;p&gt;xet7:llä oli jo pääsy IBM LinuxOne Community Cloud
+palvelimelle tehdäkseen säännöllisiä julkaisuja
+&lt;a href=&quot;https://wekan.github.io&quot;&gt;Wekan avoimen lähdekoodin kanban-taulu ohjelmasta&lt;/a&gt; s390x:lle.&lt;/p&gt;
+
+&lt;p&gt;xet7 on tänään julkaissut TSC .deb paketin Ubuntu 20.10
+s390x:lle, IBM zSeries mainframeille. s390x palvelimella on
+RHEL8, ja LXC kontissa on asennettuna Ubuntu 20.10, ja siellä
+.deb paketti tehtiin. Alla on nauhoitettu animgif video TSC:stä
+s390x palvelimella, näytettynä etänä käyttäen
+Remmina RDP asiakasta SSH tunnelin kautta.&lt;/p&gt;
+
+&lt;p&gt;&lt;img width=&quot;100%&quot; height=&quot;auto&quot; src=&quot;/assets/news-images/tsc-s390x.gif&quot; alt=&quot;TSC s390x palvelimella&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+&lt;h2 id=&quot;lataa&quot;&gt;Lataa&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/fi/download/#s390x&quot;&gt;Lataukset sivulla&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2020/11/13/bootable-usb-image-available/"/>
+    <title>USB tikulta käynnistyvä versio saatavilla</title>
+    <id>secretchronicles.org/fi;30</id>
+    <updated>2020-11-13</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">USB tikulta käynnistyvä versio saatavilla</summary>
+    <content type="html">
+&lt;p&gt;xet7 julkaisi tänään USB tikulta suoraan käynnistyvän version TSC:stä.
+Siinä on &lt;a href=&quot;http://puppylinux.com&quot;&gt;Puppy Linux Bionic&lt;/a&gt; 32bit Linux ja TSC 2.1.0 julkaisu versio
+asennettuna .deb paketista (riippuvuudet paketti hallinnasta, ja purettu
+.deb paketti kohde hakemistoihin) tänään 13.11.2020. Linux käynnistyy suoraan
+USB tikulta, joten se toimii nopeasti ja on hyvin pelattava.
+Se toimii x86 ja x64 tietokoneissa.&lt;/p&gt;
+
+&lt;p&gt;TSC peli on työpöydän valikossa: Applications / Fun / Secret Chronicles of Dr.M.&lt;/p&gt;
+
+&lt;h2 id=&quot;muutosloki&quot;&gt;Muutosloki&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;v0.01 2020-11-13 Ensimmäinen julkaisu jossa on TSC 2.1.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;vaatimukset&quot;&gt;1) Vaatimukset&lt;/h2&gt;
+
+&lt;p&gt;Tarvitset minimissään 8 GB USB tikun, koska USB
+levykuva on 6 GB.&lt;/p&gt;
+
+&lt;p&gt;Jos sinulla on PlayStation 3 yhteensopiva USB peliohjain,
+voit ottaa sen käyttöön pelin valikossa Options / Joystick.&lt;/p&gt;
+
+&lt;p&gt;Esimerkiksi, käytän tätä peliohjainta.&lt;/p&gt;
+
+&lt;h3 id=&quot;goodbetterbest-ltd-gioteck-vx2-wired-controller&quot;&gt;Goodbetterbest Ltd Gioteck VX2 Wired Controller&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/gamepad.jpg&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Gamepad&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;lataa-usb-levykuva-tiedosto&quot;&gt;2) Lataa USB levykuva tiedosto&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-usb-i386.7z&quot;&gt;TSC-2.1.0-usb-i386.7z&lt;/a&gt; - 1.1 GB&lt;/p&gt;
+
+&lt;p&gt;MD5SUM:&lt;br /&gt;
+68983ef6aac47febd7fc126db2d3c9a4&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;SHA256SUM:&lt;br /&gt;
+cb16d88bb150318683c5bc1ee57f92db22341181102d523dce93bcc318c56f74&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;levykuva-tiedoston-kirjoittaminen-usb-tikulle&quot;&gt;3) Levykuva tiedoston kirjoittaminen USB tikulle&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://etcher.io&quot;&gt;Lataa Etcher&lt;/a&gt; - Win/Mac/Linux&lt;/p&gt;
+
+&lt;p&gt;Käynnistä Etcher, valitse levykuva tiedosto, ja kirjoita USB tikulle.&lt;/p&gt;
+
+&lt;h2 id=&quot;usb-tikulta-kynnistminen&quot;&gt;4) USB tikulta käynnistäminen&lt;/h2&gt;
+
+&lt;p&gt;USB tikulta käynnistäminen tehdään yleensä painamalla Esc monta kertaa
+konetta käynnistäessä.
+Boot menusta valitaan USB asema nuolinäppäimillä alaspäin ja Enterillä.&lt;/p&gt;
+
+&lt;p&gt;Erään kannettavan tietokoneen tapauksessa F2 näppäintä painelemalla konetta
+käynnistäessä pääsi BIOS/UEFI valikkoon, jossa nuolinäppäimillä oikealle Boot
+valikosta UEFI kohdalla Enterillä muutaman kerran painelemalla pääsi
+Legacy Mode tilaan, ja sitten kaikki USB-alkuiset käynnistysvaihtoehdot
+ylimmäksi, ja F10 eli Save and Exit, niin käynnistyi tikulta.
+Windowsiin pääsee takaisin kun vaihtaa Legacy Moden takaisin
+UEFI tilaan.&lt;/p&gt;
+
+&lt;p&gt;Muita vaihtoehtoisia tapoja saada Boot menu näkyviin ovat F1 tai Enter,
+se yleensä tuo näkyviin BIOS tai UEFI asetukset jossa käynnistysjärjestystä
+voi muuttaa. Joissakin läppärimalleissa on erityinen pieni painettava
+painike kannettavan vasemmalla sivulla, josta tulee asetus valikko.
+Se voi olla myös jokin muu näppäin, kuten F2, F10, F11 tai F12.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-iduefimodea5-ennen-uefi-tila&quot;&gt;&lt;a id=&quot;uefimode&quot;&gt;&lt;/a&gt;5) Ennen: UEFI tila&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/uefimode.jpg&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;UEFI Mode&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idlegacymodea6-jlkeen-legacy-tila-usb-valinnat-siirretty-ylimmksi-paina-f10-joka-on-save-and-exit-tallenna-ja-lopeta&quot;&gt;&lt;a id=&quot;legacymode&quot;&gt;&lt;/a&gt;6) Jälkeen: Legacy tila, USB valinnat siirretty ylimmäksi. Paina F10 joka on Save and Exit (tallenna ja lopeta).&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/legacymode.jpg&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Legacy Mode&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2020/05/18/tsc21-released/"/>
+    <title>TSC 2.1.0 julkaistu</title>
+    <id>secretchronicles.org/fi;29</id>
+    <updated>2020-05-18</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">Vakaa versio 2.1.0 julkaistu</summary>
+    <content type="html">
+&lt;p&gt;TSC tiimi on ylpeänä ilmoittaa että viiden vuoden kehityksen
+jälkeen, uusi vakaa versio 2.1.0 The Secret Chronicles of
+Dr. M. (TSC) on &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/thread/7P7NCQYUSQ3EVBR4SB6LM3WLIXWCHWTB/&quot;&gt;julkaistu yleisölle eilen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tämä on ensimmäinen vakaa versio TSC 2:sta sen jälkeen kun
+versio 2.0.0 oli julkaistu aiemmin vuonna 2015. Haluaisin
+ottaa tämän mahdollisuutena kiittää joka ikistä TSC version
+tekemiseen osallistujaa. Tiedämme että on vielä monia asioita
+joita voisi kehittää edelleen, mutta me uskomme että viiden
+vuoden jälkeen, on jo korkein aika julkaista uusi versio
+vaikka jotkin haluamamme ominaisuudet eivät ehtineet 2.1.0:aan
+(esimerkiksi, vieläkään ei ole korviketta kilpikonna pomolle
+joka poistettiin versiossa 2.0.0). Mutta kuitenkin, tämä
+julkaisu on monilta osin parempi kuin edellinen 2.0.0 julkaisu
+vuodelta 2015. Uusia vihollisia, kehittyneempi tasoeditori
+käyttöliittymä, uutta musiikkia, ja useita bugeja korjattu.
+Ja viimeisenä mutta ei vähäisimpänä, tämä on ensimmäinen
+vakaa versio TSC:stä joka viimein toimii kääntämällä lähdekoodista
+uusimmissa Linux distroissa.&lt;/p&gt;
+
+&lt;p&gt;Jos haluat auttaa TSC:tä nyt seuraavaa julkaisua varten, ole
+hyvä ja huomioi: &lt;strong&gt;etsimme pikaisesti graafikkoa&lt;/strong&gt;. On
+lukematon määrä tikettejä auki jota tarvitsevat jonkun piirtämään
+SVG kuvia TSC peliin, mutta tällä hetkellä tiimissämme ei ole
+enää graafikkoa. Jos sinä olet tai tunnet jonkun, ole hyvä ja
+kerro täällä &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;postituslistalla&lt;/a&gt;, &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org&quot;&gt;foorumilla&lt;/a&gt; tai meidän
+&lt;a href=&quot;irc://chat.freenode.net/#secretchronicles&quot;&gt;IRC kanavalla #secretchronicles Freenodessa&lt;/a&gt;! Emme voi
+saada uusia vihollishahmoja tai muita graafisia lisäyksiä
+ennen kuin löydämme graafikon.&lt;/p&gt;
+
+&lt;p&gt;Tämä julkaisu on tägätty Git repossa v2.1.0 ja on upattu
+webpalvelimellemme. Voit löytää lataus linkit alta.&lt;/p&gt;
+
+&lt;p&gt;Toivotamme tervetulleeksi Linux distrot paketoimaan tämän
+uuden vakaan version TSC:stä. Jos haluaisit paketoida TSC:n
+ja löydät jotain ongelmia, ole hyvä ja raportoi ne ongelmat
+meidän &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;bugiseurantaan&lt;/a&gt; ja me katsomme voimmeko ratkaista
+ne seuraavaan julkaisuun.&lt;/p&gt;
+
+&lt;h2 id=&quot;tscn-tulevaisuus&quot;&gt;TSC:n tulevaisuus&lt;/h2&gt;
+
+&lt;p&gt;2.1.0 julkaisu päättää monen vuoden ponnistelumme lopulta saada
+TSC julkaisukuntoon jälleen. Olemme taistelleet lukemattomien
+TSC riippuvuuksien API rikkinäisyyksien ja takaisin
+yhteensopimattomuus rikkinäisyyksien kanssa tähän julkaisuun,
+joka on ehkä suurin osa lähdekoodi muutoksia version 2.0.0 ja
+2.1.0 välillä. TSC:ssä on yhä suuri määrä riippuvuuksia, ja
+päämäärämme tulevissa versioissa on vähentää riippuvuuksien
+määrää, jotta tällaisia ongelmia ei enää tapahtuisi.&lt;/p&gt;
+
+&lt;p&gt;On liian aikaista antaa lopullisia lausuntoja TSC:n tulevaisuudesta,
+mutta oletamme että tulee olemaan joitakin huoltojulkaisuja ja
+mahdollisesti pienempiä ominaisuus julkaisuja seuraavien vuosien
+aikana. Suuri peruskorjaus, jonka pitäisi jossain vaiheessa tulla
+TSC3:n muodossa, ei kuitenkaan ole missään lähi näköpiirissä.&lt;/p&gt;
+
+&lt;h2 id=&quot;mit-on-muuttunut-version-200-jlkeen&quot;&gt;Mitä on muuttunut version 2.0.0 jälkeen?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Useita uusia taustamusiikkeja&lt;/li&gt;
+  &lt;li&gt;Vaihdettu joitakin SMC grafiikoita alkuperäisiin TSC grafiikoihin&lt;/li&gt;
+  &lt;li&gt;Uusia vihollisia: Larry ja Doom Larry, jotka sulavat ja lopulta
+räjähtävät jos saavat osuman&lt;/li&gt;
+  &lt;li&gt;Parannuksia taso skriptaukseen&lt;/li&gt;
+  &lt;li&gt;Tasoeditorin käyttöliittymä uudistettu&lt;/li&gt;
+  &lt;li&gt;Monet taso poistumiskohdat eri ylimaailma polkuihin on nyt mahdollisia&lt;/li&gt;
+  &lt;li&gt;Tasot latautuvat paljon nopeammin verrattuna 2.0.0 versioon&lt;/li&gt;
+  &lt;li&gt;Salainen alue merkit on saatavilla myös tasoeditorissa&lt;/li&gt;
+  &lt;li&gt;Uusi pelin sisäinen skriptaus konsoli painamalla [F7]&lt;/li&gt;
+  &lt;li&gt;Useita bugikorjauksia, mukaanlukien joitakin kaatumisen korjauksia&lt;/li&gt;
+  &lt;li&gt;Useita lähdekoodista kääntämis korjauksia&lt;/li&gt;
+  &lt;li&gt;Useita skriptaus API dokumentaatio korjauksia, ja lähdekoodista
+kääntämis dokumentaation korjauksia&lt;/li&gt;
+  &lt;li&gt;Päivitetty CEGUI riippuvuus versiosta 0.7.9 versioon 0.8.7&lt;/li&gt;
+  &lt;li&gt;Tuki ja vaatimus C++11 pystyvälle C++ kääntäjälle&lt;/li&gt;
+  &lt;li&gt;TSC kääntyy lähdekoodista jälleen moderneissa Linux distroissa!&lt;/li&gt;
+  &lt;li&gt;datahead lisäsi uusia aavikko tasoja. Ne on lisätty kampanjaan
+maailmassa 3.&lt;/li&gt;
+  &lt;li&gt;Skriptaus dokumentaatio järjestestelmä on uudistettu ja riippuvuus
+RubyGemsiin skriptaus APIn luomisessa on poistettu&lt;/li&gt;
+  &lt;li&gt;Tasomusiikki on nyt pysäytetty (ei enäää häivytetty) pelihahmon kuollessa&lt;/li&gt;
+  &lt;li&gt;Uusi upea päävalikko teemamusiikki, tehnyt refi64&lt;/li&gt;
+  &lt;li&gt;Sriptaus laajennus paketit ovat palanneet takaisin&lt;/li&gt;
+  &lt;li&gt;Kokeellinen lähdekoodista kääntämis tuki FeeBSD/OpenBSD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CEGUI päivitys ansaitsee erillisen maininnan. CEGUI 0.8.x rikkoi
+heidän APInsa ja koska yhä suuremmalla osalla ihmisistä ei ole
+enää saatavilla vanhentunut CEGUI 0.7.9, oli välttämätöntä
+päivittää. Tämä päivitys kuitenkin sitoi niin paljon TSC tiimin
+resursseja että 2.1.0 julkaisu lopulta päätyi sisältämään vähemmän
+uusia ominaisuuksia kuin oli alunperin tarkoitettu. Nyt kun
+päivitys on tehty pitäisi olla paljon helpompi kääntää TSC
+moderneissa Linux distroissa kuin oli tilanne vanhan 2.0.0
+julkaisun aikaan.&lt;/p&gt;
+
+&lt;p&gt;Ominaisuus joka valitettavasti ei kerinnyt 2.1.0:aan on tarina.
+Siitä huolimatta olemme hyväksyneet lopullisen tarinaluonnoksen,
+voit löytää sen &lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/18-001.pdf&quot;&gt;verkosta&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tasot jotka sisältyy versioon 2.1.0 on suurimmaksi osaksi samoja
+kuin 2.0.0:ssa. Joitakin pieniä muutoksia on tehty tasoihin, ja
+muutama uusi taso on lisätty. Rohkaisemme käyttäjiä tarjoamaan
+laadukkaita tasoja &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;postituslistalla&lt;/a&gt; tai &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org&quot;&gt;foorumilla&lt;/a&gt;
+lisättäväksi TSC:hen. Suosimme varsinkin tasoja jotka
+toteuttavat osia edellä mainitusta tarinasta.&lt;/p&gt;
+
+&lt;h2 id=&quot;lataa&quot;&gt;Lataa&lt;/h2&gt;
+
+&lt;h3 id=&quot;lhdekoodi&quot;&gt;Lähdekoodi&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lähdekoodi:        &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.tar.gz&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PGP allekirjoitus: &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.tar.gz.sig&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.tar.gz.sig&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MD5 checksum:      1f598a39667ff979d1b9075e173eac9b&lt;/li&gt;
+  &lt;li&gt;SHA256 checksum:   6a16765b4951e3d5d1ea2b84e6da8f67b0271460f0c570b53ccdab80d7396261&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;binri-lataukset&quot;&gt;Binääri lataukset&lt;/h3&gt;
+
+&lt;h4 id=&quot;windows&quot;&gt;Windows&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win64.exe&quot;&gt;Asennusohjelma 64-bit Windows 7 tai uudempi&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win32.exe&quot;&gt;Asennusohjelma 32-bit Windows 7 tai uudempi&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win32.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win32.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;linux&quot;&gt;Linux&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-amd64.deb&quot;&gt;amd64 .deb tiedosto Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-amd64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-amd64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-i386.deb&quot;&gt;i386 .deb tiedosto Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-i386.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-i386.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-armhf.deb&quot;&gt;armhf .deb tiedosto Raspbian RasPi3/RasPi4&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-armhf.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-armhf.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+TSC tiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2020/04/02/updated-tsc-2/"/>
+    <title>Päivitetyt paketit TSC 2.1.0-rc2 julkaistu</title>
+    <id>secretchronicles.org/fi;28</id>
+    <updated>2020-05-10</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Päivitetyt paketit toisesta 2.1.0 julkaisu kandidaatista on julkaistu.</summary>
+    <content type="html">
+&lt;p&gt;RC2 julkaisussa oli &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/683&quot;&gt;puuttuva riippuvuus libboost-chrono&lt;/a&gt; joka on nyt
+lisätty kaikkiin .deb paketteihin. Kiitos agrr että ilmoitit puuttuvasta
+riippuvuudesta ja kiitos xet7 päivitettyjen pakettien tekemisestä.&lt;/p&gt;
+
+&lt;p&gt;RC2 Windows asennusohjelmiin ei tarvinnut näitä muutoksia tehdä.&lt;/p&gt;
+
+&lt;h3 id=&quot;binri-lataukset&quot;&gt;Binääri lataukset&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;/fi/download/#kehitys-versio&quot;&gt;Lataukset sivulla&lt;/a&gt; on .deb paketit ja Windows asennusohjelmat.&lt;/p&gt;
+
+&lt;h2 id=&quot;tietoja-toisesta-210-julkaisu-kandidaatista&quot;&gt;Tietoja toisesta 2.1.0 julkaisu kandidaatista&lt;/h2&gt;
+
+&lt;p&gt;quintus julkaisi RC2:n &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/thread/C2MYMC5C45OUGKWOKGND5LV6CAKNABK3/&quot;&gt;postituslistalla&lt;/a&gt; 26.4.2020, xet7 kopioi
+sen julkaisu uutisen tähän alle.&lt;/p&gt;
+
+&lt;p&gt;xet7&lt;br /&gt;
+TSC tiimin puolesta.&lt;/p&gt;
+
+&lt;h2 id=&quot;toinen-julkaisu-kandidaatti-210sta-julkaisu&quot;&gt;Toinen julkaisu kandidaatti 2.1.0:sta julkaisu&lt;/h2&gt;
+
+&lt;p&gt;quintusilta:&lt;/p&gt;
+
+&lt;p&gt;The Secret Chronicles of Dr. M. (TSC) projektin vetäjänä, minulla on ilo
+ilmoittaa että toinen julkaisu kandidaatti (RC2) uudesta
+TSC versiosta 2.1.0 on nyt saatavilla. Julkaisu on tägätty
+Git repossa v2.1.0-rc2 ja on upattu web palvelimellemme..
+Lähdekoodi on saatavilla seuraavista osoitteista:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lähdekoodi:            https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc2.tar.gz&lt;/li&gt;
+  &lt;li&gt;PGP allekirjoitus:     https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc2.tar.gz.sig&lt;/li&gt;
+  &lt;li&gt;MD5 tarkistussumma:    2b81a441cd963428bff46f19c2604150&lt;/li&gt;
+  &lt;li&gt;SHA256 tarkistussumma: 377600c13c4a16b249a3879d6d9169ca75ae476d97824218f29a91fe482a2fb1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;TGZ tiedosto on kooltaan hieman yli 240 MiB. Ota tämä huomioon ennen
+ennen lataamista.&lt;/p&gt;
+
+&lt;p&gt;Pyydämme anteeksi viivettä edellisen RC version jälkeen, mutta kehittäminen
+vapaa-ajalla on aikaa vaikeaa koordinoida.&lt;/p&gt;
+
+&lt;h2 id=&quot;mit-on-muuttunut-rc1n-jlkeen&quot;&gt;Mitä on muuttunut RC1:n jälkeen?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ongelma “Options” valikon tabeissa Hi-DPI näytöissä on
+ehkä korjattu (tiketti #681, ongelman löysi Öyvind Sæther)&lt;/li&gt;
+  &lt;li&gt;Ongelma kirjainten encoodayksessa käännetyissä HUD viesteissä oli korjattu&lt;/li&gt;
+  &lt;li&gt;Uusi taso desert_fortress&lt;/li&gt;
+  &lt;li&gt;Lisätty 3 tasoa world_3:een, mukaanlukien desert_fortress.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Itse asiassa nämä muutokset ovat enemmän kuin pitäisi olla RC:ssä, mutta me
+ajattelimme että ne ovat tarpeeksi pieniä liitettäväksi suoraan.
+Tämän tuloksena, olen päättänyt julkaista toisen julkaisu kandidaatin,
+enkä vielä lopullista versiota.&lt;/p&gt;
+
+&lt;h2 id=&quot;milloin-voimme-olettaa-lopullisen-julkaisun-tapahtuvan&quot;&gt;Milloin voimme olettaa lopullisen julkaisun tapahtuvan?&lt;/h2&gt;
+
+&lt;p&gt;Tämä on toinen julkaisu kandidaatti. Jos vakavia ongelmia ei ole löydetty
+ennen 3.5.2020, versio 2.1.0 julkaistaan pian tämän päivän jälkeen.&lt;/p&gt;
+
+&lt;h2 id=&quot;mit-tapahtuu-rc-vaiheessa&quot;&gt;Mitä tapahtuu RC vaiheessa?&lt;/h2&gt;
+
+&lt;p&gt;Tätä koodia pidetään nyt lopullisena tulevaa julkaisua varten. RC
+vaiheessa on viimeinen mahdollisuus testata peliä vakavien ongelmien
+varalta; pieniä ongelmia ei korjata. Niitä muutoksia ei tehdä mitkä
+ei liity vakaviin ongelmiin. Emme oleta että pelissä on enää
+vakavia ongelmia.&lt;/p&gt;
+
+&lt;h2 id=&quot;voinko-auttaa-tsct-kyttjn-nyt&quot;&gt;Voinko auttaa TSC:tä käyttäjänä nyt?&lt;/h2&gt;
+
+&lt;p&gt;Voit testata RC2:sta ja katsoa löydätkö ongelmia joiden vuoksi peli
+ei toimisi. Ole hyvä ja raportoi ne &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/thread/C2MYMC5C45OUGKWOKGND5LV6CAKNABK3/&quot;&gt;tänne&lt;/a&gt; tai 
+&lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;bugienseurantaan&lt;/a&gt; (vaatii GitHub tilin).&lt;/p&gt;
+
+&lt;p&gt;Valitettavasta ihan uusia tasoja ei tehty beta vaiheen aikana, joten
+versiossa 2.1.0 ei tule olemaan kovin erilaisia tasoja verrattuna 2.0.0:aan.
+Kunhan versio 2.1.0 on julkaistu, rohkaisemme kaikkia käyttäjiä lähettämään
+laadkkaita tasoja liitettäväksi tuleviin julkaisuihin.&lt;/p&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+TSC tiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2020/04/02/tsc-2/"/>
+    <title>TSC 2.1.0-rc1 julkaistu</title>
+    <id>secretchronicles.org/fi;27</id>
+    <updated>2020-04-02</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">Ensimmäinen julkaisu kandidaatti 2.1.0:sta on julkaistu.</summary>
+    <content type="html">
+&lt;p&gt;Muutamien kuukausia &lt;a href=&quot;/fi/news/2020/01/28/tsc-2/&quot;&gt;toisen betan&lt;/a&gt; jälkeen viiveellä (joka
+johtuu tavallisesta kehittäjien vapaa-ajan rajallisuudesta),
+TSC tiimillä on ilo ilmoittaa että nyt on saatavilla ensimmäinen
+julkaisu kandidaatti tulevasta 2.1.0 julkaisusta ladattavaksi.
+Julkaisu on tägätty Git repossa v2.1.0-rc1 ja on upattu
+webpalvelimellemme.&lt;/p&gt;
+
+&lt;h2 id=&quot;mit-on-muuttunut-beta-2n-jlkeen&quot;&gt;Mitä on muuttunut beta-2:n jälkeen?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pieniä korjauksia käätämis järjestelmään&lt;/li&gt;
+  &lt;li&gt;Pieniä korjauksia kääntämis dokumentaatioon&lt;/li&gt;
+  &lt;li&gt;Lisätty kokeellinen kääntämis tuki FreeBSD/OpenBSD (GitHub PR &lt;a href=&quot;https://github.com/Secretchronicles/TSC/pull/678&quot;&gt;#678&lt;/a&gt; tehnyt devnexen)&lt;/li&gt;
+  &lt;li&gt;Viimeistelty uusi päävalikko teemamusiiki (GitHub PR &lt;a href=&quot;https://github.com/Secretchronicles/TSC/pull/679&quot;&gt;#679&lt;/a&gt; tehnyt refi64)&lt;/li&gt;
+  &lt;li&gt;Poistettu battle.ogg musiikki koska musiikin tekijä pyysi poistoa (GitHub PR &lt;a href=&quot;https://github.com/Secretchronicles/TSC/pull/679&quot;&gt;#679&lt;/a&gt; tehnyt refi64)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;miksi-210aan-valmistautumisessa-menee-niin-paljon-aikaa&quot;&gt;Miksi 2.1.0:aan valmistautumisessa menee niin paljon aikaa?&lt;/h2&gt;
+
+&lt;p&gt;TSC projektia vetää joukko vapaaehtoisia vapaa-ajallaan. Me
+kaikki tiedämme että vapaa-aikaa on vähän. TSC:llä on massiivinen
+koodikanta kirjoitettuna C++:lla yli 10 vuoden aikana, ja se
+perustuu alkuperäiseen Secret Mary Chronicles (SMC) koodikantaan.
+Perityn koodin laatu on melko heikkoa ja on vaikeaa työskennellä
+tämän perityn koodin kanssa.&lt;/p&gt;
+
+&lt;h2 id=&quot;milloin-voimme-odottaa-lopullista-julkaisua&quot;&gt;Milloin voimme odottaa lopullista julkaisua?&lt;/h2&gt;
+
+&lt;p&gt;Tämä on ensimmäinen julkaisu kandidaatti. Jos mitään vakavia
+ongelmia ei löydy 11.4.2020 mennessä, versio 2.1.0 julkaistaan
+pian tämän päivämäärän jälkeen.&lt;/p&gt;
+
+&lt;h2 id=&quot;mit-tapahtuu-rc-vaiheen-aikana&quot;&gt;Mitä tapahtuu RC vaiheen aikana?&lt;/h2&gt;
+
+&lt;p&gt;Koodia pidetään nyt lopullisena tulevaa julkaisua vartenn.
+RC vaiheessa on viimeinen mahdollisuus testata onko pelissä
+vakavia ongelmia; pikku ongelmia ei korjata. Mitään muita
+muutoksia ei tehdä jotka eivät liity vavaviin ongelmiin.
+Emme oleta että pelissä on enää jäljellä vakavia ongelmia.&lt;/p&gt;
+
+&lt;h2 id=&quot;voinko-auttaa-tsct-kyttjn-nyt&quot;&gt;Voinko auttaa TSC:tä käyttäjänä nyt?&lt;/h2&gt;
+
+&lt;p&gt;Kyllä voit! Ole hyvä ja lataa TSC ja pelaa peliä. Raportoi
+löytämäsi bugit joko &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;postituslistalla&lt;/a&gt;, &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;foorumilla&lt;/a&gt;,
+tai suoraan &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;bugiseurantaan&lt;/a&gt; (tarvitsee GitHub tilin).&lt;/p&gt;
+
+&lt;p&gt;Valitettavasti uusia tasoja ei lähetetty beta vaiheen aikana,
+joten versio 2.1.0 ei sisällä kovin erilaisia tasoja kuin mitä
+versiossa 2.0.0 oli. Kun 2.1.0 on julkaistu, rohkaisemme kaikkia
+käyttäjiä lähettämään laadukkaita tasoja liitettäväksi
+myöhempään julkaisuun.&lt;/p&gt;
+
+&lt;h2 id=&quot;lataa&quot;&gt;Lataa&lt;/h2&gt;
+
+&lt;h3 id=&quot;lhdekoodi&quot;&gt;Lähdekoodi&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lähdekoodi :           &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc1.tar.gz&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc1.tar.gz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PGP signeeraus:        &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc1.tar.gz&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc1.tar.gz.sig&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MD5 tarkistussumma:    5debf6d2cebd55f5e4e5717ca2c816c4&lt;/li&gt;
+  &lt;li&gt;SHA256 tarkistussumma: 5b2454e04e0214d8c2e336ca1ad8024877331eae99359244baba2a9e6ce44f18&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;binri-lataukset&quot;&gt;Binääri lataukset&lt;/h3&gt;
+
+&lt;h4 id=&quot;windows&quot;&gt;Windows&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win64.exe&quot;&gt;Asennusohjelma 64-bit Windows 7 tai uudempi&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win32.exe&quot;&gt;Asennusohjelma 32-bit Windows 7 tai uudempi&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win32.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win32.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;linux&quot;&gt;Linux&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-amd64.deb&quot;&gt;amd64 .deb asennuspaketti Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-amd64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-amd64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-i386.deb&quot;&gt;i386 .deb asennuspaketti Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-i386.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-i386.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-armhf.deb&quot;&gt;armhf .deb asennuspaketti Raspbian RasPi3/RasPi4&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-armhf.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-armhf.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+TSC tiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2020/01/28/tsc-2/"/>
+    <title>TSC 2.1.0-beta2 julkaistu</title>
+    <id>secretchronicles.org/fi;26</id>
+    <updated>2020-01-28</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">Toinen beta versio 2.1.0:sta on nyt julkaistu.</summary>
+    <content type="html">
+&lt;p&gt;Noin kuukausi &lt;a href=&quot;/fi/news/2019/12/23/tsc-2/&quot;&gt;ensimmäisen betan&lt;/a&gt; jälkeen, TSC tiimillä on ilo
+ilmoittaa että nyt saatavilla ladattavaksi toinen beta versio tulevasta
+2.1.0 julkaisusta. Julkaisu on tägätty Git repossa v2.1.0-beta2 ja on
+upattu webpalvelimellemme.&lt;/p&gt;
+
+&lt;h2 id=&quot;mit-on-muuttunut-beta-1n-jlkeen&quot;&gt;Mitä on muuttunut beta-1:n jälkeen?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Windows lähdekoodista binääriksi kääntämis bugi on korjattu (tiketti &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/674&quot;&gt;#674&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Sisällytetty mryby on nyt käännetty lähdekoodista binääriksi
+julkaisu tilassa jos TSC on käännetty lähdekoodista julkaisu tilassa.&lt;/li&gt;
+  &lt;li&gt;Kokoamisvirhe ohjeiden kokoamis skriptissä on korjattu.&lt;/li&gt;
+  &lt;li&gt;Tasomusiikki on nyt pysäytetty aikaisemman hiljentämisen sijasta
+pelihahmon kuollessa (tiketti &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/672&quot;&gt;#672&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;Uusi hieno päävalikko teema musiikki theme_2.ogg (otsikko:
+Aikakirja matkat), tehnyt refi64! Päävalikon teemamusiikki
+on vaihdettu tähän. Musiikki saattaa muuttua hieman ennen
+lopullista julkaisua.&lt;/li&gt;
+  &lt;li&gt;Joitakin vanhentuneita skriptaus API ohjeita korjattu.&lt;/li&gt;
+  &lt;li&gt;Skriptaus laajennuspaketit ovat palanneet, ja voidaan nyt ladata
+hakemistosta &lt;code&gt;$TSC_USER_DIR/scripting&lt;/code&gt;. Skriptaus laajennuspaketti
+on käyttäjän lisäämä skriptikirjasto TSC:lle.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;miksi-210aan-valmistautumisessa-menee-niin-paljon-aikaa&quot;&gt;Miksi 2.1.0:aan valmistautumisessa menee niin paljon aikaa?&lt;/h2&gt;
+
+&lt;p&gt;TSC projektia vetää joukko vapaaehtoisia vapaa-ajallaan. Me
+kaikki tiedämme että vapaa-aikaa on vähän. TSC:llä on massiivinen
+koodikanta kirjoitettuna C++:lla yli 10 vuoden aikana, ja se
+perustuu alkuperäiseen Secret Mary Chronicles (SMC) koodikantaan.
+Perityn koodin laatu on melko heikkoa ja on vaikeaa työskennellä
+tämän perityn koodin kanssa.&lt;/p&gt;
+
+&lt;h2 id=&quot;milloin-voimme-odottaa-lopullista-julkaisua&quot;&gt;Milloin voimme odottaa lopullista julkaisua?&lt;/h2&gt;
+
+&lt;p&gt;Nykyinen suunnitelma on julkaista lopullinen 2.1.0 versio
+2020 alkupuolella.&lt;/p&gt;
+
+&lt;h2 id=&quot;mit-tapahtuu-beta-vaiheen-aikana&quot;&gt;Mitä tapahtuu Beta vaiheen aikana?&lt;/h2&gt;
+
+&lt;p&gt;Beta vaiheessa on tarkoitus kiillottaa TSC:n karheita reunoja.
+Uusia toimintoja ei enää lisätä peliin, mutta löydetyt bugit
+korjataan. Lisäksi, seuraavat muutokset voivat tapahtua:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lisätään uusia tiedostoja, lähinnä musiikkia ja kuvia&lt;/li&gt;
+  &lt;li&gt;Lisätään uusia käännöksiä&lt;/li&gt;
+  &lt;li&gt;Lisätään uusia tasoja&lt;/li&gt;
+  &lt;li&gt;Hienosäädetään lähdekoodista binääriksi kääntämis systeemiä
+(tämä ei näy käyttäjälle).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pidätämme oikeuden tehdä muita muutoksia tarvittaessa jos
+jotain kiireellistä ilmenee.&lt;/p&gt;
+
+&lt;h2 id=&quot;voinko-auttaa-tsct-kyttjn-nyt&quot;&gt;Voinko auttaa TSC:tä käyttäjänä nyt?&lt;/h2&gt;
+
+&lt;p&gt;Kyllä voit! Ole hyvä ja lataa TSC ja pelaa peliä. Raportoi
+löytämäsi bugit joko &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;postituslistalla&lt;/a&gt;, &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;foorumilla&lt;/a&gt;,
+tai suoraan &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;bugiseurantaan&lt;/a&gt; (tarvitsee GitHub tilin).&lt;/p&gt;
+
+&lt;p&gt;Ole hyvä ja tee tasoja ja lähetä ne lisättäväksi TSC 2.1.0:aan
+&lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;foorumilla&lt;/a&gt; tai &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;postituslistalla&lt;/a&gt;. Tällä hetkellä tasot
+TSC 2.1.0 ja 2.0.0 välillä ovat melkein identtiset. TSC tiimi
+on riippuvainen käyttäjien lähettämistä uusista tasoista
+koska työskentely C++ koodin kanssa ei jätä paljoa aikaa
+tasojen tekemiselle. TSC tiimi erityisesti toivottaa tervetulleeksi
+työn tasoiksi jotka toteuttavat osia &lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/18-001.pdf&quot;&gt;tarinan luonnoksesta&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;lataa&quot;&gt;Lataa&lt;/h2&gt;
+
+&lt;h3 id=&quot;lhdekoodi&quot;&gt;Lähdekoodi&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lähdekoodi:            &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta2.tar.gz&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta2.tar.gz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PGP allekirjoitus:     &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta2.tar.gz.sig&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta2.tar.gz.sig&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MD5 tarkistussumma:    9e8e21e7faf643b190b6467bc1f4aadc&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;SHA256 tarkistussumma: ab4ad741f7a696cbfba1d71c2078581a34f5f80432b7a94ef87f077f083be509&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;binri-lataukset&quot;&gt;Binääri lataukset&lt;/h3&gt;
+
+&lt;h4 id=&quot;windows&quot;&gt;Windows&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win64.exe&quot;&gt;Asennusohjelma 64-bit Windows 7 tai uudempi&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win32.exe&quot;&gt;Asennusohjelma 32-bit Windows 7 tai uudempi&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win32.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win32.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;linux&quot;&gt;Linux&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-amd64.deb&quot;&gt;amd64 .deb asennuspaketti Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-amd64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-amd64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-i386.deb&quot;&gt;i386 .deb asennuspaketti Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-i386.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-i386.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-armhf.deb&quot;&gt;armhf .deb asennuspaketti Raspbian RasPi3/RasPi4&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-armhf.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-armhf.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+TSC tiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2019/12/23/tsc-2/"/>
+    <title>TSC 2.1.0-beta1 julkaistu</title>
+    <id>secretchronicles.org/fi;25</id>
+    <updated>2019-12-23</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">Ensimmäinen beta versio 2.1.0:sta on julkaistu.</summary>
+    <content type="html">
+&lt;p&gt;TSC tiimillä on ilo ilmoittaa että vuosien kehitystyön jälkeen,
+ensimmäinen beta versio tulevasta 2.1.0 julkaisusta on saatavilla
+ladattavaksi nyt. Julkaisu on tägätty Git repossa nimellä
+v2.1.0-beta1 ja on upattu web palvelimellemme.&lt;/p&gt;
+
+&lt;h2 id=&quot;miksi-siin-meni-niin-pitkn&quot;&gt;Miksi siinä meni niin pitkään?&lt;/h2&gt;
+
+&lt;p&gt;TSC on projekti jota vetää vapaaehtoiset vapaa-ajallaan. Me
+kaikki tiedämme että vapaa-aikaa on niukasti. TSC:llä on massiivinen
+koodikanta kirjoitettuna C++:lla nyt yli 10 vuoden ajan, koska
+se pohjaa alkuperäiseen koodikantaan Secret Maryo Chronicles (SMC)
+pelistä. Perityn koodin laatu on aika heikkoa on ollut hankaluuksia
+työskennellä tämän perityn koodin kanssa.&lt;/p&gt;
+
+&lt;h2 id=&quot;mit-on-muuttunut&quot;&gt;Mitä on muuttunut?&lt;/h2&gt;
+
+&lt;p&gt;Viimeisin vakaa version oli versio 2.0.0 vuonna 2015. Sen jälkeen,
+paljon parannuksia on tehty peliin. Yksityiskohtainen lista loytyy
+tiedostosta &lt;a href=&quot;https://github.com/Secretchronicles/TSC/blob/v2.1.0-beta1/CHANGELOG&quot;&gt;CHANGELOG&lt;/a&gt; lähdekoodi tarpallosta, ja sekään
+lista ei sisällä kaikkia parannuksista. Tässä ovat kohokohdat:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Monta uutta taustamusiikkia&lt;/li&gt;
+  &lt;li&gt;Vaihdettu joitakin SMC grafiikoista alkuperäisiin TSC grafiikoihin&lt;/li&gt;
+  &lt;li&gt;Uusia vihollisia: Larry ja Doom Larry, jotka syttyvät ja lopulta
+räjähtävät jos niihin törmää&lt;/li&gt;
+  &lt;li&gt;Parannuksia tason skriptaukseen&lt;/li&gt;
+  &lt;li&gt;Tasoeditori ulkoasu kunnostettu&lt;/li&gt;
+  &lt;li&gt;Tasot latautuvat paljon nopeammin verrattuna 2.0.0 versioon&lt;/li&gt;
+  &lt;li&gt;Salaisen alueen merkinnät saatavilla tasoeditorissa&lt;/li&gt;
+  &lt;li&gt;Uusi pelin sisäinen skriptaus konsoli painamalla [F7]&lt;/li&gt;
+  &lt;li&gt;Monia bugikorjauksia&lt;/li&gt;
+  &lt;li&gt;Päivitetty CEGUI rippuvuus versiosta 0.7.9 versioon 0.8.7&lt;/li&gt;
+  &lt;li&gt;Tuki ja vaatimus C++11-kykenevälle C++ kääntäjälle&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CEGUI päivitys ansaitsee erityismaininnan. CEGUI 0.8.x rikkoi
+heidän oman APInsa ja koska yhä useammilla ihmisillä ei ole pääsyä
+vanhentuneeseen CEGUI 0.7.9 versioon, oli tarpeellista suorittaa
+tämä päivitys. Tämä päivitys kuitenkin sitoi niin monia TSC
+tiimin resursseja että 2.1.0 julkaisu lopulta päätyi sisältämään
+vähemmän uusia ominaisuuksia kuin oli alunperin suunniteltu.
+Nyt kun päivitys on tehty pitäisi olla paljon helpompaa
+kääntää TSC moderneilla Linux distroilla kuin oli tilanne
+vanhan 2.0.0 julkaisun aikana.&lt;/p&gt;
+
+&lt;p&gt;Ominaisuus joka valitettavasti ei ehtynyt 2.1.0:aan on tarina.
+Olemme hyväksyneet &lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/18-001.pdf&quot;&gt;lopullisen tarina luonnoksen&lt;/a&gt;
+pelin tulevaisuutta varten, tosin.&lt;/p&gt;
+
+&lt;h2 id=&quot;milloin-voimme-olettaa-ett-tapahtuu-lopullinen-julkaisu&quot;&gt;Milloin voimme olettaa että tapahtuu lopullinen julkaisu?&lt;/h2&gt;
+
+&lt;p&gt;Nykyinen suunnitelma on julkaista lopullinen 2.1.0 versio alkuvuodesta 2020.&lt;/p&gt;
+
+&lt;h2 id=&quot;mit-tapahtuu-beta-vaiheessa&quot;&gt;Mitä tapahtuu Beta vaiheessa?&lt;/h2&gt;
+
+&lt;p&gt;Beta vaihe on tarkoitettu kiillottamaan TSC:n karkeita reunoja.
+Uusia ominaisuuksia ei enää lisätä peliin, sen sijaan
+keskitytään bugien korjaukseen. Lisäksi, seuraavat muutokset
+voivat tapahtua:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lisätään musiikkia ja staattisia kuvia&lt;/li&gt;
+  &lt;li&gt;Lisätään käännöksiä&lt;/li&gt;
+  &lt;li&gt;Lisätään uusia tasoja&lt;/li&gt;
+  &lt;li&gt;Hienosäädetään koodin kääntöjärjestelmää (tämä ei näy
+mitenkään pelin käyttäjille)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pidätämme oikeuden tehdä muita tarvittavia muutoksia jos
+jotain kiireellistä ilmenee.&lt;/p&gt;
+
+&lt;h2 id=&quot;voinko-auttaa-tsct-kyttjn-nyt&quot;&gt;Voinko auttaa TSC:tä käyttäjänä nyt?&lt;/h2&gt;
+
+&lt;p&gt;Kyllä voit! Asenna TSC peli ja pelaa peliä. Raportoi löytämäsi
+bugit joko &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;postituslistalla&lt;/a&gt;, &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;foorumilla&lt;/a&gt;, tai
+suoraan meidän &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;bugiseurannassa&lt;/a&gt; (vaatii GitHub tilin).&lt;/p&gt;
+
+&lt;p&gt;Ole hyvä ja tee pelitasoja ja lähetä ne liitettäväksi TSC 2.1.0:aan
+&lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;foorumilla&lt;/a&gt; tai &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;postituslistalla&lt;/a&gt;. Tällä hetkellä tasot
+versioiden TSC 2.1.0 ja 2.0.0 välillä ovat melkein identtisiä.
+TSC tiimi on riippuvainen käyttäjien lähettämistä tasoista koska
+C++ koodin kirjoittaminen ei jätä paljoakaan aikaa tasojen
+tekemiselle. TSC tiimi erityisesti toivottaa tervetulleeksi
+tasot jotka käyvät osaksi mainittua tarina luonnosta.&lt;/p&gt;
+
+&lt;h2 id=&quot;lataa&quot;&gt;Lataa&lt;/h2&gt;
+
+&lt;h3 id=&quot;lhdekoodi&quot;&gt;Lähdekoodi&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lähdekoodi:     &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PGP signeeraus:   &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz.sig&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz.sig&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MD5 tarkistussumma:    6cad7277f34864ac09cd36f95a03885&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;SHA256 tarkistussumma: eb142df2c65f270d517771e72a9d60d167022c98d40fc0eea61894ca2b3e2a9b&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;binri-lataukset&quot;&gt;Binääri lataukset&lt;/h3&gt;
+
+&lt;h4 id=&quot;windows&quot;&gt;Windows&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win64.exe&quot;&gt;Asennusohjelma 64bit Windows 7 tai uudemmat&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win32.exe&quot;&gt;Asennusohjema 32bit Windows 7 tai uudemmat&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win32.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win32.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;linux&quot;&gt;Linux&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-amd64.deb&quot;&gt;amd64 .deb paketti Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-amd64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-amd64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-i386.deb&quot;&gt;i386 .deb paketti Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-i386.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-i386.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-armhf.deb&quot;&gt;armhf .deb paketti Raspbian RasPi3/RasPi4&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-armhf.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-armhf.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+TSC tiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2019/11/30/Updated-Windows-Packages/"/>
+    <title>Päivitetyt Windows paketit saatavilla</title>
+    <id>secretchronicles.org/fi;24</id>
+    <updated>2019-11-30</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Päivitetyt Windows paketit saatavilla</summary>
+    <content type="html">
+&lt;p&gt;Kiitos Quintus, vieläkin enemmän TSC:stä pystyy nyt kääntämään
+eri kielelle. 
+Quintus myös korjasi &lt;a href=&quot;https://github.com/Secretchronicles/TSC/commit/a481165eef417411bf5c01ca18605315f803f04e&quot;&gt;tasojen tallentamisen tasoeditorissa&lt;/a&gt;,
+&lt;a href=&quot;https://github.com/Secretchronicles/TSC/commit/b6656295046786bd9cc87b340731831f0fa4c243&quot;&gt;tason info viesin näyttämisen joka ei aiemmin tehnyt mitään&lt;/a&gt;,
+ja &lt;a href=&quot;https://github.com/Secretchronicles/TSC/commit/0b1f261e9cf13458253cb403e5b601761283a6ac&quot;&gt;näkymättömät valintapainikkeet “Valinnat” välilehdessä
+tasoeditorissa&lt;/a&gt;. xet7 teki päivitetyt Windows Alpha paketit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lataukset&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/fi/download/#kehitys-versio&quot;&gt;Lataukset sivulta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Uudet käännökset tervetulleita&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Toivotamme tervetulleeksi &lt;a href=&quot;https://github.com/Secretchronicles/TSC/blob/devel/tsc/docs/pages/translating.md&quot;&gt;enemmän käännöksiä TSC:hen&lt;/a&gt;. Voit kysyä mitä tahansa TSC:hen
+liittyviä kysymyksiä &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;foorumilla&lt;/a&gt;. Kiitos!&lt;/p&gt;
+
+&lt;p&gt;xet7&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2019/11/21/Updated-Windows-Packages/"/>
+    <title>Päivitetyt Windows paketit saatavilla</title>
+    <id>secretchronicles.org/fi;23</id>
+    <updated>2019-11-21</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Päivitetyt Windows paketit saatavilla</summary>
+    <content type="html">
+&lt;p&gt;Kiitos Quintus, &lt;a href=&quot;https://github.com/Secretchronicles/TSC/commit/838c72398e4e3e69cfd94d9fa9d7fd6e127f5bc1&quot;&gt;tämän commitin myötä&lt;/a&gt; paljon enemmän TSC:stä pystyy nyt kääntämään
+eri kielelle. Esimerkiksi, tasoeditori on nyt enimmäkseen käännetty. Nyt kaikki nämä
+uudet tekstit on Quintus kääntänyt saksaksi ja xet7 kääntänyt suomeksi. xet7
+teki päivitetyt Windows Alpha paketit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lataukset&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/fi/download/#kehitys-versio&quot;&gt;Lataukset sivulta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Uudet käännökset tervetulleita&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Toivotamme tervetulleeksi &lt;a href=&quot;https://github.com/Secretchronicles/TSC/blob/devel/tsc/docs/pages/translating.md&quot;&gt;enemmän käännöksiä TSC:hen&lt;/a&gt;. Voit kysyä mitä tahansa TSC:hen
+liittyviä kysymyksiä &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;foorumilla&lt;/a&gt;. Kiitos!&lt;/p&gt;
+
+&lt;p&gt;xet7&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2019/10/24/Updated-Windows-and-Ubuntu-18/"/>
+    <title>Päivitetyt Windows ja Ubuntu 18.04 Alpha paketit saatavilla</title>
+    <id>secretchronicles.org/fi;22</id>
+    <updated>2019-10-24</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Päivitetyt Windows ja Ubuntu 18.04 Windows Alpha paketit saatavilla</summary>
+    <content type="html">
+&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Alunperin oli Windows versio TSC:stä, mutta koska oli monia koodimuutoksia,
+Windows version kääntäminen lähdekoodista ei toiminut moneen vuoteen,
+kunnes nyt.&lt;/p&gt;
+
+&lt;p&gt;Kiitos hgdagon ja quintus tarvittavista koodimuutoksista, ja xet7 lähdekoodista
+kääntämisestä Windowsissa, meillä on nyt Alpha asennuspaketit Windowsille.&lt;/p&gt;
+
+&lt;p&gt;Alpha asennusohjelma päivitettiin 24.10.2019.&lt;/p&gt;
+
+&lt;p&gt;Asentaaksesi sen suunnista meidän &lt;a href=&quot;/fi/download/#kehitys-versio&quot;&gt;Lataukset sivulle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ubuntu 18.04&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Kiitos Mario(Boospy) GitHub-käyttäjälle, meillä on nyt 64bit Alpha .deb
+paketti Ubuntu 18.04:lle. Asentaaksesi sen suunnista &lt;a href=&quot;/fi/download/#kehitys-versio&quot;&gt;Lataukset sivulle&lt;/a&gt; ladataksesi
+uusimman paketin.&lt;/p&gt;
+
+&lt;p&gt;Asentaaksesi paketin, ensimmäiseksi mene kansioon johon latasit paketin:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd Lataukset/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sitten suorita:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install ./tsc_2.1.0+packagename.deb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Apt pitää huolen asennuksesta ja riippuvuuksista. Asennuksen jälkeen voit käynnistää TSC pelin&lt;br /&gt;
+uudesta &lt;code&gt;The Secret Chronicles of Dr. M.&lt;/code&gt; kuvasta Pelit valikossa tai tai suorittamalla
+&lt;code&gt;tsc&lt;/code&gt; komento päätteessäsi.&lt;/p&gt;
+
+&lt;p&gt;HUOM: Sinun täytää käyttää apt, ei apt-get komentoa asentaaksesi paketin, koska vanhempi apt-get ei pysty
+asentamaan .deb-pakettia ja kaikkia sen riippuvuuksia käyttäjän kotikansioista. Voit myös käyttää
+&lt;code&gt;dpkg -i&lt;/code&gt; asentaaksesi paketin, ja sitten suorittaa &lt;code&gt;apt-get install -f&lt;/code&gt; korjataksesi riippuvuudet.&lt;/p&gt;
+
+&lt;p&gt;Alpha paketti päivitettiin 15.10.2019.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lataukset&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Saatavilla meidän &lt;a href=&quot;/fi/download/#kehitys-versio&quot;&gt;Lataukset sivulta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;xet7&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2019/09/21/Windows-Alpha-Packages/"/>
+    <title>Windows Alpha paketit saatavilla</title>
+    <id>secretchronicles.org/fi;21</id>
+    <updated>2019-09-21</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Windows Alpha paketit saatavilla</summary>
+    <content type="html">
+&lt;p&gt;Alunperin oli Windows versio TSC:stä, mutta koska oli monia koodimuutoksia,
+Windows version kääntäminen lähdekoodista ei toiminut moneen vuoteen,
+kunnes nyt.&lt;/p&gt;
+
+&lt;p&gt;Kiitos hgdagon ja quintus tarvittavista koodimuutoksista, ja xet7 lähdekoodista
+kääntämisestä Windowsissa, meillä on nyt Alpha asennuspaketit Windowsille.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lataukset&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Saatavilla meidän &lt;a href=&quot;/fi/download/#kehitys-versio&quot;&gt;Lataukset sivulta&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;xet7&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2019/07/30/wiki-back-online/"/>
+    <title>Wiki on otettu uudelleen käyttöön!</title>
+    <id>secretchronicles.org/fi;20</id>
+    <updated>2019-07-30</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">Wiki on nyt käytössä jälleen.</summary>
+    <content type="html">
+&lt;p&gt;Viime aikoina, &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/thread/KDYYKLITRZLCU7GI5WQ2REO6QKKVBBUO/&quot;&gt;olemme alkaneet&lt;/a&gt; valmistautua uuteen julkaisuun,
+TSC 2.1.0, marraskuun alkupuolella. Tämä on erittäin alustavaa,
+mutta osana näitä pyrkimyksiä, &lt;a href=&quot;https://wiki.secretchronicles.org/&quot;&gt;TSC Wiki&lt;/a&gt; on otettu jälleen
+käyttöön. Tämä wiki oli vuosia staattisina sivuina, koska
+alkuperäistä versiota roskaposti botit sotkivat ahkerasti.
+Uusi ratkaisu (joka, jälleen, käyttää &lt;a href=&quot;https://moinmo.in/&quot;&gt;Moinmoin&lt;/a&gt; ohjelmistoa)
+toivottavasti on asennettu niin että se on liian vaikea roskaposti
+bottien hallittavaksi.&lt;/p&gt;
+
+&lt;p&gt;Tämän wiki käyttöön tarvitaan tili, mutta sitä ei ole mahdollista
+tehdä itse wiki sivulla. Sen sijaan, wiki on liitetty suoraan
+&lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;postituslistan foorumi/web käyttöliittymään&lt;/a&gt;, joten sinne
+tulee rekisteröityä saadakseen tilin. Tämä mahdollistaa sen
+että käyttäjillä on yksi “TSC tili” jolla pääsee sekä foorumiin
+että wikiin.&lt;/p&gt;
+
+&lt;p&gt;Kaikki ovat kutsuttuja muokkaamaan wikiämme lisäämällä TSC:hen
+liittyvää sisältöä. Ole hyvä ja osallistu! Jos sinulla on
+mitä tahansa TSC:hen liittyviä kysymyksiä, voit kirjoittaa ne
+foorumille.&lt;/p&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+TSC tiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2019/03/25/server-outage-aftermath/"/>
+    <title>Palvelimen huoltokatkon jälkipyykki</title>
+    <id>secretchronicles.org/fi;19</id>
+    <updated>2019-03-25</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">Palvelimemme on jälleen linjoilla.</summary>
+    <content type="html">
+&lt;p&gt;Kuten oli viestitetty &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/649&quot;&gt;bugiseurannassamme&lt;/a&gt;, palvelimemme,
+alexandria, meni alas maaliskuun 12. päivä, 2019. Tärkein
+asia ensin: palvelimemme on jälleen linjoilla, ja olemme saaneet
+kaikki palvelut jo linjoille. Käyttäjien foorumi sivuilla
+lists.secretchronicles.org tai tsc-devel postituslistalla tulee
+huomioida tarkkaan osio &lt;a href=&quot;#nykyinen-tila&quot;&gt;Nykyinen tila&lt;/a&gt; alla
+koska käyttäjien toimenpiteitä tarvitaan.&lt;/p&gt;
+
+&lt;h2 id=&quot;mit-tapahtui&quot;&gt;Mitä tapahtui?&lt;/h2&gt;
+
+&lt;p&gt;Maaliskuun 12. päivä, 2019, palvelimemme
+&lt;code&gt;alexandria.secretchronicles.org&lt;/code&gt; ei vastannut enää mihinkään. Se
+ei näyttänyt nettisivuja, eikä kirjautuminen SSH:n kautta toiminut kun TCP
+yhteydet aikakatkaistui. Alexandria oli VPS palvelin jolla oli
+OpenVZ alusta and sitä sponsoroi &lt;a href=&quot;https://www.first-root.com/&quot;&gt;First-Root UG&lt;/a&gt;, Saksassa. Quintus
+nopeasti otti yhteyttä heihin kirjoittamalla tukipyyntö tiketin sinä
+päivänä ja he diagnosoivat että palvelin oli “jumittunut” eikä sitä voisi
+pelastaa. Vaihtoehtona, First-Root tarjosi meille
+KVM palvelinta maaliskuun 13. päivä, 2019. Oletimme että kaikki tiedot
+on menetetty ja tarkistimme kaikki varmuuskopiomme.&lt;/p&gt;
+
+&lt;p&gt;Kuten kävi ilmi, olimme juuri muutamaa kuukautta aiemmin päivittänyt
+käyttöjärjestelmän Debian 8:sta Debian 9:ään. Ennen tätä päivitystä, me
+olimme asettaneet automaattiset varmuuskopiot, mutta aikarajoitteiden takia emme
+asettaneet niitä vielä Debian 9:lle, vaikka aikoimme tehdä niin. Murphyn
+laki ei tunne armoa, joten viimeinen saatavilla oleva varmuuskopiomme oli lokakuulta
+2018. Ottaen huomion alhaisen aktiviteetin projetissa lokakuun
+2018 jälkeen, tämä ei ollut liian suuri menetys, tosin. TSC lähdekoodiin
+tämä ei vaikuttanut mitenkään, koska se oli tallennettu Git:tiin, jokaisella
+kehittäjällä oli viimeisin kopio, ja kaikki koodi on saatavilla
+&lt;a href=&quot;https://github.com/Secretchronicles/TSC&quot;&gt;GitHubin kautta&lt;/a&gt; joka tapauksessa. &lt;strong&gt;Emme ole menettänyt mitään lähdekoodia&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Päätettiin että emme asenna vanhaa VPS:ää uudelleen, koska
+se tuplaisi TSC tiimin työn, kun asennukseen saatavilla olevaa vapaa-aikaa
+oli kuitenkin vain vähän. Sen sijasta, halusimme odottaa että First-Root tarjoaa
+KVM palvelimen. Odotusaikana, jonka oletimme olevan lyhyt, kaikki
+palvelut joita hostataan secretchronicles.org domainilla olisivat
+poissa käytöstä. Maaliskuun 13. päivä, 2019, quintus &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/649&quot;&gt;avasi tiketin&lt;/a&gt;
+GitHub vikaseurantaan ilmoittaakseen ongelmasta julkisesti koska
+tsc-devel postituslista ei ollut saatavilla katkon takia.&lt;/p&gt;
+
+&lt;p&gt;Tässä tilanteessa, kaikki viestintä TSC tiimin jäsenten välillä
+tapahtui IRC kanavalla &lt;code&gt;#secretchronicles&lt;/code&gt; freenodessa. Meidän
+IRC bottimme, furbot, oli myös hostattu palvelimellamme, joka
+tarkoittaa että tältä ajalta ei ole julkista chattilokia saavilla
+osoitteessa &lt;a href=&quot;https://chatlogs.secretchronicles.org&quot;&gt;chatlogs.secretchronicles.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tilannekyselyistämme huolimatta, First-Root ei enää vastannut
+tikettiin jonka kirjoitimme maaliskuun 13.päivä, eivätkä
+he tarjonneet lupaamaansa KVM palvelinta. Marraskuun 24. päivään, 2019,
+mennessä olimme olleet poissa linjoilta melkein kaksi viikkoa ja päätimme
+että meidän tulee etsiä vaihtoehtoja. TSC tiimin jäsen xet7 on mukana
+&lt;a href=&quot;https://wekan.github.io/&quot;&gt;Wekan projektissa&lt;/a&gt;, avoimen lähdekoodin kanban-taulu ohjelmistossa.
+Wekan projektilla on palvelin jota käytetään &lt;a href=&quot;https://blog.wekan.team/2018/01/wekan-progress-on-x64-and-arm/index.html&quot;&gt;tekemään arm64 version Wekanista&lt;/a&gt; ja
+xet7 anteliaasti salli TSC:n siirtyä käyttämään sitä palvelinta. Vaikka tällä
+palvelimella on melko epätavallinen CPU arkkitehtuuri (aarch64), se on todella
+tehokas ja tulee täyttämään kaikki hostaus tarpeemme mukavasti. Koska
+se on bare metal palvelin eikä VPS, sillä pitäisi olla helpompi korjata
+mitä tahansa mahdollisia palvelinongelmia mitä saattaisi esiintyä.&lt;/p&gt;
+
+&lt;p&gt;Maaliskuun 24. päivänä uusi palvelin oli otettu käyttöön ja DNS RR:t oli
+päivitetty. Vanha VPS ei ole enää käytössä.&lt;/p&gt;
+
+&lt;h2 id=&quot;nykyinen-tila&quot;&gt;Nykyinen tila&lt;/h2&gt;
+
+&lt;p&gt;Kaikki palvelut on palautettu toimintaan keskipäivällä maaliskuun 25. päivä, 2019.
+Erityisesti, meidän IRC bottimme on aloittanut tallentaa jälleen osoitteeseen
+&lt;a href=&quot;https://chatlogs.secretchronicles.org&quot;&gt;chatlogs.secretchronicles.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Uusi palvelin jonka Wekan projekti on tarjonnut käyttää Ubuntu 18.04:ää
+Debian 9:n sijasta. Otimme tilaisuudesta vaarin vaihtamalla meidän Mailman 3
+asennuksen aiemmasta mukaututetusta versiosta nyt tällä kertaa perustuen mailman3
+paketteihin Ubuntu repoista, koska tämän tulisi alentaa
+ylläpitökustannuksia. Koska käytettävät versiot olivat erilaisia, ei ollut
+mahdollista vain kopioida tietokantaa varmuuskopioista jotka oli tehty
+28.10.2018. Tällä oli seuraavat seuraukset:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jos olit rekisteröitynyt nettisivuilla tai tilannut
+tsc-devel postituslistan 28.10.2018 jälkeen, menetit tilisi ja
+tilauksesi. Sinun täytyy rekisteröity ja/tai tilata uudelleen.&lt;/li&gt;
+  &lt;li&gt;Jos olit tilannut ennen 28.10.2018 ja käytit pelkästään sähköpostia
+tsc-devel postituslistalla, sinun ei tarvitse tehdä mitään. Sinun
+tilauksesi on yhä voimassa.&lt;/li&gt;
+  &lt;li&gt;Jos olet rekisteröitynyt ennen 28.10.2018 ja käytät &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;foorumi
+nettisivuja&lt;/a&gt; tsc-devel lukemiseen jne, sinut on vaihdettu
+vain-sähköposti tilaukseen teknisten syiden takia, eli foorumi
+tili on menetetty. Sinun täytyy mennä &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;foorumi nettisivuille&lt;/a&gt;
+ja uudelleen rekisteröityä osoitteella johon saat sähköposteja
+foorumista. Foorumi automaattisesti täsmää tilaus sähköposti
+osoitteesi tekemääsi foorumi tiliin. Kun olet kirjautunut sisään,
+voit asettaa sähköposti ilmoituksesi uusista viesteistä klikkaamalla
+“Manage Lists” yläoikealla (vaihtoehtoisesti, &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/&quot;&gt;seuraa tätä linkkiä
+kirjautumisen jälkeen&lt;/a&gt;). Klikkaa punaista “Unsubscribe” painiketta sivulla
+tsc-devel postituslistalle lopettaaksesi sähköpostien lähettämisen listalta
+sähköpostiisi. Voit silti käyttää listaa nettisivuilla tämän jälkeen.&lt;/li&gt;
+  &lt;li&gt;Jos haluat poistaa tilauksesi luomatta foorumi tiliä,
+ole hyvä ja liity IRC kanavallemme &lt;code&gt;#secretchronicles&lt;/code&gt; palvelussa
+chat.freenode.net and pyydä tätä siellä.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Toista postituslistaa, tsc-users, ei ole palautettu, koska se ei koskaan nähnyt
+yhtään vakavampaa liikennettä. Kaikki keskustelut, jopa jos se on käyttäjän
+keskustelu kuten pelitasojen lähettäminen, tulee tapahtua tsc-devel postituslistalla
+tästä alkaen. Kaikki tilaukset tsc-users postituslistalle on peruttu.&lt;/p&gt;
+
+&lt;p&gt;Pahoittelemme aiheutunutta häiriötä joka johtuu Mailman version vaihdosta.&lt;/p&gt;
+
+&lt;h2 id=&quot;tulevaisuus&quot;&gt;Tulevaisuus&lt;/h2&gt;
+
+&lt;p&gt;Me tulemme tarkistamaan varmuuskopionti strategiamme ja nopeasti saamaan automaattiset
+varmuuskopiot käyttöön uudella palvelimellamme.&lt;/p&gt;
+
+&lt;p&gt;Lisäksi, palautettuamme palvelut joita meillä oli vanhalla
+VPS:llä, harkitsemme asentaa enemmän infraa. Esimerkiksi,
+wiki, jonka laitoimme nukkumaan sen jouduttua spammatuksi, saattaa nähdä
+renesanssin. CI palvelun asentamisesta on keskusteltu, kuten myös
+automaattisista yöllisistä buildeista. TSC tiimin jäsen kirbyfan ehdotti
+että asennettaisiin Discourse, rails-pohjainen foorumi nettisivu ohjelmisto.&lt;/p&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+TSC tiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2019/03/10/Ubuntu-18/"/>
+    <title>Alpha paketti Ubuntu 18.04:lle saatavilla</title>
+    <id>secretchronicles.org/fi;18</id>
+    <updated>2019-03-10</updated>
+    <author><name>Sydney</name></author>
+    <summary type="html">Alpha paketti Ubuntu 18.04:lle saatavilla</summary>
+    <content type="html">
+&lt;p&gt;Kiitos Mario(Boospy) GitHub-käyttäjälle, meillä on nyt 64bit Alpha .deb
+paketti Ubuntu 18.04:lle. Asentaaksesi sen suunnista &lt;a href=&quot;/fi/download/#kehitys-versio&quot;&gt;Lataukset sivulle&lt;/a&gt; ladataksesi
+uusimman paketin.&lt;/p&gt;
+
+&lt;p&gt;Asentaaksesi paketin, ensimmäiseksi mene kansioon johon latasit paketin:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd Lataukset/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Sitten suorita:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install ./tsc_2.1.0+packagename.deb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Apt pitää huolen asennuksesta ja riippuvuuksista. Asennuksen jälkeen voit käynnistää TSC pelin&lt;br /&gt;
+uudesta &lt;code&gt;The Secret Chronicles of Dr. M.&lt;/code&gt; kuvasta Pelit valikossa tai tai suorittamalla
+&lt;code&gt;tsc&lt;/code&gt; komento päätteessäsi.&lt;/p&gt;
+
+&lt;p&gt;HUOM: Sinun täytää käyttää apt, ei apt-get komentoa asentaaksesi paketin, koska vanhempi apt-get ei pysty
+asentamaan .deb-pakettia ja kaikkia sen riippuvuuksia käyttäjän kotikansioista. Voit myös käyttää
+&lt;code&gt;dpkg -i&lt;/code&gt; asentaaksesi paketin, ja sitten suorittaa &lt;code&gt;apt-get install -f&lt;/code&gt; korjataksesi riippuvuudet.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2018/06/16/bootable-usb-image-available/"/>
+    <title>USB tikulta käynnistyvä versio saatavilla</title>
+    <id>secretchronicles.org/fi;17</id>
+    <updated>2018-06-16</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">USB tikulta käynnistyvä versio saatavilla</summary>
+    <content type="html">
+&lt;p&gt;xet7 julkaisi tänään USB tikulta suoraan käynnistyvän version TSC:stä.
+Siinä on &lt;a href=&quot;https://www.debian.org&quot;&gt;Debian 9&lt;/a&gt; 64bit Linux, LXDE työpöytä ja TSC alpha versio
+asennettuna git repo devel haarasta tänään 16.6.2018. Linux käynnistyy suoraan
+USB tikulta, joten se toimii nopeasti ja on hyvin pelattava.&lt;/p&gt;
+
+&lt;h2 id=&quot;muutosloki&quot;&gt;Muutosloki&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;v0.02 2018-06-17 Lisätty langattoman verkon ajurit, ja kuva/ääni/salasana jne ohjelmia&lt;/li&gt;
+  &lt;li&gt;v0.01 2018-06-16 Ensimmäinen julkaisu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;vaatimukset&quot;&gt;1) Vaatimukset&lt;/h2&gt;
+
+&lt;p&gt;Todennäköisesti tarvitset suuremman kuin 8 GB USB tikun, koska USB
+levykuva on 8 GB USB tikulta. Tämä johtuu siitä, että jotkin 8 GB
+USB tikut ovat hieman pienempiä, ja jotkin ovat isompia.
+Voit kokeilla sopiiko tämä 8 GB USB tikulle.&lt;/p&gt;
+
+&lt;p&gt;Jos sinulla on PlayStation 3 yhteensopiva USB peliohjain,
+voit ottaa sen käyttöön pelin valikossa Options / Joystick.&lt;/p&gt;
+
+&lt;h2 id=&quot;lataa-usb-levykuva-tiedosto&quot;&gt;2) Lataa USB levykuva tiedosto&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/alpha/tsc-usb-2018-06-17.img.gz&quot;&gt;tsc-usb-2018-06-17.img.gz&lt;/a&gt; - 2,4 GB&lt;/p&gt;
+
+&lt;p&gt;SHA256SUM:&lt;br /&gt;
+dd6b64ac6b5f31c8f2783d8542f7d4cc1d39a9d0b3257513e09e68cc294ba2cc&lt;/p&gt;
+
+&lt;h2 id=&quot;levykuva-tiedoston-kirjoittaminen-usb-tikulle&quot;&gt;3) Levykuva tiedoston kirjoittaminen USB tikulle&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://etcher.io&quot;&gt;Lataa Etcher&lt;/a&gt; - Win/Mac/Linux&lt;/p&gt;
+
+&lt;p&gt;Käynnistä Etcher, valitse levykuva tiedosto, ja kirjoita USB tikulle.&lt;/p&gt;
+
+&lt;h2 id=&quot;usb-tikulta-kynnistminen&quot;&gt;4) USB tikulta käynnistäminen&lt;/h2&gt;
+
+&lt;p&gt;USB tikulta käynnistäminen tehdään yleensä painamalla Esc monta kertaa
+konetta käynnistäessä.
+Boot menusta valitaan USB asema nuolinäppäimillä alaspäin ja Enterillä.&lt;/p&gt;
+
+&lt;p&gt;Erään kannettavan tietokoneen tapauksessa F2 näppäintä painelemalla konetta
+käynnistäessä pääsi BIOS/UEFI valikkoon, jossa nuolinäppäimillä oikealle Boot
+valikosta UEFI kohdalla Enterillä muutaman kerran painelemalla pääsi
+Legacy Mode tilaan, ja sitten kaikki USB-alkuiset käynnistysvaihtoehdot
+ylimmäksi, ja F10 eli Save and Exit, niin käynnistyi tikulta.
+Windowsiin pääsee takaisin kun vaihtaa Legacy Moden takaisin
+UEFI tilaan.&lt;/p&gt;
+
+&lt;p&gt;Muita vaihtoehtoisia tapoja saada Boot menu näkyviin ovat F1 tai Enter,
+se yleensä tuo näkyviin BIOS tai UEFI asetukset jossa käynnistysjärjestystä
+voi muuttaa. Joissakin läppärimalleissa on erityinen pieni painettava
+painike kannettavan vasemmalla sivulla, josta tulee asetus valikko.
+Se voi olla myös jokin muu näppäin, kuten F2, F10, F11 tai F12.&lt;/p&gt;
+
+&lt;h2 id=&quot;nytn-asetukset&quot;&gt;Näytön asetukset&lt;/h2&gt;
+
+&lt;p&gt;Klikkaa Käynnistä-Lintu-painiketta / Asetukset / Näytön asetukset.
+Voit käyttää kannettavan näyttöä, ulkoista näyttöä tai molempia.&lt;/p&gt;
+
+&lt;h2 id=&quot;verkkoasetukset&quot;&gt;Verkkoasetukset&lt;/h2&gt;
+
+&lt;p&gt;Jos olet liittänyt koneen nettiin Ethernet-kaapelilla, nettiyhteys
+yhdistyy yleensä automaattisesti.&lt;/p&gt;
+
+&lt;p&gt;Langattoman verkon voit valita klikkaamalla työpöydän oikeasta
+alakulmasta ikonia jossa sininen johto menee valkoiseen seinäpistokkeeseen.
+Voit kirjoittaa langattoman verkon salasanan ja yhdistää siihen.&lt;/p&gt;
+
+&lt;p&gt;Android puhelin tai tabletti USB-kaapelilla: Liitä Android puhelin tai tabletti
+USB johdolla tietokoneeseen. Androidissa klikkaa Asetukset ratas /
+Lisää / Jaettu yhteys ja kannettava yhteyspiste / Internetin jakaminen
+USB:n kautta. Jos nettiyhteys ei muodostu, klikkaa työpöydän oikeasta
+alakulmasta ikonia jossa sininen johto menee valkoiseen seinäpistokkeeseen,
+ja muodosta mobiili yhteys.&lt;/p&gt;
+
+&lt;p&gt;Symbian puhelin USB kaapelilla: liitä puhelin USB johdolla tietokoneeseen
+ja valitse Nokia Suite tila. Jos nettiyhteys ei muodostu, klikkaa työpöydän oikeasta
+alakulmasta ikonia jossa sininen johto menee valkoiseen seinäpistokkeeseen,
+ja muodosta mobiili yhteys.&lt;/p&gt;
+
+&lt;p&gt;USB 2G/3G/4G/5G mokkula: liitä mokkula USB johdolla tietokoneeseen
+Jos nettiyhteys ei muodostu, klikkaa työpöydän oikeasta alakulmasta
+ikonia jossa sininen johto menee valkoiseen seinäpistokkeeseen,
+ja muodosta mobiili yhteys.&lt;/p&gt;
+
+&lt;h2 id=&quot;valinnainen-vaihda-kieli&quot;&gt;Valinnainen: Vaihda kieli&lt;/h2&gt;
+
+&lt;p&gt;Koska tämä käynnistyvä USB oli alunperin tehty ystävälle Suomessa,
+työpöytä ja näppäimiston käyttävät suomea, voit vaihtaa kielen
+toiseksi:&lt;/p&gt;
+
+&lt;p&gt;https://wiki.debian.org/ChangeLanguage&lt;/p&gt;
+
+&lt;p&gt;TSC pelin kieli on myös suomi, voit vaihtaa sitä kun olet ensin
+käynnistänyt TSC pelin työpöydältä TSC pikakuvakkeesta, ja sitten
+tehdä muutoksen peli asetuksissa “Kieli: fi-fi, jne”.&lt;/p&gt;
+
+&lt;h2 id=&quot;valinnainen-laajenna-levytilaa&quot;&gt;Valinnainen: Laajenna levytilaa&lt;/h2&gt;
+
+&lt;p&gt;Tikulla on 7,5 GB / btrfs partitio ja 0,5 GB swap partitio. Jos kirjoitat
+tämän isommalle USB tikulle, voit GParted:illa (esimerkiksi Puppy Linux .iso
+käynnistettynä VirtualBoxissa, ja USB tikku liitettynä) poistaa swap ja
+extended partition, laajentaa / partitiota isommaksi, ja lisätä extended ja
+swap partitiot. Sitten kopioi Gpartedin näyttämästä swap partition tiedoista
+UUID / partitiolle tekstitiedostoon /etc/fstab muokkaamalla sitä roottina,
+korvaa vanha UUID, tallenna /etc/fstab tekstitiedosto, unmounttaa USB tikku,
+ja käynnistä USB tikulta.&lt;/p&gt;
+
+&lt;p&gt;Windowsille on myös kokeellinen btrfs tiedostojärjestelmän ajuri
+https://github.com/maharmstone/btrfs .&lt;/p&gt;
+
+&lt;h2 id=&quot;kehitys-muutosten-teko-usb-levykuva-tiedostoon&quot;&gt;Kehitys: Muutosten teko USB levykuva tiedostoon&lt;/h2&gt;
+
+&lt;p&gt;Tätä ei ole suomennettu vielä.&lt;/p&gt;
+
+&lt;p&gt;If you want to use Linux image in VirtualBox for development
+(it’s too slow for playing in VirtualBox), you can extract it unar,
+that unarhives any archive:&lt;/p&gt;
+
+&lt;p&gt;sudo apt install unar zip unzip p7zip-full xmount&lt;/p&gt;
+
+&lt;p&gt;Then you can mount .img as VirtualBox vdi file with xmount
+that writes changes to separate cache file, start VirtualBox as root
+with:&lt;/p&gt;
+
+&lt;p&gt;sudo virtualbox&lt;/p&gt;
+
+&lt;p&gt;Install VirtualBox extensions pack downloaded from https://virtualbox.org
+in VirtualBox menu File / Preferences / Extensions,
+make new Debian 9 64bit VM with 2 GB RAM or more, use /mnt/tsc…vdi
+as hard disk, etc:&lt;/p&gt;
+
+&lt;p&gt;unar tsc-usb-*.img.gz&lt;/p&gt;
+
+&lt;p&gt;sudo xmount –in raw ./tsc-usb-2018-06-17.img –out vdi –cache ./disk.cache /mnt&lt;/p&gt;
+
+&lt;p&gt;After changes to disk.cache file, writing modified disk image back to archived
+file requires having another harddisk vdi image, that you boot in virtualbox:&lt;/p&gt;
+
+&lt;p&gt;sudo mkdir /mnt2&lt;/p&gt;
+
+&lt;p&gt;sudo xmount –in raw ./tsc-usb-2018-06-17.img –out vdi –cache ./disk2.cache /mnt2&lt;/p&gt;
+
+&lt;p&gt;sudo xmount –in raw ./tsc-usb-2018-06-17.img –out vdi –cache ./disk2.cache /mnt2&lt;/p&gt;
+
+&lt;p&gt;Then create new VirtualBox Debian 9 64bit VM with 2 GB RAM minimum, add
+to SATA controller, add to it harddisk drive /mnt2/tsc…vdi , then add
+cdrom and leave it empty, then add harddisk drive /mnt/tsc…vdi .
+Then add shared folder with auto-mount. Start VM.
+Click Start-Bird-button / Järjestelmätyökalut / Tiedostonallinta that is
+file manager. Click on file manager Linux partition at bottom, to see
+is it /dev/sdb. Install VirtualBox additions from top VirtualBox top menu.
+Then unmount /dev/sdb and make archive on Start-Bird-button /
+Järjestelmätyökalut / LXTerminal:&lt;/p&gt;
+
+&lt;p&gt;sudo su&lt;/p&gt;
+
+&lt;p&gt;See what shared drives there are:&lt;/p&gt;
+
+&lt;p&gt;df -h&lt;/p&gt;
+
+&lt;p&gt;And write disk image:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;sudo dd if=/dev/sdb conv=sync,noerror status=progress&lt;/td&gt;
+      &lt;td&gt;gzip -c &amp;gt; /YOUR-SHARED-FOLDER/tsc-usb-YEAR-MONTH-DATE.img.gz&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2017/12/10/virtualbox-appliance-available/"/>
+    <title>VirtualBox versio saatavilla</title>
+    <id>secretchronicles.org/fi;16</id>
+    <updated>2017-12-10</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">VirtualBox versio saatavilla</summary>
+    <content type="html">
+&lt;p&gt;xet7 tänään julkaisi VirtualBox version TSC:stä. Siinä on &lt;a href=&quot;https://system76.com/pop&quot;&gt;Pop!_OS&lt;/a&gt; 64bit Linux
+ja TSC alpha versio 2.1.0-dev asennettuna devel haarasta tänään 10.12.2017.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://secretchronicles.org/fi/download/&quot;&gt;Lataa&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2017/10/26/infrastructure/"/>
+    <title>Palvelin infran päivitys</title>
+    <id>secretchronicles.org/fi;15</id>
+    <updated>2017-10-26</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Projektin infra sai suuren päivityksen — kaikki käyttäjätilit ja tilaukset peruttu!</summary>
+    <content type="html">
+&lt;p&gt;&lt;strong&gt;HUOM: Tämä artikkeli sisältää tärkeätä tietoa postituslistan ja foorumin käyttäjille! Ole hyvä ja lue tarkkaan!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Sunnuntaina, 15.10.2017 pääpalvelimemme &lt;code&gt;alexandria&lt;/code&gt; kärsi
+sähkökatkosta sponsorimme palvelinkeskuksessa  joka vioitti SQL
+tietokantaa. Onneksi, kiitos toimiville varmuuskopioille, oli
+mahdollista palauttaa kaikki tärkeät tiedot paitsi ihan uusimmat
+viestit Chessboard foorumilla.&lt;/p&gt;
+
+&lt;p&gt;Kuitenkin, otimme palvelinkatkon mahdollisuutena viimeinkin
+päivittää vanhentunut palvelin käyttöjärjestelmä (Debian 7)
+nykyiseen Debian 9 versioon. Tämä päivitys on nyt valmistunut,
+ja pyydämem anteeksi kaikkea haittaa joka aiheutui siitä että
+erityisesti foorumimme ja postituslistamme eivät olleet
+saatavilla päivityksen aikana. Lisäksi, entinen projektin vetäjä
+Quintus (Marvin) on ilmoittanut käyttävänsä jälleen jonkin verran
+aikaa kirjoittaaksen uudelleen TSC:n versioksi 3.0.0.  Tukeaksemme
+häntä tässä, päätimme sulkea Chessboardin osoitteessa
+forum.secretchronicles.org koska Chessboard on
+&lt;a href=&quot;https://github.com/Quintus/chessboard&quot;&gt;ohjelmisto jonka Quintus on itse kirjoittanut&lt;/a&gt; ja muutoin
+tarvitsisi aktiivista ylläpitoa koodimuutoksina mahdollisten
+tietoturvaongelmien ilmetessä. Tällöin hän voi nyt keskittyä
+varsinaiseen TSC koodaukseen.&lt;/p&gt;
+
+&lt;p&gt;Tämä siirto ei kuitenkaan tarkoita että TSC:llä ei olisi
+viestintävälinettä jäljellä. Ensinnäkin, &lt;a href=&quot;https://forum.secretchronicles.org/&quot;&gt;forum.secretchronicles.org&lt;/a&gt;
+on arkistoitu staattiseksi kopioksi joka säilyy saatavilla referenssinä
+mutta ei aiheita ylläpito ongelmia enää koska se on vain staattista
+HTML:ään nyt (kopio on tehty &lt;a href=&quot;http://www.httrack.com/&quot;&gt;HTTrack&lt;/a&gt; ohjelmalla). Et voi kirjautua
+siihen enää, ja &lt;em&gt;kaikki käyttäjätilin on peruttu&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Chessboard on aina ollut käyttöliittymä kahdelle postituslistalle,
+tsc-users@lists.secretchronicles.org ja
+tsc-devel@lists.secretchronicles.org. Näitä postituslistoja
+hallittiin &lt;a href=&quot;http://mlmmj.org/&quot;&gt;mlmmj&lt;/a&gt; ohjelmistolla jonka web käyttöliittymän puute
+oli syy miksi Chessboard alunperin kirjoitettiin. Tämän jälkeen
+kuitenkin, muut postituslista ohjelmistot ovat kehittyneet.
+Merkittävimpänä, standardi postituslista ohjelmisto,
+&lt;a href=&quot;http://list.org/&quot;&gt;GNU Mailman&lt;/a&gt;, on nähnyt merkittävän päivityksen web käyttöliittymässä.
+Vanha “Pipermail” käyttöliittymä oli poistettu kokonaan ja sen
+tilalle tullut uudelleenkirjoitettu version nimeltään “HyperKitty”,
+joka käyttää modernia teknologiaa ja tarjoaa hienon ja siistin
+käyttökokemuksen. Siis, TSC projektin postituslistat on siirretty
+mljmmj:stä Mailman:iin. Helpottaaksemme siirtymistä mlmmj+Chessboardista
+GNU Mailmaniin kuitenkin, &lt;em&gt;kaikki tilaukset molempiin tsc-devel ja
+tsc-user on peruttu&lt;/em&gt;, kuten foorumi tilitkin.&lt;/p&gt;
+
+&lt;p&gt;Projektin pääviestintäväline on nyt &lt;a href=&quot;https://lists.secretchronicles.org/&quot;&gt;lists.secretchronicles.org&lt;/a&gt;.
+Sillä sivustolla löydät hienon web käyttöliittymän, joka sallii
+osallitua postituslista keskusteluihin käyttämättä sähköpostia,
+jos et halua käyttää sähköpostia. HyperKittyn pitäisi tuoda mukavuutta
+niille jotka valittivat että Chessboardin käyttöliittymä näyttää
+liian vanhalta. Jos toisaalta pidät ensisijaisesti sähköposti
+viestinnästä (ja oikeutetusti!), niin tämä on tietysti myös
+mahdollista; sivusto sallii sinun valita tilauksen (subscription,
+sähköposti mahdollisuus) tai rekisteröinnin (web mahdollisuus)
+välillä, tai voit käyttää molempia jos haluat niin, jolloin sinun
+tulee ensin rekisteröityä ja sitten tilata.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Näinollen: Jokaisen joka on yhä kiinnostunut TSC yhteisöstä&lt;/strong&gt;
+täytyy vierailla sivustolla &lt;a href=&quot;https://lists.secretchronicles.org/&quot;&gt;lists.secretchronicles.org&lt;/a&gt;
+&lt;strong&gt;ja tilata sieltä sähköposti versiot halutuista listoista&lt;/strong&gt;
+ja/tai &lt;strong&gt;luoda tili haluttujen listojen sähköposti versioihin&lt;/strong&gt;
+ja/tai &lt;strong&gt;luoda tili käyttääkseen web käyttöliittymää&lt;/strong&gt;
+viestien lähettämiseen.&lt;/p&gt;
+
+&lt;p&gt;Koska kaikki tämä infra on nyt täysin uutta, voi hyvin olla niin
+että löytyy virheitä ja ongelmia. Älä ujostele ottaa yhteyttä
+meihin, mieluiten kirjoittamalla tsc-users postituslistalle,
+kirjoittamalla sähköpostia, tai käyttäen HyperKittyä.&lt;/p&gt;
+
+&lt;p&gt;Toinen jota katsottiin uudelleen infra päivitysten yhteydessä
+on päivitys IRC bottiimme, &lt;a href=&quot;https://github.com/Secretchronicles/furbot&quot;&gt;furbot&lt;/a&gt;, joka on nähtyt
+yleisen ohjelmistopäivityksen erityksesti kasvonkohotuksena
+IRC logeihin. Jos nyt vierailet &lt;a href=&quot;https://chatlogs.secretchronicles.org/&quot;&gt;chatlogs.secretchronicles.org&lt;/a&gt;,
+tulet toivottavasti mieluisasti yllätetyksi paremmasta luettavuudesta
+uudemmissa chattilogeissa (vanhoja logeja ei ole muokattu).
+Ärsyttävin ongelma chattilogeissa, kun forbot toisti itseään
+monta kertaa kun siltä katkesi IRC yhteys, on ratkaistu myös.&lt;/p&gt;
+
+&lt;p&gt;Suunnitelmat siirtää tikettisysteemin &lt;code&gt;alexandrialle&lt;/code&gt; on
+pysäytetty hetkeksi johtuen ajanpuutteesta. mlmmj:stä Mailmaniin
+siirto mukaanlukien Chessboardin poisto sekä käyttöjärjestelmän
+päivitys veivät aika paljon aikaan. Näitä suunnitelmia ei ole
+kuitenkaan hylätty.&lt;/p&gt;
+
+&lt;p&gt;Monet kiitokset Laurille (xet7) joka suoritti käyttöjärjestelmän
+päivityksen, Quintukselle Chessboard+mlmmj siirrosta Mailmaniin,
+ja &lt;a href=&quot;http://first-root.com/&quot;&gt;First-Root UG&lt;/a&gt;:n jatkuvasta projektin sponsoroinnista
+&lt;code&gt;alexandria&lt;/code&gt; palvelimen muodossa.&lt;/p&gt;
+
+&lt;p&gt;Marvin (Quintus)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2017/07/10/new-main-and-assistant-leaders/"/>
+    <title>Uudet pää- ja apu-projektinjohtajat</title>
+    <id>secretchronicles.org/fi;14</id>
+    <updated>2017-07-10</updated>
+    <author><name>Sydney</name></author>
+    <summary type="html">Projekti on saanut uusia johtajia</summary>
+    <content type="html">&lt;p&gt;Hei kaikki,&lt;br /&gt;
+onnellista vuoden keskivaihdetta kaikille.&lt;/p&gt;
+
+&lt;p&gt;Olemme kaikki surullia nähdessämme molempien &lt;a href=&quot;https://forum.secretchronicles.org/forums/2/threads/2994&quot;&gt;Quintus&lt;/a&gt; ja &lt;a href=&quot;https://forum.secretchronicles.org/forums/2/threads/3047&quot;&gt;Datahead&lt;/a&gt; astuvan alas
+johtavasta asemnasta parin viime kuukauden aikana johtuen reaalimaailman aikarajoituksista.
+Hatunnosto teille molemmille kaikesta jota olette tehneet, ja toivommen että voitte
+tulla takaisin milloin teille on mahdollista!&lt;/p&gt;
+
+&lt;p&gt;Tämän keskellä meillä on ollut kaksi uutta johtajaa jotka ovat astuneet tilalle.
+xet7, meidän entinen ja nykyinen palvelin ylläpitäjä, astui tilalle ja on nyt
+meidän pää-projektinjohtaja. Täyttääksemme apu-projektinjohtajan paikan lähetimme
+sähköpostin kaikille TSC tiimissä, ja KirbyFan64sos oli vapaaehtoinen uudeksi
+apu-projektinjohtajaksi.&lt;/p&gt;
+
+&lt;p&gt;Kiitos teille molemmille kun astuitte vapaaehtoisesti tilalle näihin paikkoihin.
+Me kaikki arvostamme anteliaisuuttanne yhteisölle, ja odotamme jännittyneenä
+näkevämme mitä tämä merkitsee projektille!&lt;/p&gt;
+
+&lt;p&gt;Erinomaista kesän jatkoa!&lt;/p&gt;
+
+&lt;p&gt;-Sydney(sydney_untangle)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2016/12/23/new-domain/"/>
+    <title>Uusi nettisivu osoite</title>
+    <id>secretchronicles.org/fi;13</id>
+    <updated>2016-12-23</updated>
+    <author><name>Sydney</name></author>
+    <summary type="html">Tietoa uudesta nettisivu osoitteestamme</summary>
+    <content type="html">&lt;p&gt;Hei kaikki, toivottavasti kaikilla on mukava loma.&lt;/p&gt;
+
+&lt;p&gt;Secretchronicles tiimin puolesta, olen iloinen voidessani iloinen voidessani ilmoittaa että olemme ostaneet
+secretchronicles.org nettisivu osoitteen, ja enimmäkseen se on jo täysin käytössä. Meillä on vielä
+secretchronicles.de nettisivu osoite jonkin aikaa, mutta kiitos xet7’s kovan työn, se nyt uudelleenohjaa
+uuteen nettisivu osoitteeseemme.&lt;/p&gt;
+
+&lt;p&gt;Olemme myös ylpeitä saatuamme käyttöön HTTPS:n sivustollamme ja kaikissa sen resursseissa tämän myötä.&lt;/p&gt;
+
+&lt;p&gt;Jos käytäs sähköpostilla foorumiamme tai poistituslistaamme, päivitä osoitekirjasi
+&lt;code&gt;secretchronicles.de&lt;/code&gt; tilalle &lt;code&gt;secretchronicles.org&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Myöskin, jos sinulla on mitään ongelmia, ota vapaasti yhteyttä meihin haluamallasi tavalla jotka on listattuna
+&lt;a href=&quot;https://secretchronicles.org/fi/community/&quot;&gt;Yhteisö sivulla&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hyvää loman jatkoa!&lt;/p&gt;
+
+&lt;p&gt;-Sydney(sydney_untangle)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2016/11/06/upcoming-infra-upgrades/"/>
+    <title>Tulevat infra päivitykset</title>
+    <id>secretchronicles.org/fi;12</id>
+    <updated>2016-11-06</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Nykyiset suunnitelmat palvelimen ohjelmistoille.</summary>
+    <content type="html">
+&lt;h2 id=&quot;pivitykset&quot;&gt;Päivitykset&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Redmine vianseurantaan ja Git repoille&lt;/li&gt;
+  &lt;li&gt;Keskitetty kirjautuminen&lt;/li&gt;
+  &lt;li&gt;Let’s Encrypt SSL&lt;/li&gt;
+  &lt;li&gt;Automatisoitu uudelleenasennus jollain Configuration Management työkalulla&lt;/li&gt;
+  &lt;li&gt;Prosessi monitorointi&lt;/li&gt;
+  &lt;li&gt;Automaattiset päivitykset&lt;/li&gt;
+  &lt;li&gt;Distron päivitys tai vaihto&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;voi-muuttua&quot;&gt;Voi muuttua&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Varmuuskopiointi ohjelmisto&lt;/li&gt;
+  &lt;li&gt;Postituslistojen sähköpostin lähetys/vastaanotto ohjelmisto&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;pysyy-samana&quot;&gt;Pysyy samana&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chessboard foorumi&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;eta-ei-saatavilla&quot;&gt;ETA ei saatavilla&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;xet7 tekee päivitykset ajan salliessa.&lt;/li&gt;
+  &lt;li&gt;Downtime minimoidaan.&lt;/li&gt;
+  &lt;li&gt;Nämä nykyiset suunnitelmat voivat muuttua tilanteen mukaan.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2016/08/18/2/"/>
+    <title>2.0.0 Koodin kääntämisongelmat Linuxissa</title>
+    <id>secretchronicles.org/fi;11</id>
+    <updated>2016-08-18</updated>
+    <author><name>Sydney</name></author>
+    <summary type="html">TSC 2.0.0 ei käänny useimmissa Linux distroissa</summary>
+    <content type="html">
+&lt;p&gt;Kuten monet ihmiset ovat tuoneet huomioomme, useimmissa moderneissa distroissa, tai
+niissä jotka ovat kääntäneet ohjelmansa &lt;code&gt;-std=c++11&lt;/code&gt; lipulla, 2.0.0 julkaisun
+tarpallon kääntämisessä on ongelmia. Valitettavast, julkaisimme version 2.0.0 juuri
+ennen kuin useimmat distrot tekivät muutoksen.&lt;/p&gt;
+
+&lt;p&gt;On myös ollut &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/500&quot;&gt;ongelma #500 pelin latautuessa mustaan ruutuun&lt;/a&gt; kääntäessä CEGUI
+versiolla 0.7.9.&lt;/p&gt;
+
+&lt;p&gt;Olemme korjanneet nämä ongelmat ja monia muita TSC:n Devel haarassa, ja myös korjanneet
+meidän &lt;a href=&quot;/fi/news/2016/08/17/alpha-builds-available/&quot;&gt;alpha&lt;/a&gt; version (joka perustuu Devel haaraan), joten voit vapaasti testata
+peliä, ja ilmoittaa meille jos löydät jotain ongelmia.&lt;/p&gt;
+
+&lt;p&gt;-Sydney(sydney_untangle)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2016/08/17/alpha-builds-available/"/>
+    <title>Alpha versio saatavilla</title>
+    <id>secretchronicles.org/fi;10</id>
+    <updated>2016-08-17</updated>
+    <author><name>Sydney</name></author>
+    <summary type="html">Alpha versio TSC:stä saatavilla Debian käyttäjille</summary>
+    <content type="html">
+&lt;p&gt;Kuluneen vuoden aikana Muammar, joka on osa Debian paketointi tiimiä,
+on laittanut paljon vaivaa kääntääkseen TSC:n Debianille, ja hänen työnsä
+kautta, ja viimeaikaiset riippuvuusmuutokset TSC:n osalta, hän on onnistuneesti
+pystynyt paketoimaan TSC:n .deb:ksi, niin että kaikki toimii kunnolla. Tämän kautta,
+meillä on nyt pääsy valmiiksi käännettyihin .deb paketteihin, antaen meille mahdollisuuden
+asentaa TSC Debian/Debian pohjaisiin järjestelmiin ilman kääntämistä.&lt;/p&gt;
+
+&lt;p&gt;Voit ladata .deb paketit &lt;a href=&quot;/fi/download&quot;&gt;Lataa -sivulta&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Nämä .deb paketit on käännetty suoraan git Devel haarasta. Emme anna mitään takuuta että
+nämä käännökset toimivat, ja ne varmasti eivät ole bugittomia.&lt;/p&gt;
+
+&lt;p&gt;Asentaaksesi ne voit yleisesti käyttää &lt;code&gt;dpkg -i &quot;packagename&quot;&lt;/code&gt; komentoa, tai lukea
+dpkg:n man sivuja. Teknisesti näiden &lt;em&gt;pitäisi&lt;/em&gt; toimia myös Ubuntussa ja siihen
+perustuvissa, mutta kuten sanottu aiemmin, emme anna takuita.&lt;/p&gt;
+
+&lt;p&gt;Myös, tämän kautta, voimme innoissamme sanoa että TSC on nyt Debian Unstable repoissa.&lt;/p&gt;
+
+&lt;p&gt;Kuten aina, jos löydät bugin, &lt;strong&gt;ole hyvä&lt;/strong&gt; ja raportoi se, joko &lt;a href=&quot;https://forum.secretchronicles.org&quot;&gt;Foorumilla&lt;/a&gt; tai &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;Github&lt;/a&gt;issa.&lt;/p&gt;
+
+&lt;p&gt;Nauti!&lt;/p&gt;
+
+&lt;p&gt;-Sydney(sydney_untangle)&lt;br /&gt;
+TSC tiimin puolesta&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2016/04/10/results-of-the-2nd-gd/"/>
+    <title>Tulokset toisesta yleisestä keskustelusta</title>
+    <id>secretchronicles.org/fi;9</id>
+    <updated>2016-04-10</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Yhteenveto toisesta TSC yleisestä keskustelusta.</summary>
+    <content type="html">
+&lt;p&gt;Eilen, suuri osa TSC kehitystiimiä tapasi IRCissä pitääkseen
+toisen yleisen keskustelun (&lt;a href=&quot;https://lists.secretchronicles.org/tsc-devel/2016/04/0000004.html&quot;&gt;alkuperäinen aikataulu&lt;/a&gt;).
+Tässä artikkelissa esitän lyhyesti mitä keskusteltiin, mitä
+päätettiin, ja mitä ei päätetty.&lt;/p&gt;
+
+&lt;p&gt;Ensiksi, tässä on (ankkuroitu) linkki täydellisiin 
+&lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T17:13:07+00:00&quot;&gt;keskustelulokeihin&lt;/a&gt;, jotta voit lukea, mitä tarkalleen
+ottaen tapahtui, jos haluat.&lt;/p&gt;
+
+&lt;h2 id=&quot;nestyssntjen-muutokset&quot;&gt;Äänestyssääntöjen muutokset&lt;/h2&gt;
+
+&lt;p&gt;Tiimi äänesti seuraavasta muutosehdotuksesta:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                                 Art. 1
+
+§2(2) on muutettu muotoon “Äänestys edellyttää, että kaksi kolmasosaa
+tiimin jäsenistä äänestää uuden henkilön lisäämistä tiimiin.”.
+
+§3(1)(Nr.3)(toinen lause) muutetaan muotoon “Tämä edellyttää kahden
+kolmasosan enemmistön niiltä jotka äänestää, ja ehdokas poistettavaksi
+ei saa osallistua äänestykseen.”
+
+Pykälässä §20 sanat “tiimin jäsenistä” korvataan sanoilla “kaikista
+olemassaolevista tiimin jäsenistä”.
+
+                                 Art. 2
+
+Uusi §5a tuodaan §5 jälkeen kuulumaan seuraavasti:
+
+§5a IRC äänestämisen ilmoitus
+
+(1) Äänestyksiin jotka pidetään IRCissä — poikkeuksena § 5(2)(Nr.3) — on
+riittävä ilmoittaa kaikki saatavilla oelvat äänestysvaihtoehdot IRCissä
+ennen äänien ottamista.
+
+(2) Jos vähintään kolme tiimin jäsentä on saatavilla IRCissä eivätkä
+vain idlaa, on mahdollista luopua kahden viikon valmistelu välistä ja
+äänestää välittömästi. Luopuminen edellyttää, että kaikki ei-idlaavat
+tiimin jäsenet chathuoneessa ovat samaa mieltä siitä.
+
+(3) Jokainen tiimin jäsen voi riitauttaa äänestyksen joka on tehty
+ehtojen mukaisesti (2) edellä ennenkuin kaksi viikkoa on kulunut
+lähestymällä projektin vetäjää vastaavasti. Jos äänestys on
+riitautettu, se käsitellään samalla tavalla kuin jos se
+epäonnistui (§12).
+
+                                 Art. 3
+
+Nämä muutokset tulevat voimaan heti äänestyksen tulosten julkistamisen
+jälkeen, kun on äänestetty niiden hyväksymisestä.
+
+Mitkä tahansa meneillään olevat äänestykset, hetkellä jolla nämä muutokset
+tulevat voimaan, siirretään muuttuneeseen versioon säännöistä eivätkä
+säily vanhassa versiossa.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;8 tiimin jäsentä oli oikeuttettu äänestämään, 7 osallistui ja äänestivät
+sen puolesta. Siten vaadittu 2/3 enemmistö saavutettiin, ja muutokset
+ovat voimassa nyt.&lt;/p&gt;
+
+&lt;p&gt;Vastikään laadittu äänestyssäännöt asiakirja on saatavilla &lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/votingrules/votingrules-2016-04-09.pdf&quot;&gt;verkossa
+asiakirja repossa nyt&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;tiimiin-lisykset&quot;&gt;Tiimiin lisäykset&lt;/h2&gt;
+
+&lt;p&gt;Uusien sääntöjen mukaisesti, tiimi jatkoi äänestäen lisätäänkö
+kirbyfan ja skarfester tiimiin. &lt;a href=&quot;https://github.com/Secretchronicles/documents/blob/master/votes/004.md&quot;&gt;Molemmat&lt;/a&gt; &lt;a href=&quot;https://github.com/Secretchronicles/documents/blob/master/votes/005.md&quot;&gt;äänestykset&lt;/a&gt;
+onnistuivat. Joten nyt, kahden täytyy vain hyväksyä heidän
+jäsenyytensä GitHubissa.&lt;/p&gt;
+
+&lt;h2 id=&quot;vianseuranta-ohjelmisto&quot;&gt;Vianseuranta ohjelmisto&lt;/h2&gt;
+
+&lt;p&gt;Sen jälkeen &lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T17:40:52+00:00&quot;&gt;melko pitkä keskustelu&lt;/a&gt;, kaikki tiimin jäsenet päättivät
+hyväksyä valita &lt;a href=&quot;https://www.redmine.org/&quot;&gt;Redmine&lt;/a&gt; tulevaisuuden vianseurantajärjestelmäksi
+koska siinä on paljon mukavia ja hyödyllisiä ominaisuuksia (kuten
+erityisesti riippuvuudet tehtävien välillä metatietoina hyödyllisillä
+yhteenvedoilla vanhemmista tiketeistä). Lisäksi, se on kirjoitettu
+Rubyllä, jonka useimmat meistä toteaa mukavaksi kieleksi, jotta voimme
+korjata asioita Redminessä jotka ovat meille epämukavia.&lt;/p&gt;
+
+&lt;h2 id=&quot;knns-ohjelmisto&quot;&gt;Käännös ohjelmisto&lt;/h2&gt;
+
+&lt;p&gt;Tämä ikivihreä keskustelun aihe oli tarkoitus selvittää kerralla 
+yleisessä keskustelussa, mutta näin ei tapahtunut. Vaikkakin olemme
+äänistäneet kahdesti aiheesta, ei voittavaa vaihtoehtoa voitu
+määrittää – kaksi vaihtoehtoa saivat aina saman verran ääniä.
+Kuten kohta §12 on äänestyssäännöissä, tämä tarkoittaa, että
+äänestys on epäonnistunut ja ei ole sitovaa tulosta, ja aiheesta
+voidaan äänestää uudelleen.&lt;/p&gt;
+
+&lt;p&gt;Äänestyksen epäonnistuminen, jonka voi näytävästi nähdä
+&lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T18:16:08+00:00&quot;&gt;chattilokeista&lt;/a&gt;, oli todennäköisesti seurausta vähäisestä
+osallistumisesta, vain 62,5% tiimin jäsenistä, eli 5 tiimin jäsentä,
+ja yksi heistä äänesti tyhjää. Se määritettiin että meidän tarvitsee
+toistaa äänestys postituslistalla.&lt;/p&gt;
+
+&lt;h2 id=&quot;kohde-ikryhm-tarina-jne&quot;&gt;Kohde ikäryhmä, tarina, jne.&lt;/h2&gt;
+
+&lt;p&gt;Toinen aihe, jota emme pystyneet päättämään, oli kohde ikäryhmä ja
+tarinan pääpiirteet. Todettiin, että tätä keskustelua ei voida saattaa
+päätökseen ilman että keskusteluun osallistuu myös Bugsbane, joka ei
+ollut saatavilla yleisessä keskustelussa eikä tavoitettu sähköpostitse,
+mutta joka on projektin johtava artisti ja jonka täytyy esittää
+puheenvuoronsa tästä aiheesta. Silti havaittiin mielenkiintoisia
+seikkoja, jotka kannattaa lukea &lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T19:07:40+00:00&quot;&gt;chattilogeista&lt;/a&gt;. Tätä aihetta
+varten myös toimitettiin aiemmin useita asiakirjoja (myös tarina
+ehdotuksia). Koska ei ollut päätöksiä, näillä asiakirjoilla voi
+olla arvoa ajatellen jatkotyötä, ja niihin viitataan tässä:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/16-001.pdf&quot;&gt;DNr. 16/1: Epävirallinen tarina kehitys asiakirja&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/16-002.pdf&quot;&gt;DNr. 16/2: Tarina periaatteet ja päätökset the Secret Chronicles
+of Dr. M. varten&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/16-003.pdf&quot;&gt;DNr. 16/3: The Secret Chronicles of Dr. M. tarinan kehitys
+asiakirja - Versio 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/16-004.pdf&quot;&gt;DNr. 16/4: Ehdotus TSC tarinaksi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/16-006.pdf&quot;&gt;DNr. 16/6: Palautetta kokouksen aiheista&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tämän seurauksena olemme lykänneet aiheiden 6-10 aikataulua.&lt;/p&gt;
+
+&lt;h2 id=&quot;elm-energia-jrjestelm&quot;&gt;Elämä-energia järjestelmä&lt;/h2&gt;
+
+&lt;p&gt;Onnistuneempi &lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T19:47:28+00:00&quot;&gt;keskustelu&lt;/a&gt; syntyi aiheen ympärille elämä
+energiasta ja sen osallistumisesta pelin mekaniikkaan.
+Keskustelu hyötyi ajatuksista jotka esitti kirbyfan ja Luiji,
+jotka jäivät paitsi kaikesta edellisestä mutta onnistuivat
+liittymään kanavalle tämän aiheen aikana.&lt;/p&gt;
+
+&lt;p&gt;Yhtämielisesti todettiin, että nykyinen yhden/kahden osuman +
+elämät + tallennukset + pelin loppu järjestelmä on korvattava
+Rayman-tyylillä, joka tarkoittaa, että pelaajalle annetaan jonkin
+verran osumapisteitä (HP, Hit points). Tasoilla tulee olemaan
+tarkastuspisteet jaettu oikein (tehtävä tasosuunnittelijoille),
+ja kun pelaajan HP vajoaa arvoon 0, hän palautuu viimeiselle
+tarkastuspisteelle jonka hän on läpäissyt. Tässä järjestelmässä,
+ei ole manuaalista tallentamista, ei elämiä, eikä pelin loppumista.
+Se ei kärsi ongelmasta rajattomat pisteet (tämä tallentuu)
+toistuvasti hyppäämällä armeijan päälle ja on loogisesti oikein
+rakennettavissa, eli ei ole kilpailua eri tavoista tallentaa tai
+ladata pelin edistymiskohtaa.&lt;/p&gt;
+
+&lt;p&gt;Se määritettiin edelleen, että lisävoimia ei menetetä ensimmäisestä
+osumasta jonka pelaaja saa, mutta ei ole ollut jatkopäätöksiä
+milloin tarkalleen ottaen tämä tapahtuu sen sijaan.&lt;/p&gt;
+
+&lt;p&gt;Rayman-tyylinen edistymis järjestelmä todettiin hyväksi tasapainoksi
+sen välillä että ei ole kuolon kuoppia ollenkaan, ja että on liikaa
+niitä osana hankalia hyppy osioita, jotka voi aiheuttaa turhautumista
+pelaajan puolella. Näin pystymme pitämään kuolon kuopat, koska niillä
+on yksinkertaisesti vaikutus asettaa pelaajan HP:ksi 0, joka tarkoittaa
+hänen lähettämistä viimeiselle tarkistuspisteelle. Keskustelu siitä
+mihin taso suunnittelijoiden tarvitsee laittaa uudelleenpelaamis
+pisteiden syvyyksissä on täten vanhentunut nyt.&lt;/p&gt;
+
+&lt;h2 id=&quot;cegui-vastaan-sfgui&quot;&gt;CEGUI vastaan SFGUI&lt;/h2&gt;
+
+&lt;p&gt;Tämä oli viimeinen aihe aikataulusta, ja suhteessa työhön jonka
+Quintus on jo laittanut CEGUI porttaukseen, &lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T21:00:11+00:00&quot;&gt;päätettiin&lt;/a&gt; meidän
+jatkavan CEGUIlla. SFGUIta mainittiin myös kehitettävän yhä
+voimakkaasti, joka ei sovellu meidän peliimme, jota tarvitsee
+vakaan APIn jota vasten kehittää.&lt;/p&gt;
+
+&lt;h2 id=&quot;johtopts&quot;&gt;Johtopäätös&lt;/h2&gt;
+
+&lt;p&gt;Jälleen kerran, yleinen keskustelu onnistui saamaan suurimman osan TSC
+tiimistä IRC kanavalle, jonka avulla on mahdollista puhua ihmisille
+joita tavallisesti näkee vain vianseurannassa tai foorumilla.
+Tiimi kasvoi 2 jäsenellä, ja päätettiin valita Redmine vianseuranta
+järjestelmäksemme tulevaisuudessa. Päätöksiä ei tehty tarina aiheesta,
+mutta elämä ja energia järjestelmä oli lopulta määritetty käyttämään
+Rayman-tyyppistä mallia ilman elämiä, pelin loppumisia, ja manuaalista
+tallentamista.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2016/03/05/second-general-discussion/"/>
+    <title>Toinen TSC yleinen keskustelu ilmoitus</title>
+    <id>secretchronicles.org/fi;8</id>
+    <updated>2016-03-05</updated>
+    <author><name>Sydney D (sydney_untangle)</name></author>
+    <summary type="html">Pidämme pian toisen yleisen keskustelun.</summary>
+    <content type="html">
+&lt;p&gt;Hei kaikki,&lt;br /&gt;
+olemme järjestämässä toista yleistä keskusteluamme.
+Tällä hetkellä, keskustelujen perusteella, olemme asettaneet alustavasti
+IRC keskustelupäiväksi 9. huhtikuuta, mutta päivästä käydään vielä
+keskusteluja.&lt;/p&gt;
+
+&lt;p&gt;Joitaikin aiheista jotka on tuotu huomioomme keskusteltavaksi tähän
+mennessä ovat:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Yleisö ja kohde ikäryhmä&lt;/li&gt;
+  &lt;li&gt;Pelin tarinan syvyys&lt;/li&gt;
+  &lt;li&gt;Teemat&lt;/li&gt;
+  &lt;li&gt;Pelin “söpöyden” taso&lt;/li&gt;
+  &lt;li&gt;Kerronta, kohtaukset, ja pelin tarinan teksti&lt;/li&gt;
+  &lt;li&gt;Tarina ehdotukset&lt;/li&gt;
+  &lt;li&gt;Käännös sivustot&lt;/li&gt;
+  &lt;li&gt;Vianseuranta ohjelmisto&lt;/li&gt;
+  &lt;li&gt;Elämä-energia järjestelmä&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tämä lista ei ole täydellinen, vaan lähtökohta. Jos sinulla on mitä
+tahansa vastaväitteitä tai jotain jota haluaisit muuttaa tai lisätä,
+ole hyvä ja ota yhteyttä meihin IRCin, postituslistan tai foorumin
+kautta.&lt;/p&gt;
+
+&lt;p&gt;Myös, jos mahdollista, haluamme nähdä paljon ihmisiä yleisessä
+keskustelussa. Jos sinulla on mahdollisuus tulla mukaan, ole hyvä
+ja tule! Mitä enemmän mielipiteitä, sitä parempi (yleensä).&lt;/p&gt;
+
+&lt;p&gt;Tässä on pari asiaan liittymää foorumi ketjua/postituslista viestiä:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forum.secretchronicles.org/topics/393&quot;&gt;Kokouspäivän valitseminen&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forum.secretchronicles.org/topics/387&quot;&gt;Toinen yleinen keskustelu, asialista&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Joka tapauksessa, mielestäni mainitsin kaiken. Jos sinulla on mitä
+tahansa kysymyksiä, kuten mainitsin yllä, ota vapaasti yhteyttä
+meihin.&lt;/p&gt;
+
+&lt;p&gt;Hyvää päivänjatkoa!&lt;/p&gt;
+
+&lt;p&gt;Sydney (&lt;em&gt;sydney_untangle&lt;/em&gt;)&lt;br /&gt;
+TSC tiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2015/10/13/corrupt-win32-installer-on-ftp/"/>
+    <title>Korruptoitunut Win32 asennusohjelma FTP palvelimella</title>
+    <id>secretchronicles.org/fi;7</id>
+    <updated>2015-10-13</updated>
+    <author><name>Marvin Gülker (Quintus)</name></author>
+    <summary type="html">FTP palvelimella oli korruptoitunut Win32 asennusohjelma.</summary>
+    <content type="html">
+&lt;p&gt;Useat käyttäjämme huomasivat jotain outoa käytöstä pelin Windows
+versiossa, joka ilmeni lähinnä kaatumisina kun ladataan ensimmäistä
+tasoa ensimmäisessä maailmassa maailmankartalla (se ei kaatunut kun
+taso oli ladattu suoraan tasovalikosta). Raportti oli &lt;a href=&quot;https://forum.secretchronicles.org/topics/285&quot;&gt;foorumilla&lt;/a&gt;
+ja erikseen &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/452&quot;&gt;bugiseurannassa&lt;/a&gt; tästä ongelmasta, jonka minä sitten
+jäljitin vialliseen tiedostoon FTP palvelimella. Ei ole selvää
+miten tiedosto vioittui, mutta uudessa asennusohjelmassa generoituna
+täsmälleen samasta koodista kuin alkuperäinen 2.0.0 asennusohjelma
+ei ongelmaa enää esiintynyt. Olen todennut että kopioidessa
+sitä tietokoneideni välillä tai jopa lähettäessäni sitä alexandria
+palvelimellemme tiedosto vioittui jotenkin. Emme ehkä koskaan
+löydä pohjimmaista syytä ongelmaan.&lt;/p&gt;
+
+&lt;p&gt;Lähetin uuden Win32 asennusohjelman FTP:lle joka korvaa viallisen
+2.0.0 Win32 tiedoston. Jos latasit ja asensit TSC 2.0.0 aikavälillä
+2015-08-17 - 2015-10-13 suosittelemme sinua poistamaan version jonka
+latasit, &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-win32.exe&quot;&gt;lataamaan uuden asennusohjelman&lt;/a&gt;, ja asentamaan sen.
+Linkit “Lataa” sivulla on muutettu vastaavasti myös, mukaanlukien
+MD5 ja SHA256 tarkistussummat. Vanha, korruptoitunut tiedosto
+säilyy FTP palvelimella tutkintaa varten nimellä
+&lt;code&gt;tsc-2.0.0-win32.defunct.exe&lt;/code&gt; ja sitä ei tule loppukäyttäjien käyttää
+(ja siihen ei linkitetä mistään).&lt;/p&gt;
+
+&lt;p&gt;Pahoittelemme häiriötä, mutta virheiden tapahtuminen on inhimillistä.
+Haluamme sanoa Kiitos käyttäjille jotka raportoivat ongelman meille,
+koska kun kaikki kehittäjämme käyttävät Linux järjestelmiä, emme ehkä
+olisi huomanneet korruptoitunutta tiedostoa ollenkaan ilman heidän
+raporttejaan.&lt;/p&gt;
+
+&lt;p&gt;Marvin Gülker (&lt;em&gt;Quintus&lt;/em&gt;)&lt;br /&gt;
+TSC kehitystiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2015/08/17/2/"/>
+    <title>TSC 2.0.0 on julkaistu</title>
+    <id>secretchronicles.org/fi;6</id>
+    <updated>2015-08-17</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Vakaa versio 2.0.0 TSC pelistä on julkaistu tänään.</summary>
+    <content type="html">
+&lt;p&gt;TSC kehitystiimi on ylpeä voidessaan ilmoittaa että täsmälleen kuusi
+vuotta edellisen SMC julkaisun 1.9 jälkeen, kaksi vuotta sitten kun minä, Marvin
+Gülker nimimerkillä &lt;em&gt;Quintus&lt;/em&gt;, haaroitin pelin uudelle nimelle TSC,
+kuukausien kehityksen ja useiden takaiskujen jälkeen, lopulta uusi vakaa
+versio 2.0.0 on julkaistu tänään. Kirjoittaessani tätä, lähdekoodi
+tarpaketti ja Windows asennusohjelma siirtyy alexandrialle, palvelimellemme.
+Joten, mitä on muuttunut?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Peli sisältää nyt erittäin voimakkaan skriptausmoottorin mruby,
+joka on minimaalinen toteutus Ruby ohjelmointikielestä. Se mahdollistaa
+sinun tehdä melkein mitä tahansa kuvittelemaasi tasontekijänä.
+Näkyvimmin se mahdollistaa luoda kytkimiä joilla saadaan tehtyä
+satunnaisia efektejä.&lt;/li&gt;
+  &lt;li&gt;Uusia vihollisia: Larry pommi, Pip mato, kovakuoriainen Barrage.&lt;/li&gt;
+  &lt;li&gt;Siirrettävät laatikot lisättiin uutena voimaperäisenä pelikohteena
+joita voidaan käyttää tiettyjen esteiden kanssa.&lt;/li&gt;
+  &lt;li&gt;Kaikki Mario-inspiroitunut musiikki ja suurin osa Mario-inspiroidusta
+grafiikasta on poissa. Erityisesti kaikki voimaylös grafiikka on vaihdettu.&lt;/li&gt;
+  &lt;li&gt;Useita uusia musiikkeja on lisätty.&lt;/li&gt;
+  &lt;li&gt;Useita uusia tasoja on lisätty.&lt;/li&gt;
+  &lt;li&gt;Pelissä nyt virallisesti on opetusohjelma kampanja.&lt;/li&gt;
+  &lt;li&gt;Monta tekstiä lisää on tehty käännettäväksi, ja meillä on
+täydellinen suomi ja saksa käännös. Huomioi että kaikki tekstit eivät
+vielä ole käännettävissä, tosin, joten näet yhä vielä jonkin
+verran englantia.&lt;/li&gt;
+  &lt;li&gt;Kymmenen vuotta vanha C++ koodipohja on uudelleenmuokattu suurimmaksi osin.
+Koodi on nyt siistimpää, ja on mahdollista rakentaa Windows versio
+ristiinkääntämällä Linuxin puolella käyttämättä Microsoftin
+lähdekoodiltaan suljettua kääntäjää.&lt;/li&gt;
+  &lt;li&gt;Kääntäjä ihmiset tulevat nauttimaan siitä että riippuvuus CEGUI’n
+NullRendereriin on poistettu. Myös, koko rakennusjärjestelmä vaihdettiin
+cmakeen, ja CEGUI on käännetty staattisesti jos vanha versio jonka tarvitsimme
+ei löydy tietokoneestasi (olemme työskentelemässä päivittääksemme
+riippuvuuksiamme).&lt;/li&gt;
+  &lt;li&gt;Useita bugikorjauksia, pienempiä toimintoja, jne. Voit katsoa
+Git commit logeista jos todella haluat tietää ne kaikki.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ennen The Secret Chronicles of Dr. M. tuloa Secretmaryo projekti
+(Secret Maryo Chronicles, SMC) oli käytännöllisesti katsoen kuollut. Sen
+edellinen johtava kehittäjä, Florian Richter (&lt;em&gt;FluXy&lt;/em&gt;), hylkäsi sen noin vuonna
+2012. Kerran aktiiviset foorumit tyhjenivät vähitellen, ja kokivat hyökkäyksiä
+roskapostirobotti armeijoilta, ja vain muutama käyttäjä yhä tarkisti niitä kun ryhdyin
+projektiin 2013. Ensin halusin vain osallistua pitkään toivottuun skriptausmoottoriin,
+mutta ensimmäisen version lähettämisen jälkeen (silloin kirjoitettu Lualla) huomasin
+pian että jos minä vain jätän sen sinne, kukaan ei jatkaisi sitä. Aiemmin olin saanut
+yhteyden edelliseen SMC avustaja vetäjään, &lt;em&gt;Luiji&lt;/em&gt;, jolle haluan osoittaa erityistä
+kiitollisuutta, ja ilman häntä ei olisi TSCtä tänään. Se oli hän joka vakuutti minut
+(mahdollisesti hän ei edes tajunnut rooliansa itse) että tällä pelillä tulee olla
+tulevaisuus. Tähän päivään saakka, hän on tukenut minua TSC projektin apuvetäjänä
+vaihtelevissa ylläpito tehtävissä, ja jatkaa olemalla tärkeä osa TSCtä. Hän
+tulee takuulla muistamaan kuinka tapasimme kun olimme työskentelemässä nyt
+käytöstä poistuneen &lt;code&gt;smc-get&lt;/code&gt; ohjelman parissa…&lt;/p&gt;
+
+&lt;p&gt;Kuitenkin, haaroitin SMC lähdekoodin sen GitHub reposta ja
+täytäntöönpanin useita uusia toimintoja ja korjasin joitakin pitkäaikaisia
+bugeja. Kirjoitin edistymisestä vanhoille SMC foorumeille, ja sain
+aikaan jonkinverran kiinnostusta siellä. Ajan mittaan, jotkin vanhoista
+käyttäjistä palasivat ja rohkaisivat minua edelleen, joten jonkin ajan jälkeen
+päätin että roolini SMC projektissa ei tule olla vain väliaikainen
+(aikaisimmat commitit TSC repossa listaavat minut “väliaikaisena projektin
+vetäjänä” tekijät listassa). Oletin roolini projektin vetäjäksi;
+muutamien enemmän tai vähemmän menestyksekkäiden yritysten jälkeen ottaa yhteyttä
+Mr. Richteriin, päätettiin julistaa TSC virallisesti haarautuneeksi
+SMC projektista. Saksalaisesta yrityksestä &lt;a href=&quot;http://www.first-root.com&quot;&gt;First Root UG&lt;/a&gt; löysimme
+sponsorin meidän (vähälle) infrallemme jota käytimme saadaksemme nämä
+nettisivut, wikin, (tällä hetkellä yllättävän aktiivisen) foorumin, ja
+kehitys postituslistan. Paljon kiitoksia heille; ilman heidän tukeaan
+olisi ollut paljon vaikeampaa hallita prosessia.&lt;/p&gt;
+
+&lt;p&gt;Kun yhä enemmän ja enemmän toimintoja lisättiin, ja enemmän ihmisiä liittyen
+ponnisteluihimme, me tulimme siihen johtopäätökseen että vaikka nautimme
+SMC pelistä, tarvitsemme eri tavoitteen. SMC enimmäkseen oli yhä Mario
+klooni, eri grafiikoilla, mutta pelimekaniikaltaan vain hieman muutettuna.
+Se oli laajalti tunnistettu sellaisena. &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/92&quot;&gt;Pitkässä ja kiivaassa
+keskustelussa&lt;/a&gt; päätimme nimetä uudelleen projektin nimelle “The Secret
+Chronicles of Dr. M.” ja yrittää poistaa Mariomaisuudet grafiikassa ja
+pelitoiminnoissa. Vaikka tämä jatkuva työ on kaukana päätöksestä,
+aikaisimmat tulokset ovat jo näkyvissä nyt julkaistussa 2.0.0 vakaassa
+versiossa.&lt;/p&gt;
+
+&lt;p&gt;Johtuen erinäisistä bugeista ja ulkoisista tekijöistä, 2.0.0 julkaisu
+viivästyi noin yhden vuoden suunnitellusta julkaista. Vaikka
+ajankäyttömme ilmeisesti on ollut epätyydyttävää, lupaamme tehdä
+paremmin seuraavissa julkaisuissa. Kuitenkin, ennen kun näytän teille
+linkit, ajattelen että on aika sanoa kiitokset myös niille henkilöille
+joita en jo maininnut. Sallikaa minun sanoa kiitos Chris Jacobsen
+(&lt;em&gt;datahead&lt;/em&gt;) hänen jatkuvasta tuestaan kehityksessä vaikka hänellä
+oli kiireitä hänen opinnoissaan, kiitos Brian Vanderburg II
+(&lt;em&gt;simpletoon&lt;/em&gt;), joka osallistui mahdollisesti suurimmalla määrällä koodia
+TSCssä minun jälkeeni, ja kiitos varhaisimmille pelin testaajalle,
+Justin Rissler (&lt;em&gt;DarkAceZ&lt;/em&gt;). Kiitos Sydney Dykstra (&lt;em&gt;sydneyjd&lt;/em&gt;)
+lukemattomista määristä aputehtäviä ulottuen grafiikasta pelitestaukseen
+ja palvelin ylläpitoon, ja kiitos &lt;em&gt;Bugsbane&lt;/em&gt; kun tarjosit peliin
+korvaamattoman arvokasta taidettasi. Kiitos Arik Burns (&lt;em&gt;aakburns&lt;/em&gt;)
+useista musiikkikappaleista, kuten myös Johan Brod (&lt;em&gt;jobromedia&lt;/em&gt;).
+Kiitos Lauri Ojansivu (&lt;em&gt;xet7&lt;/em&gt;), joka teki ensimmäisen käännöksen pelistä
+ulkomaiselle kielelle (suomi) ja joka kirjoitti ja ylläpitää tätä
+nettisivustoa. Lisäksi mukana oli apua monilta muilta henkilöiltä,
+joita kaikkia en pysty tässä tarkasti luettelemaan. Kiitos teille kaikille!&lt;/p&gt;
+
+&lt;p&gt;Joten, pitemmittä puheitta, tässä on imurointi linkit &lt;strong&gt;lopulliseen
+vakaaseen versioon 2.0.0&lt;/strong&gt;, jotka tulevat käyttöön kun lähetys palvelimelle
+on valmistunut:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0.tar.xz&quot;&gt;Lähdekoodi&lt;/a&gt; (MD5: 54688db473103299d867b0e52c39f51e, &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0.tar.xz.sig&quot;&gt;GPG
+allekirjoitus&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-win32.exe&quot;&gt;Windows asennusohjelma&lt;/a&gt; (MD5: e20d66fdf171e0b6d5f065803fcfcd02), &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-win32.exe.sig&quot;&gt;GPG
+allekirjoitus&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Marvin Gülker (&lt;em&gt;Quintus&lt;/em&gt;)&lt;br /&gt;
+TSC kehitystiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2015/07/27/2/"/>
+    <title>TSC 2.0.0-rc1 on julkaistu</title>
+    <id>secretchronicles.org/fi;5</id>
+    <updated>2015-07-27</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Secret Chronicles of Dr. M. (TSC) pelin ensimmäinen julkaisuehdokas (RC1) tulevasta 2.0.0 versiosta on julkaistu tänään.</summary>
+    <content type="html">
+&lt;p&gt;Olemme ylpeitä voidessamme ilmoittaa ensimmäisestä julkaisuehdokkaasta
+tulevalle 2.0.0 julkaisulle, 2.0.0-rc1. Beta8:n jälkeen on tullut vain
+yksi merkittävä muutos, joka oli korjaus ongelmaan &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/431&quot;&gt;#431&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;RC vaihe on viimeinen julkaisuprosessissa ennen lopullista
+julkaisua. Tulemme huolellisesti seuraamaan uusia bugiseuranta ongelmia
+kahden viikon ajan jokaisen julkaisuehdokkaan jälkeen. Jos tärkeitä ongelmia
+on raportoitu, korjaamme ne niin pian kuin mahdollista ja välittömästi
+julkaisemme uuden julkaisuehdokkaan. Sitten kahden viikon jakso alkaa uudelleen.&lt;/p&gt;
+
+&lt;p&gt;Jos yhtään ongelmaa ei ilmoiteta kahden viikon jakson aikana, tehdään
+lopullinen julkaisu.&lt;/p&gt;
+
+&lt;p&gt;Tämä on viimeinen mahdollisuutesi testata ja ilmoittaa ongelmia, joten
+ole hyvä ja hyödynnä tämä ja auta projektia jotta tuleva 2.0.0
+julkaisu menestyy.&lt;/p&gt;
+
+&lt;p&gt;Tässä latauslinkit:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-rc1.tar.xz&quot;&gt;Lähdekoodi&lt;/a&gt; (MD5: 2642ac8013f10cb4bd53a47241435194, &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-rc1.tar.xz.sig&quot;&gt;GPG
+signature&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-rc1-win32.exe&quot;&gt;Windows asennusohjelma&lt;/a&gt; (MD5: 89e18675d2b44a4388da0210fb35a92d, &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-rc1-win32.exe.sig&quot;&gt;GPG
+signature&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Marvin Gülker (&lt;em&gt;Quintus&lt;/em&gt;)&lt;br /&gt;
+TSC kehitystiimin puolesta.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2015/03/22/results-of-first-general-discussion/"/>
+    <title>Tulokset ensimmäisestä yleisestä keskustelusta</title>
+    <id>secretchronicles.org/fi;4</id>
+    <updated>2015-03-22</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Yhteenveto siitä mitä tapahtui IRCissä eilen.</summary>
+    <content type="html">
+&lt;p&gt;Eilen, &lt;a href=&quot;/fi/news/2015/03/12/first-general-discussion/&quot;&gt;Ensimmäinen yleinen keskustelu&lt;/a&gt; pidettiin IRCissä. Niille
+jotka teistä ette pystyneet osallistumaan, voitte lukea koko
+IRC logit kuten jotka tallensi ystävällinen &lt;em&gt;furbot&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2015-03-21.log.html#msg-2015-03-21T20:00:52+00:00&quot;&gt;Keskustelulogit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Seuraavana yhteenveto päätöksistä jotka tehtiin keskustelun aikana.&lt;/p&gt;
+
+&lt;h2 id=&quot;nestys-prosessi&quot;&gt;Äänestys prosessi&lt;/h2&gt;
+
+&lt;p&gt;Äänestysprosessi kuten ehdotti &lt;em&gt;Quintus&lt;/em&gt; hyväksyttiin pienin muutoksin.
+Jatko yleisiä keskusteluja varten, äänestysprosessi viedään läpi näin:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Yritämme löytää aiheeseen yhteisymmärryksen, josta kaikki ovat samaa mieltä.&lt;/li&gt;
+    &lt;li&gt;Jos tämä ei ole mahdollista, äänestämme.&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;p&gt;“Ääni” tarkoittaa, kuka tahansa TSC tiimistä on vapaa kirjoittamaan
+“Äänestän XYZ” tai “Pidättäydyn äänestämästä”.
+Tämä on “avoin äänestys”.
+Jos joku esittää peiteltyä äänestystä ajatellen ettei halua
+paljastaa miten äänestää, tämä on mahdollista.
+Ennen äänestämisen aloittamista, kysyn haluaako joku pyytää äänestystä.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jokaisella TSC tiimin jäsenellä on äänioikeus. Tiimin jäsen on, kuka
+on listattu jäseneksi &lt;a href=&quot;https://github.com/orgs/Secretchronicles/people&quot;&gt;&lt;em&gt;Secretchronicles&lt;/em&gt; organisaatioon GitHubissa&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Määritettiin että meidän tulee selvittää tiimin jäsenyys joidenkin osalta.
+&lt;em&gt;sauer2&lt;/em&gt; pitäisi kutsua tiimiin, ja jo tiimissä olevien jäsenten
+tulee julkaista jäsenyys tilanne, ja meidän täytyy määritellä
+ajanjakso jonka jälkeen tiimistä poistetaan ei-aktiivisuuden takia
+(ehdotettu puolta vuotta).&lt;/p&gt;
+
+&lt;h3 id=&quot;tehtvt&quot;&gt;Tehtävät&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Julkaistaan tiimin jäsenyydet&lt;/li&gt;
+  &lt;li&gt;Kutsutaan &lt;em&gt;sauer2&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Määritellään poisto ajanjakso&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ptksen-tulokset&quot;&gt;Päätöksen tulokset&lt;/h3&gt;
+
+&lt;p&gt;Osallistuvia tiimin jäseniä: 6&lt;br /&gt;
+Puolesta: 6&lt;br /&gt;
+Vastaan: 0&lt;br /&gt;
+Pidättyi: 0&lt;/p&gt;
+
+&lt;h2 id=&quot;kilpikonna-pomo-ja-kuu&quot;&gt;Kilpikonna pomo ja kuu&lt;/h2&gt;
+
+&lt;p&gt;Kilpikonna pomo poistetaan 2.0.0 versiosta johtuen korvaajien
+puutteesta. sydneyn kuu keksiä käytetään korvaamaan nykyinen kuu.&lt;/p&gt;
+
+&lt;p&gt;Päätettiin myös että jobromedian teema- ja tekijät-musiikki
+poistetaan 2.0.0:sta ellemme saa lisenssi varmistusta häneltä.
+Väliaikais ratkaisuna, &lt;code&gt;hyper_1&lt;/code&gt; musiikki on uudelleenasennettu.&lt;/p&gt;
+
+&lt;p&gt;Molemmat kilpikonna pomo ja kaksi musiikkia lisätään uudelleen 2.x
+sarjassa jos mahdollista eikä viivytetä 3.x asti.&lt;/p&gt;
+
+&lt;p&gt;Kilpikonna pomo taso korvataan &lt;em&gt;Vuoritutkimukset&lt;/em&gt; (&lt;em&gt;Mountain Trials&lt;/em&gt;)
+tasolla maailmankartalla.&lt;/p&gt;
+
+&lt;p&gt;Uusi keskustelunaihe ehdotettiin olemassaolevan Mario-tyylisen musiikin
+korvaamisesta, mutta emme kerinneet aikarajoitteiden takia. Uusi
+tehtävä on sitä varten lisätty bugienseurantajärjestelmään.&lt;/p&gt;
+
+&lt;h3 id=&quot;tehtvt-1&quot;&gt;Tehtävät&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lisää tehtävä että käydään läpi Mario-tyyliset musiikit olemassaolevilta tasoilta&lt;/li&gt;
+  &lt;li&gt;Korvataan kilpikonna pomo taso&lt;/li&gt;
+  &lt;li&gt;Korvataan teema/tekijät musiikki&lt;/li&gt;
+  &lt;li&gt;Poistetaan kilpikonna pomo&lt;/li&gt;
+  &lt;li&gt;Lisätään keksikuu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ptksen-tulokset-1&quot;&gt;Päätöksen tulokset&lt;/h3&gt;
+
+&lt;p&gt;Osallistuvia tiimin jäseniä: 6&lt;br /&gt;
+Puolesta: 6&lt;br /&gt;
+vastaan: 0&lt;br /&gt;
+Pidättyi: 0&lt;/p&gt;
+
+&lt;h2 id=&quot;x-ja-3x-sarjat&quot;&gt;2.x ja 3.x sarjat&lt;/h2&gt;
+
+&lt;p&gt;Tämä oli kuuma keskustelunaihe, yllätyksellisellä tuloksella että jokainen
+oli samaa mieltä ratkaisusta. Tiivistettynä (katso IRC logeista
+koko keskustelu):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kilpikonna pomo ja musiikki korvaukset taataan lisättäväksi 2.x:ään
+jos korvausvaihtoehdot ehdotetaan buginseurantajärjestelmässä.&lt;/li&gt;
+  &lt;li&gt;2.x sarjaan suunnitellaan lyhyttä elinkaarta. Pian ennen 3.0.0
+julkaisua, kiinteä lopetuspäivä 2.x sarjalle asetetaan.
+Ennen 3.0.0 julkaisua, 2.x voi saada uusia ominaisuuksia, mutta
+ominaisuudet jotka vaativat yhteensopivuuden rikkomista tehdään
+suoraan 3.x sarjassa eikä takaisinsoviteta 2.x:ään. 2.x ja 3.x
+näinollen kehitetään samanaikaisesti 3.0.0 asti, tavoitteena
+pikainen 3.0.0 julkaisu.&lt;/li&gt;
+  &lt;li&gt;Arvio 2.0 elinkaaresta on puolesta vuodesta alkaen maksimissaan
+yhteen vuoteen asti.&lt;/li&gt;
+  &lt;li&gt;3.0.0 julkaisun jälkeen, 2.x saa vain kriittisiä bugikorjauksia
+määritettyyn lopetuspäivään asti, sen jälkeen 2.x tukeminen
+lopetetaan.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ptksen-tulokset-2&quot;&gt;Päätöksen tulokset&lt;/h3&gt;
+
+&lt;p&gt;Osallistuvia tiimin jäseniä: 6&lt;br /&gt;
+Puolesta: 6&lt;br /&gt;
+Vastaan: 0&lt;br /&gt;
+Pidättyi: 0&lt;/p&gt;
+
+&lt;h2 id=&quot;julkaisupiv&quot;&gt;2.0.0 julkaisupäivä&lt;/h2&gt;
+
+&lt;p&gt;Alustava julkaisupäivä on 26.4.2015 lopulliselle 2.0.0 julkaisulle.
+Yritämme kovasti saavuttaa tämän, mutta jos emme, meidän täytyy
+lykätä hieman. On olemassa lista asioista jotka täytyy ratkaista
+&lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Version+2.0.0%22&quot;&gt;buginhallintajärjestelmässämme&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Osallistuvia tiimin jäseniä: 6&lt;br /&gt;
+Puolesta: 6&lt;br /&gt;
+Vastaan: 0&lt;br /&gt;
+Pidättyi: 0&lt;/p&gt;
+
+&lt;h2 id=&quot;silmt-pelihahmon-korvaus-ja-tarina&quot;&gt;Silmät, pelihahmon korvaus, ja tarina&lt;/h2&gt;
+
+&lt;p&gt;Aiheet 6 ja 7 ohjelmasta yhdistettiin yhdeksi, vain jakaaksemme
+sen kahdeksi myöhemmin jälleen.&lt;/p&gt;
+
+&lt;p&gt;Aiheesta 7, on olemassa kaksi laajaa tarinaluonnosta jotka tulee
+lukea ennenkuin päätös voidaan tehdä. Joten, tästä aiheesta päättäminen
+on lykätty myöhemmäksi.&lt;/p&gt;
+
+&lt;p&gt;Keskustelu silmistä ja pelihahmoista oli myös pitkä ja kävi kuumana.
+Ei ollut mahdollista ratkaista aihetta yksimielisesti, ja huomattiin että
+&lt;em&gt;sydney&lt;/em&gt; ja &lt;em&gt;Bugsbane&lt;/em&gt; kaksi keskustelun päähenkilöä —
+taiteilijat — puuttuivat. Siksi, lopullinen keskustelu
+silmien määrästä pelissä on lykätty toistaiseksi kunnes
+&lt;em&gt;Bugsbane&lt;/em&gt; ilmestyy paikalle jälleen. Väliaikaisena kompromissina,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;sydney&lt;/em&gt;’n pelihahmo korvaus säilyy 2.0.0:ssa.&lt;/li&gt;
+  &lt;li&gt;Silmät taustakuvista poistetaan.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tehtvt-2&quot;&gt;Tehtävät&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lue &lt;a href=&quot;https://wiki.secretchronicles.org/Story%20Development%20Document%20-%20Version%202&quot;&gt;datahead’in&lt;/a&gt; and &lt;a href=&quot;http://www.mediafire.com/view/igovgwcf4pizc8b/TSC-DF64.odt&quot;&gt;danfun64’in&lt;/a&gt; tarina dokumentit&lt;/li&gt;
+  &lt;li&gt;Poista silmät taustakuvista&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;taso-tiedostomuoto&quot;&gt;Taso tiedostomuoto&lt;/h2&gt;
+
+&lt;p&gt;Aihe 8 hypättiin yli koska pääkohdat oli jo mainittu 2.x
+ja 3.x keskustelussa. 3.x alkaa 2.0.0 julkaisulla ja
+se voi rikkoa taso tiedostomuodon niin paljon kuin tarvitaan.
+3.0.0 julkaisun myötä, 2.x siirtyy ylläpitotilaan ja vähän ajan
+kuluttua ylläpito lopulta lopetetaan.&lt;/p&gt;
+
+&lt;h2 id=&quot;ents-muut-aiheet&quot;&gt;Entäs muut aiheet?&lt;/h2&gt;
+
+&lt;p&gt;Keskustelu arvioitiin kestävän 2 tuntia ja vei 3,5 tuntia tänne asti.
+Osallistujia lähti yksitellen, ja siksi päätettiin hypätä yli loput
+ohjelmasta, eli aiheista 9 – 12. Huomioitiin myös että aihe 10
+tarvitsee osallistumista &lt;em&gt;Luiji&lt;/em&gt;’lta, joka ei ollut paikalla.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2015/03/12/first-general-discussion/"/>
+    <title>Ensimmäinen yleinen keskustelu</title>
+    <id>secretchronicles.org/fi;3</id>
+    <updated>2015-03-12</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Virallinen ilmoitus ensimmäisestä TSC kehitystiimin yleisestä keskustelusta.</summary>
+    <content type="html">
+&lt;p&gt;Kaikki ovat tervetulleita!&lt;/p&gt;
+
+&lt;p&gt;Ilmoitus ensimmäisestä koko TSC tiimin yleisestö keskustelusta on
+julkaistu virallisesti tänään. Se pidetään 21.3.2015 
+klo 22:00 Suomen aikaa UTC+2 IRCissä Freenode IRC keskusteluverkossa.
+Suuri määrä tiimin jäsenistä on jo ilmoittanut osallistuvansa tapaamiseen,
+ja koska useita tärkeistä asioista tullaan keskustelemaan ja
+mahdollisesti päättämään, kaikki on kutsuttu osallistumaan ja esittämään
+ajatuksiaan tiimille.&lt;/p&gt;
+
+&lt;p&gt;Saadaksesi tietää lisätiedot ja säännöt, lue &lt;a href=&quot;https://team.secretchronicles.org/~quintus/general-discussions/1st-general-discussion.txt&quot;&gt;ilmoitus kokonaisuudessaan englanniksi&lt;/a&gt;.
+Tätä tiedostoa päivitetään sitä mukaa kun lisää aiheita ja puhujia ehdotetaan.&lt;/p&gt;
+
+&lt;p&gt;Quintus&lt;br /&gt;
+TSC projektin vetäjä.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2014/10/01/new-name-and-mailinglist/"/>
+    <title>Uusi nimi ja postituslista</title>
+    <id>secretchronicles.org/fi;2</id>
+    <updated>2014-10-01</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Uusi nimemme on päätetty, ja postituslista tehty.</summary>
+    <content type="html">
+&lt;p&gt;Tänään on suuri päivä. Viikkojen keskustelun jälkeen, olemme lopulta 
+päättäneet tiketistä numeroltaan &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/92&quot;&gt;#92&lt;/a&gt;, joka oli 
+pääpaikka jossa keskustelu projektin nimen ympärillä 
+käytiin. Olemme lähteneet &lt;a href=&quot;http://secretmaryo.org&quot;&gt;SMC projektista&lt;/a&gt; erilleen tavoitteissamme 
+jo, mutta pelistä silti käytettiin tätä nimeä. Tästä 
+päivästä alkaen, meidät tunnetaan seuraavalla nimellä:&lt;/p&gt;
+
+&lt;h2 id=&quot;the-secret-chronicles-of-dr-m&quot;&gt;The Secret Chronicles of Dr. M.&lt;/h2&gt;
+
+&lt;p&gt;Dr. M., jonka koko nimeä ei ole vielä päätetty, tulee olemaan 
+konna uudessa ja synkemmässsä tarinassa joka mahdollisesti keskittyy
+kirjastojen ja muinaisten raunioiden ympärille. Nykyinen luonnos tarinasta, 
+jonka on kirjoittanut datahead, on saatavilla &lt;a href=&quot;https://wiki.secretchronicles.org/Story%20Development%20Document%20-%20Version%202&quot;&gt;meidän wikissä&lt;/a&gt;,
+ja mitä tahansa osallistumista tarinaamme arvostetaan. Voit liittyä &lt;a href=&quot;https://forum.secretchronicles.org&quot;&gt;meidän
+foorumeille&lt;/a&gt; tai vierailla IRC kanavallame &lt;code&gt;#secretchronicles&lt;/code&gt; Freenodessa.&lt;/p&gt;
+
+&lt;p&gt;Löydettyämme nime kehityshaarallemme, on nyt aika myös suunnitella uusi
+logo, koska vanhaa SMC:stä emme voi luonnollisesti käyttää enää. [Tiketti
+logo, as the old SMC one obviously cannot be used anymore. &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/203&quot;&gt;Aiheesta on
+tiketti&lt;/a&gt; jossa käsitellään tehtävää, ja me toivotamme tervetulleeksi
+kaikki ehdotukset uudesta logosta pelillemme.&lt;/p&gt;
+
+&lt;p&gt;Logon lisäksi, tarvitsemme monia erilaisia artistisia
+osallistumisia. Jos sinusta tuntuu että omaat artistisia kykyjä koskien
+grafiikan tai musiikin tekoa, voit selata tikettejämme 
+filtterillä &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues?q=is%3Aopen+is%3Aissue+label%3AGraphics&quot;&gt;Graphics&lt;/a&gt; tai &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues?q=is%3Aopen+is%3Aissue+label%3A%22Music+%26+Sounds%22&quot;&gt;Music &amp;amp; Sounds&lt;/a&gt;. Siellä on paljon tekemistä,
+ja mahdollisuuksia saada sinun osuutesi liitettyä pian
+peliin, kun pyrimme tekemään erilaistamista SMC projektista. Niiden
+tikettien joukossa, yksi koskien &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/103&quot;&gt;Mario-tyylisen musiikin poisto ja 
+vaihto erilaiseen&lt;/a&gt; ansaitsee erityisen maininnan, koska sen on erityisen
+tärkeä erottaaksemme meidät SMC projektin Mario tyylisistä juurista.
+Tänä päivänä, kuitenkin, meillä ei ole tarpeeksi korvaavaa taustamusiikkia
+jotta voisimme poistaa remixaukset jättämättä suurta aukkoa jälkeemme,
+haitaten sekä tasosuunnittelijoita että pelin pelaajia.&lt;/p&gt;
+
+&lt;p&gt;Samanaikaisesti tämän artikkelin kanssa, neljäs beta versio nyt
+uudelleennimetystä kehityshaarasta ollaan tuomassa saataville.
+Tulet pian voimaan ladata sen &lt;a href=&quot;/fi/download/&quot;&gt;lataussivulta&lt;/a&gt;, ja me arvostamme kaikkia
+sen testaajia, jotka auttavat tehdessämme vakaata 2.0.0 julkaisua.&lt;/p&gt;
+
+&lt;p&gt;Lopulta, olen ylpeä voidessani sanoa, että olemme perustaneet postituslista auttaaksemme 
+kehittämään peliä. Tällä listalla ei ole netissä näkyviä arkistoja vielä, 
+mutta työskentelemme parhaillaan tehdäksemme ne saataville. Sillä aikaa, kutsumme sinut 
+liittymään ja osallistumaan &lt;code&gt;tsc-devel@lists.secretchronicles.org&lt;/code&gt; listalle 
+lähettämällä tyhjän sähköpostin (aiheella ei ole merkistystä) osoitteeseen 
+&lt;code&gt;tsc-devel+subscribe@lists.secretchronicles.org&lt;/code&gt;. Tulet vastaanottamaan 
+varmistusviestin lisäohjeineen, joita noudattamalla pääset 
+lukemaan ja kirjoittamaan muutoin julkiselle postituslistalle.&lt;/p&gt;
+
+&lt;p&gt;Auta meitä kehittämään peliä eteenpäin.&lt;/p&gt;
+
+&lt;p&gt;Terveisin,&lt;br /&gt;
+Quintus.&lt;/p&gt;
+
+&lt;h2 id=&quot;pivitys-2014-10-02&quot;&gt;Päivitys 2014-10-02&lt;/h2&gt;
+
+&lt;p&gt;Neljäs beta on julkaistu. Ole hyvä ja &lt;a href=&quot;/fi/download/&quot;&gt;lataa&lt;/a&gt; ja testaa sitä.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/fi/news/2014/09/13/new-server-and-website/"/>
+    <title>Uusi palvelin ja nettisivut</title>
+    <id>secretchronicles.org/fi;1</id>
+    <updated>2014-09-13</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Olemme lopulta saaneet palvelimen ja nettisivuston erityisesti omaa kehityshaaraamme varten.</summary>
+    <content type="html">
+&lt;p&gt;Pitkien IRC ja vanhoissa SMC foorumeissa käymiemme keskustelujen jälkeen, olemme lopulta 
+päättäneen nimetä tämän projektin viralliseksi &lt;em&gt;kehityshaaraksi&lt;/em&gt; &lt;a href=&quot;http://www.secretmaryo.org&quot;&gt;Secretmaryo 
+Chronicles projektista&lt;/a&gt;. Tästä päivästä eteenpäin, emme ole enää pelkästään yksinkertaisesti 
+jatko sille projektille, vaan pikemminkin oma projektimme, jolla on 
+meidän omat tavoitteet, ja, toivottavasti, meidän oma uusi nimemme. Tämä nettisivusto 
+tällä hetkellä mainitsee &lt;em&gt;Secretchronicles&lt;/em&gt; projektin nimeksi, 
+mutta kuten kuvattu etusivulla, tämä ei ole lopullista vielä ja voi 
+muuttua jatkossa, koska emme halua pitää “SMC” 
+kirjainlyhennettä. Ole hyvä ja osallistu vapaasti keskusteluun, joko 
+&lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/92&quot;&gt;tiketti #92&lt;/a&gt;:ssa tai IRCissä; huomioi että meillä on jo ennestään ollut kanava 
+&lt;code&gt;#secretchronicles&lt;/code&gt; &lt;code&gt;freenode.net&lt;/code&gt;:issä jo jonkin aikaa.&lt;/p&gt;
+
+&lt;div class=&quot;img-right&quot;&gt;
+&lt;img src=&quot;/assets/news-images/2014-09-13-new-server-and-website_firstroot.png&quot; alt=&quot;First Root Logo&quot; /&gt;
+&lt;p&gt;First Root sponsoroi meitä. Kiitoksia!&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Huomioi että olemme parhaillaan päivittämässä infrastruktuuriamme. Meille on 
+ystävällisesti myönnetty ilmainen virtuaalipalvelin saksalaiselta yritykseltä &lt;a href=&quot;http://www.first-root.com&quot;&gt;First 
+Root UG&lt;/a&gt;, jolle haluan osoittaa erityistä kiitollisuutta. Lisäksi, olen 
+ostanut domainin &lt;code&gt;secretchronicles.org&lt;/code&gt; joten voimme nyt 
+yhdistää kaiken infrastruktuurimme yhdelle domainille ja palvelimelle.&lt;/p&gt;
+
+&lt;p&gt;Tämän johdosta, nettisivut Secretchroniclesista jotka olivat 
+aiemmin hajautettuna ympäri yksityistä &lt;code&gt;quintilianus.eu&lt;/code&gt; domainia voidaan 
+nyt siirtää vaiheittain uudelle &lt;code&gt;secretchronicles.org&lt;/code&gt; 
+domainille. Sivustot joita pidin yksityisellä palvelimellani ja jopa minun Raspberry 
+Pi:llä siirretään uudelle palvelimelle. Tämä prosessi tulee viemään aikaa, 
+mutta jatkan siitä tiedosttamista tässä blogissa. Tätä kirjoittaessani, 
+seuraavat sivustot on jo siirretty:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Skriptaus foorumi &lt;code&gt;smc.quintilianus.eu&lt;/code&gt; on siirretty osoitteeseen 
+&lt;code&gt;forum.secretchronicles.org&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Chattilogit &lt;code&gt;secretmaryo.quintilianus.eu&lt;/code&gt; on siirretty osoitteeseen 
+&lt;code&gt;chatlogs.secretchronicles.org&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;furbot&lt;/em&gt;, meidän auttavainen IRC bottimme, nyt pyörii &lt;code&gt;alexandria&lt;/code&gt;:lla, joka on 
+palvelimemme nimimerkki.&lt;/li&gt;
+  &lt;li&gt;Uusi nettisivusto (tämä) on lisätty osoitteeseen &lt;code&gt;secretchronicles.org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ole hyvä ja auta meitä antamaan tälle kehityshaarallemme tarvittava vauhti jonka se tarvitsee 
+kehittyäkseen ja kasvaakseen, jotta vanha SMC saa uuden elämän uusine 
+tavoitteineen. Tällä hetkellä, olemme lähellä 2.0.0 julkaisua, 
+2.0.0-beta3 ollen tämänhetkinen beta versio. Testaa sitä, ja anna 
+palautetta.&lt;/p&gt;
+
+&lt;p&gt;Terveisin,&lt;br /&gt;
+Quintus.&lt;/p&gt;
+
+</content>
+  </entry>
+
+</feed>

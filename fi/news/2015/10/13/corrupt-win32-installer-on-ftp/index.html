@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <title>Korruptoitunut Win32 asennusohjelma FTP palvelimella | Secretchronicles Blogi</title>
+    <link rel="stylesheet" href="/stylesheets/default.css" />
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="/fi/feed.atom" />
+    <meta name="generator" content="nanoc 3.8.0" />
+  </head>
+  <body>
+  <div id="fullpage">
+   <div id="page">
+
+    <div id="header">
+  <a href="/fi"><img class="logo" src="/assets/logo.png" alt="The Secret Chronicles of Dr.M." /></a>
+</div>
+<ul id="navbar">
+  <li><a href="/fi">Etusivu</a></li>
+  <li><a href="/fi/screenshots">Kuvat</a></li>
+  <li><a href="/fi/news">Uutiset</a></li>
+  <li><a href="/fi/download">Lataa</a></li>
+  <li><a href="https://github.com/Secretchronicles/TSC">GitHub</a></li>
+  <li><a href="/fi/community">Yhteisö ja osallistuminen</a></li>
+  <li><a href="https://wiki.secretchronicles.org/">Wiki</a></li>
+  <li><a href="/fi/documentation">Dokumentaatio</a></li>
+  <li><a href="/fi/support">Kaupallinen tuki</a></li>
+  <li><a>Language</a>
+    <ul>
+      <li><a href="/fi"><img class="flag" alt="Finnish" src="/assets/flags/fi.png"/><br />Finnish</a></li>
+      <li><a href="/en"><img class="flag" alt="English" src="/assets/flags/en.png"/><br />English</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div id="main">
+      <h1>Korruptoitunut Win32 asennusohjelma FTP palvelimella</h1>
+
+      <p class="summary">
+	<i>Kirjoittanut <b>Marvin Gülker (Quintus)</b> <b>2015-10-13</b></i>.
+
+        
+	  <br />
+	  <i>Suomentanut <b>xet7</b></i>.
+	
+
+	<br />
+
+	
+	  <br />
+	  <i><b>FTP palvelimella oli korruptoitunut Win32 asennusohjelma.</b></i>
+	
+      </p>
+
+      
+<p>Useat käyttäjämme huomasivat jotain outoa käytöstä pelin Windows
+versiossa, joka ilmeni lähinnä kaatumisina kun ladataan ensimmäistä
+tasoa ensimmäisessä maailmassa maailmankartalla (se ei kaatunut kun
+taso oli ladattu suoraan tasovalikosta). Raportti oli <a href="https://forum.secretchronicles.org/topics/285">foorumilla</a>
+ja erikseen <a href="https://github.com/Secretchronicles/TSC/issues/452">bugiseurannassa</a> tästä ongelmasta, jonka minä sitten
+jäljitin vialliseen tiedostoon FTP palvelimella. Ei ole selvää
+miten tiedosto vioittui, mutta uudessa asennusohjelmassa generoituna
+täsmälleen samasta koodista kuin alkuperäinen 2.0.0 asennusohjelma
+ei ongelmaa enää esiintynyt. Olen todennut että kopioidessa
+sitä tietokoneideni välillä tai jopa lähettäessäni sitä alexandria
+palvelimellemme tiedosto vioittui jotenkin. Emme ehkä koskaan
+löydä pohjimmaista syytä ongelmaan.</p>
+
+<p>Lähetin uuden Win32 asennusohjelman FTP:lle joka korvaa viallisen
+2.0.0 Win32 tiedoston. Jos latasit ja asensit TSC 2.0.0 aikavälillä
+2015-08-17 - 2015-10-13 suosittelemme sinua poistamaan version jonka
+latasit, <a href="https://ftp.secretchronicles.org/releases/TSC-2.0.0-win32.exe">lataamaan uuden asennusohjelman</a>, ja asentamaan sen.
+Linkit “Lataa” sivulla on muutettu vastaavasti myös, mukaanlukien
+MD5 ja SHA256 tarkistussummat. Vanha, korruptoitunut tiedosto
+säilyy FTP palvelimella tutkintaa varten nimellä
+<code>tsc-2.0.0-win32.defunct.exe</code> ja sitä ei tule loppukäyttäjien käyttää
+(ja siihen ei linkitetä mistään).</p>
+
+<p>Pahoittelemme häiriötä, mutta virheiden tapahtuminen on inhimillistä.
+Haluamme sanoa Kiitos käyttäjille jotka raportoivat ongelman meille,
+koska kun kaikki kehittäjämme käyttävät Linux järjestelmiä, emme ehkä
+olisi huomanneet korruptoitunutta tiedostoa ollenkaan ilman heidän
+raporttejaan.</p>
+
+<p>Marvin Gülker (<em>Quintus</em>)<br />
+TSC kehitystiimin puolesta.</p>
+
+
+    </div>
+
+   </div>
+
+    <div id="footer">
+
+  <p id="utc-time"></p>
+
+  <script>
+  (function() {
+    'use strict';
+    function updateUTCTime() {
+      document.getElementById("utc-time").innerHTML = 'UTC Time Now: ' + (new Date()).toUTCString();
+    }
+    window.setInterval(updateUTCTime, 1000);
+    updateUTCTime();
+  })();
+  </script>
+
+  <p>Copyright © 2022 The Secret Chronicles Team</p>
+  <p id="sponsor">Hosting thanks to our collegues from <a href="https://wekan.github.io/"><img src="/assets/wekan-logo.svg" alt="Wekan" style="height: 24px"/></a></p>
+  </p>
+</div>
+
+  </div>
+  </body>
+</html>

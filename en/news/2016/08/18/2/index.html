@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>2.0.0 Compile issues on Linux | Secretchronicles Blog</title>
+    <link rel="stylesheet" href="/stylesheets/default.css" />
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="/en/feed.atom" />
+    <meta name="generator" content="nanoc 3.8.0" />
+  </head>
+  <body>
+  <div id="fullpage">
+   <div id="page">
+
+    <div id="header">
+  <a href="/en"><img class="logo" src="/assets/logo.png" alt="The Secret Chronicles of Dr.M." /></a>
+</div>
+<ul id="navbar">
+  <li><a href="/en">Home</a></li>
+  <li><a href="/en/screenshots">Screenshots</a></li>
+  <li><a href="/en/news">News</a></li>
+  <li><a href="/en/download">Download</a></li>
+  <li><a href="https://github.com/Secretchronicles/TSC">GitHub</a></li>
+  <li><a href="/en/community">Community/Contributing</a></li>
+  <li><a href="https://wiki.secretchronicles.org/">Wiki</a></li>
+  <li><a href="/en/documentation">Docs</a></li>
+  <li><a href="/en/support">Commercial Support</a></li>
+  <li><a>Language</a>
+    <ul>
+      <li><a href="/fi"><img class="flag" alt="Finnish" src="/assets/flags/fi.png"/><br />Finnish</a></li>
+      <li><a href="/en"><img class="flag" alt="English" src="/assets/flags/en.png"/><br />English</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div id="main">
+      <h1>2.0.0 Compile issues on Linux</h1>
+
+      <p class="summary">
+	<i>Written by <b>Sydney</b> on <b>2016-08-18</b></i>.
+
+        
+
+	<br />
+
+	
+	  <br />
+	  <i><b>TSC 2.0.0 won't compile on most Linux distributions</b></i>
+        
+      </p>
+      
+      
+<p>As many people have been bringing to our attention, on most modern distributions, or
+ones that have compiled their software with the <code>-std=c++11</code> flag, the 2.0.0 release tarball
+has problems compiling. Unfortunately, we released version 2.0.0 right before most
+distributions made the change.</p>
+
+<p>There has also been <a href="https://github.com/Secretchronicles/TSC/issues/500">issue #500 with the game loading to a black screen</a> when compiled
+with CEGUI 0.7.9.</p>
+
+<p>We have fixed these issues and many more in the Devel branch of TSC, and are also fixed in
+our <a href="/en/news/2016/08/17/alpha-builds-available/">alpha</a> builds(which are based on the Devel branch), so feel free to test the game, and
+ let us know if you run across any issues.</p>
+
+<p>-Sydney(sydney_untangle)<br />
+On behalf of the TSC team</p>
+
+
+    </div>
+
+   </div>
+
+    <div id="footer">
+
+  <p id="utc-time"></p>
+
+  <script>
+  (function() {
+    'use strict';
+    function updateUTCTime() {
+      document.getElementById("utc-time").innerHTML = 'UTC Time Now: ' + (new Date()).toUTCString();
+    }
+    window.setInterval(updateUTCTime, 1000);
+    updateUTCTime();
+  })();
+  </script>
+
+  <p>Copyright © 2022 The Secret Chronicles Team</p>
+  <p id="sponsor">Hosting thanks to our collegues from <a href="https://wekan.github.io/"><img src="/assets/wekan-logo.svg" alt="Wekan" style="height: 24px"/></a></p>
+  </p>
+</div>
+
+
+  </div>
+  </body>
+</html>

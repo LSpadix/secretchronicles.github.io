@@ -1,0 +1,2720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link rel="self" type="application/atom+xml" href="https://secretchronicles.org/en/feed/"/>
+  <link rel="alternate" type="text/html" href="https://secretchronicles.org/en/"/>
+  <title>Secretchronicles en Feed</title>
+  <updated>2022-09-04T20:25:05Z</updated>
+  <id>secretchronicles.org;enfeed</id>
+
+  
+  <entry>
+    <link href="/en/news/2022/09/04/tsc-for-jammy-and-bullseye-many-cpu-platforms-available/"/>
+    <title>TSC .deb packages for Ubuntu 22.04 amd64/arm64/s390x and Debian 11 amd64/i386/arm64/ppc64el/s390 available</title>
+    <id>secretchronicles.org/en;35</id>
+    <updated>2022-09-04</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">TSC .deb packages for Ubuntu 22.04 amd64/arm64/s390x and Debian 11 amd64/i386/arm64/ppc64el/s390 available</summary>
+    <content type="html">
+&lt;p&gt;xet7 has today released TSC .deb packages for many CPU platforms,
+where required dependencies exist:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ubuntu 22.04 Jammy Jellyfish: amd64/arm64/s390x. (There is no Ubuntu 22.04 for ppc64el POWER8)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Debian 11 Bullseye: amd64/i386/arm64/ppc64el/s390x&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For these:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;amd64 is x64 PC computers&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;i386 is older x32 PC computers&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;arm64 is for Raspberry Pi 3 or 4, and other computers that runs that distro.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ppc64el is PowerPC 64bit little-endian computers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;s390x is for IBM Z Series mainframes.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These packages also now have dependency &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/703&quot;&gt;libboost-chrono1.74.0 that was missing previously&lt;/a&gt;.
+Thanks to pirate486743186 for info about missing dependency.&lt;/p&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/en/download/&quot;&gt;At Downloads page&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2021/09/01/tsc-for-hirsute-and-bullseye-many-cpu-platforms-available/"/>
+    <title>TSC .deb packages for Ubuntu 21.04 amd64/arm64/ppc64el/s390x and Debian 11 amd64/i386/arm64/ppc64el/s390 available</title>
+    <id>secretchronicles.org/en;34</id>
+    <updated>2021-09-01</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">TSC .deb packages for Ubuntu 21.04 amd64/arm64/ppc64el/s390x and Debian 11 amd64/i386/arm64/ppc64el/s390 available</summary>
+    <content type="html">
+&lt;p&gt;xet7 has today released TSC .deb packages for many CPU platforms,
+where required dependencies exist:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Ubuntu 21.04 Hirsute Hippo: amd64/arm64/ppc64el/s390x&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Debian 11 Bullseye: amd64/i386/arm64/ppc64el/s390x&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For these:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;amd64 is x64 PC computers&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;i386 is older x32 PC computers&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;arm64 is for Raspberry Pi 3 or 4, or other computer that runs that distro.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;ppc64el is PowerPC 64bit little-endian computers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;s390x is for IBM Z Series mainframes.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/en/download/&quot;&gt;At Downloads page&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2021/08/26/tsc-for-hirsute-available/"/>
+    <title>TSC .deb package for Ubuntu 21.04 x64 available</title>
+    <id>secretchronicles.org/en;33</id>
+    <updated>2021-08-26</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">TSC .deb package for Ubuntu 21.04 available</summary>
+    <content type="html">
+&lt;p&gt;xet7 has today released TSC .deb package for Ubuntu 21.04 x64.&lt;/p&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/en/download/#bit-ubuntu-2104&quot;&gt;At Downloads page&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2021/05/26/liberachat/"/>
+    <title>IRC channel moved to libera.chat</title>
+    <id>secretchronicles.org/en;32</id>
+    <updated>2021-05-26</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">Our IRC channel has moved from Freenode to Libera.chat</summary>
+    <content type="html">
+&lt;p&gt;The TSC project’s IRC channel has moved from Freenode to &lt;a href=&quot;https://libera.chat/&quot;&gt;Libera.chat&lt;/a&gt;
+effective immediately. Please find the team now in &lt;code&gt;#secretchronicles&lt;/code&gt;
+on &lt;code&gt;irc.libera.chat&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can read more on the &lt;a href=&quot;https://lobste.rs/s/1z77ly/libera_chat&quot;&gt;controversy over on lobste.rs&lt;/a&gt; if you
+desire.&lt;/p&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2020/11/16/tsc-for-s390x-available/"/>
+    <title>TSC for s390x available</title>
+    <id>secretchronicles.org/en;31</id>
+    <updated>2020-11-16</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">TSC for s390x available</summary>
+    <content type="html">
+&lt;p&gt;xet7 already had access to IBM LinuxOne Community Cloud
+server for creating regular releases of
+&lt;a href=&quot;https://wekan.github.io&quot;&gt;Wekan Open Source kanban&lt;/a&gt; for s390x.&lt;/p&gt;
+
+&lt;p&gt;xet7 has today released TSC .deb package for Ubuntu 20.10 on
+s390x, IBM zSeries mainframes. s390x server is running RHEL 8,
+in LXC container is installed Ubuntu 20.10, and there
+.deb package was created. Below is recorded animgif
+of TSC running on s390x server, viewed remotely using
+Remmina RDP client via SSH tunnel.&lt;/p&gt;
+
+&lt;p&gt;&lt;img width=&quot;100%&quot; height=&quot;auto&quot; src=&quot;/assets/news-images/tsc-s390x.gif&quot; alt=&quot;TSC running on s390x&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/en/download/#s390x&quot;&gt;At Downloads page&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2020/11/13/bootable-usb-image-available/"/>
+    <title>Bootable USB image available</title>
+    <id>secretchronicles.org/en;30</id>
+    <updated>2020-11-13</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Bootable USB image available</summary>
+    <content type="html">
+&lt;p&gt;xet7 released today bootable USB image version of TSC. It has &lt;a href=&quot;http://puppylinux.com&quot;&gt;Puppy Linux Bionic&lt;/a&gt; 32bit Linux
+and TSC 2.1.0 release version installed from .deb package (dependenices from package manager,
+and unarchived .deb package to target directories) as of today 
+2020-11-13. Linux boots directly from USB stick, so it works fast and is
+very playable. It works on x86 and x64 computers.&lt;/p&gt;
+
+&lt;p&gt;TSC game is at desktop menu: Applications / Fun / Secret Chronicles of Dr.M.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idchangelogachangelog&quot;&gt;&lt;a id=&quot;changelog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;v0.01 2020-11-13 First release that has TSC 2.1.0&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-idrequirementsa1-requirements&quot;&gt;&lt;a id=&quot;requirements&quot;&gt;&lt;/a&gt;1) Requirements&lt;/h2&gt;
+
+&lt;p&gt;You neen minimum 8 GB USB stick, because usb image size is 6 GB.&lt;/p&gt;
+
+&lt;p&gt;If you have PlayStation 3 compatible USB gamepad, you can use it with
+TSC. For example, I use this gamepad.&lt;/p&gt;
+
+&lt;h3 id=&quot;goodbetterbest-ltd-gioteck-vx2-wired-controller&quot;&gt;Goodbetterbest Ltd Gioteck VX2 Wired Controller&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/gamepad.jpg&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Gamepad&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-iddownloada2-download-usb-image-file&quot;&gt;&lt;a id=&quot;download&quot;&gt;&lt;/a&gt;2) Download USB image file&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-usb-i386.7z&quot;&gt;TSC-2.1.0-usb-i386.7z&lt;/a&gt; - 1.1 GB&lt;/p&gt;
+
+&lt;p&gt;MD5SUM:&lt;br /&gt;
+68983ef6aac47febd7fc126db2d3c9a4&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;SHA256SUM:&lt;br /&gt;
+cb16d88bb150318683c5bc1ee57f92db22341181102d523dce93bcc318c56f74&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idwriteusba3-writing-image-to-usb-stick&quot;&gt;&lt;a id=&quot;writeusb&quot;&gt;&lt;/a&gt;3) Writing image to USB stick&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://etcher.io&quot;&gt;Download Etcher&lt;/a&gt; - Win/Mac/Linux&lt;/p&gt;
+
+&lt;p&gt;Start Etcher, select image file, and write to USB stick.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-iddonotformata4-do-not-format-stick-in-windows-it-will-make-stick-empty-click-peruutacancel&quot;&gt;&lt;a id=&quot;donotformat&quot;&gt;&lt;/a&gt;4) Do not format stick in Windows. It will make stick empty. Click Peruuta/Cancel.&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/windows-do-not-format.png&quot; width=&quot;60%&quot; height=&quot;auto&quot; alt=&quot;Do not format stick in Windows&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idbootingfromusba5-booting-from-usb&quot;&gt;&lt;a id=&quot;bootingfromusb&quot;&gt;&lt;/a&gt;5) Booting from USB&lt;/h2&gt;
+
+&lt;p&gt;Booting from USB is usually done by pressing Esc many times when computer
+is booting. From boot menu select USB drive with arrow keys down and Enter.&lt;/p&gt;
+
+&lt;p&gt;In one laptop’s case pressing F2 many times while booting did start
+BIOS/UEFI settings. There arrow key right to Boot menu, and on UEFI
+setting press Enter some times to accept OK messages, so that
+it is changed UEFI =&amp;gt; Legacy Mode. After that orderl all USB boot
+options to top, and F10 is Save and Exit. Then it boots from USB stick.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-iduefimodea6-before-uefi-mode&quot;&gt;&lt;a id=&quot;uefimode&quot;&gt;&lt;/a&gt;6) Before: UEFI mode&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/uefimode.jpg&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;UEFI Mode&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idlegacymodea7-after-legacy-mode-usb-options-moved-to-top-press-f10-that-is-save-and-exit&quot;&gt;&lt;a id=&quot;legacymode&quot;&gt;&lt;/a&gt;7) After: Legacy Mode, USB options moved to top. Press F10 that is Save and Exit.&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/legacymode.jpg&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Legacy Mode&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;a-idalternativebootaalternative-ways-to-boot-from-usb&quot;&gt;&lt;a id=&quot;alternativeboot&quot;&gt;&lt;/a&gt;Alternative ways to boot from USB&lt;/h3&gt;
+
+&lt;p&gt;Other alternative boot menu keys are F1 or Enter, that usually brings
+BIOS or UEFI settings where boot order can be changed. 
+Some laptop models have some special tiny pushable button at left side 
+of laptop, that brings settings menu.
+It could also be some other key, like F2, F10, F11 or F12.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idlinuxbootinga8-linux-booting-from-usb-press-enter-or-wait-some-seconds-to-continue-booting&quot;&gt;&lt;a id=&quot;linuxbooting&quot;&gt;&lt;/a&gt;8) Linux booting from USB: press enter, or wait some seconds to continue booting&lt;/h2&gt;
+
+&lt;h2 id=&quot;a-idgamepadsettingsa9-in-options-you-can-change-gamepad-settings&quot;&gt;&lt;a id=&quot;gamepadsettings&quot;&gt;&lt;/a&gt;9) In Options, you can change gamepad settings.&lt;/h2&gt;
+
+&lt;h2 id=&quot;a-idstoppingtsca10-stopping-tsc-press-esc-and-click-quit-with-mouse-or-arrow-keys-and-enter&quot;&gt;&lt;a id=&quot;stoppingtsc&quot;&gt;&lt;/a&gt;10) Stopping TSC: press Esc, and click Quit with mouse or arrow keys and Enter.&lt;/h2&gt;
+
+&lt;h2 id=&quot;a-idbacktowindowsa11-going-back-to-windows&quot;&gt;&lt;a id=&quot;backtowindows&quot;&gt;&lt;/a&gt;11) Going back to Windows&lt;/h2&gt;
+
+&lt;p&gt;To get back to Windows, &lt;a href=&quot;#uefimode&quot;&gt;change back Legacy Mode =&amp;gt; UEFI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2020/05/18/tsc21-released/"/>
+    <title>TSC 2.1.0 released</title>
+    <id>secretchronicles.org/en;29</id>
+    <updated>2020-05-18</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">Stable version 2.1.0 released</summary>
+    <content type="html">
+&lt;p&gt;The TSC team is proud to announce that after five years of
+development, the new stable version 2.1.0 of The Secret Chronicles of
+Dr. M. (TSC) has been &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/thread/7P7NCQYUSQ3EVBR4SB6LM3WLIXWCHWTB/&quot;&gt;released to the public yesterday&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is the first stable release of TSC 2 after version 2.0.0 was
+released back in 2015. I would like to take this as an opportunity to
+thank every single contributor to the new TSC version. We know that
+there are still so many things that could be improved, but we believe
+that after five years, it is more than overdue to issue a new release
+even if some features did not make it into 2.1.0 which we would have
+liked to (for instance, there is still no replacement for turtle boss
+that was removed in 2.0.0). But still, this release is in many parts
+better than the preceeding 2.0.0 release from 2015. New enemies, an
+improved level editor interface, new music, and several bugs fixed.
+And last but not least, this is the first stable version of TSC that
+finally compiles again on current Linux distributions.&lt;/p&gt;
+
+&lt;p&gt;If you want to help TSC now for the next release, please note: &lt;strong&gt;we
+are urgently looking for a graphics artist&lt;/strong&gt;. There are numerous
+tickets on the tracker open that require someone to draw SVGs for TSC,
+but as of now, there is no graphic artist in our team anymore. If you
+are one or know one, please speak up here on the &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;mailing list&lt;/a&gt;, on
+the &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org&quot;&gt;forum&lt;/a&gt; or in our &lt;a href=&quot;irc://chat.freenode.net/#secretchronicles&quot;&gt;IRC channel #secretchronicles on
+Freenode&lt;/a&gt;! There will be no new enemies or other graphical
+additions until we find a graphics artist.&lt;/p&gt;
+
+&lt;p&gt;The release has been tagged on the Git repository as v2.1.0 and has
+been uploaded to our web server. You can find the download links
+below.&lt;/p&gt;
+
+&lt;p&gt;We welcome Linux distributions to package this new stable version of
+TSC. If you would like to package TSC and find problems with it,
+please report those problems on our &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;tracker&lt;/a&gt; and we’ll see if we can
+resolve them for the next release.&lt;/p&gt;
+
+&lt;h2 id=&quot;future-of-tsc&quot;&gt;Future of TSC&lt;/h2&gt;
+
+&lt;p&gt;The 2.1.0 release terminates an effort of many years to finally get
+TSC into a distributable state again. We have fought with numerous API
+break and backward compatibility break issues from our dependencies
+for this release, which probably are the largest part of source code
+changes between version 2.0.0 and 2.1.0. TSC still has a large number
+of dependencies, and it is a goal for future versions to reduce this
+number of dependencies, so that such problems may not occur again.&lt;/p&gt;
+
+&lt;p&gt;It is too early to give definitive statements about TSC’s future, but
+we expect there to be some maintenance releases and probably smaller
+feature releases over the next years. The large overhaul that should
+at some point result in TSC3 however is not anywhere near to see.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-has-changed-since-version-200&quot;&gt;What has changed since version 2.0.0?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Several new background music tracks&lt;/li&gt;
+  &lt;li&gt;Switched some SMC graphics for original TSC ones&lt;/li&gt;
+  &lt;li&gt;New enemies: Larry and Doom Larry, which fuse and ultimately explode
+if hit&lt;/li&gt;
+  &lt;li&gt;Improvements to level scripting&lt;/li&gt;
+  &lt;li&gt;Editor UI overhauled&lt;/li&gt;
+  &lt;li&gt;Multiple level exits with different overworld pathes possible now&lt;/li&gt;
+  &lt;li&gt;Levels load much faster compared to 2.0.0&lt;/li&gt;
+  &lt;li&gt;Secret Area markers are available in the editor&lt;/li&gt;
+  &lt;li&gt;New in-game scripting console on pressing [F7]&lt;/li&gt;
+  &lt;li&gt;Several bugfixes, including some crash fixes&lt;/li&gt;
+  &lt;li&gt;Several build fixes&lt;/li&gt;
+  &lt;li&gt;Several scripting API documentation fixes, and build documentation fixes&lt;/li&gt;
+  &lt;li&gt;Upgrade CEGUI dependency from 0.7.9 to 0.8.7&lt;/li&gt;
+  &lt;li&gt;Support for and requirement of a C++11-capable C++ compiler&lt;/li&gt;
+  &lt;li&gt;It compiles again on modern Linux distributions!&lt;/li&gt;
+  &lt;li&gt;New desert levels by datahead. They were added to the campaign in
+world 3.&lt;/li&gt;
+  &lt;li&gt;Scripting documentation system was overhauled and the dependency on
+RubyGems for the scripting API generation was dropped&lt;/li&gt;
+  &lt;li&gt;Level music is now stopped rather than faded out on death&lt;/li&gt;
+  &lt;li&gt;New great title theme music by refi64&lt;/li&gt;
+  &lt;li&gt;Scripting expansion packs are back&lt;/li&gt;
+  &lt;li&gt;Experimental build support for FreeBSD/OpenBSD&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The CEGUI upgrade deserves a separate mention. CEGUI 0.8.x broke their
+API and as more and more people do not have access to the outdated
+CEGUI 0.7.9, it was necessary to conduct this upgrade. This upgrade
+however bound so many of TSC’s team resources that the 2.1.0 release
+ultimately ended up with fewer new features than it was originally
+intended. Now that the upgrade has been done it should be much easier
+to compile TSC on modern Linux distributions than it was the case with
+the old 2.0.0 stable release.&lt;/p&gt;
+
+&lt;p&gt;A feature that did sadly not make it into 2.1.0 is a story. We have
+adopted a final story draft for the future of the game, though, which
+can be found &lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/18-001.pdf&quot;&gt;online&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The levels contained in version 2.1.0 are mostly equivalent to those
+in 2.0.0. Some small changes have been made to the levels, and a few
+new levels included. We encourage users to provide quality levels on
+the &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;mailing list&lt;/a&gt; or &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org&quot;&gt;forum&lt;/a&gt; for inclusion into TSC. Levels
+that implement parts of the story mentioned above are preferred.&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;h3 id=&quot;source-code&quot;&gt;Source Code&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Source code:     &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.tar.gz&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.tar.gz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PGP signature:   &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.tar.gz.sig&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.tar.gz.sig&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MD5 checksum:    1f598a39667ff979d1b9075e173eac9b&lt;/li&gt;
+  &lt;li&gt;SHA256 checksum: 6a16765b4951e3d5d1ea2b84e6da8f67b0271460f0c570b53ccdab80d7396261&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;binary-downloads&quot;&gt;Binary Downloads&lt;/h3&gt;
+
+&lt;h4 id=&quot;windows&quot;&gt;Windows&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win64.exe&quot;&gt;Installer for 64-bit Windows 7 or later&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win32.exe&quot;&gt;Installer for 32-bit Windows 7 or later&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win32.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-win32.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;linux&quot;&gt;Linux&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-amd64.deb&quot;&gt;amd64 .deb file for Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-amd64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-amd64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-i386.deb&quot;&gt;i386 .deb file for Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-i386.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-i386.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-armhf.deb&quot;&gt;armhf .deb file for Raspbian RasPi3/RasPi4&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-armhf.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-armhf.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+On behalf of the TSC team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2020/05/10/updated-tsc-2/"/>
+    <title>Updated packages for TSC 2.1.0-rc2 released</title>
+    <id>secretchronicles.org/en;28</id>
+    <updated>2020-05-10</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Updated packages for Second Release Candidate of 2.1.0 has been released.</summary>
+    <content type="html">
+&lt;p&gt;In RC2 there was &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/683&quot;&gt;missing dependency libboost-chrono&lt;/a&gt; that has
+now been added to all RC2 .deb packages. Thanks to agrr for reporting
+missing dependency and xet7 for building updated packages.&lt;/p&gt;
+
+&lt;p&gt;RC2 Windows installers have not needed changes.&lt;/p&gt;
+
+&lt;h3 id=&quot;binary-downloads&quot;&gt;Binary Downloads&lt;/h3&gt;
+
+&lt;p&gt;At &lt;a href=&quot;/en/download/#development-version&quot;&gt;Downloads Page&lt;/a&gt; are .deb packages and Windows installers.&lt;/p&gt;
+
+&lt;h2 id=&quot;about-second-release-candidate-of-210&quot;&gt;About Second Release Candidate of 2.1.0&lt;/h2&gt;
+
+&lt;p&gt;quintus &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/thread/C2MYMC5C45OUGKWOKGND5LV6CAKNABK3/&quot;&gt;announced RC2 at mailinglist&lt;/a&gt; at 2020-04-26.
+xet7 copied that announcement to this news below.&lt;/p&gt;
+
+&lt;p&gt;xet7&lt;br /&gt;
+On behalf of the TSC team.&lt;/p&gt;
+
+&lt;h2 id=&quot;second-release-candidate-of-210-released&quot;&gt;Second Release Candidate of 2.1.0 released&lt;/h2&gt;
+
+&lt;p&gt;From quintus:&lt;/p&gt;
+
+&lt;p&gt;As the project lead of The Secret Chronicles of Dr. M. (TSC), I am
+pleased to announce that the second Release Candidate (RC2) of the new
+TSC version 2.1.0 is now available. The release has been tagged on the
+Git repository as v2.1.0-rc2 and has been uploaded to our web server.
+The source code can be found at the following URLs:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Source code:     https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc2.tar.gz&lt;/li&gt;
+  &lt;li&gt;PGP signature:   https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc2.tar.gz.sig&lt;/li&gt;
+  &lt;li&gt;MD5 checksum:    2b81a441cd963428bff46f19c2604150&lt;/li&gt;
+  &lt;li&gt;SHA256 checksum: 377600c13c4a16b249a3879d6d9169ca75ae476d97824218f29a91fe482a2fb1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The TGZ file has a total size of slightly more than 240 MiB. Please
+consider this before downloading.&lt;/p&gt;
+
+&lt;p&gt;We apologise for the delay since last RC version, but free-time
+development tends to be difficult to coordinate.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-has-changed-since-rc1&quot;&gt;What has changed since RC1?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Problem with the “Options” menu tab bar on  Hi-DPI displays was
+probably fixed (ticket #681, problem found by Öyvind Sæther)&lt;/li&gt;
+  &lt;li&gt;Problem with character encoding in translated HUD messages was fixed&lt;/li&gt;
+  &lt;li&gt;New level desert_fortress&lt;/li&gt;
+  &lt;li&gt;Added three levels to world_3, including desert_fortress.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Actually these are more changes than there should be in an RC, but we
+thought they’re small enough to include them directly. As a result, I
+have decided to issue a second RC instead of the final release.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-can-we-expect-the-final-release&quot;&gt;When can we expect the final release?&lt;/h2&gt;
+
+&lt;p&gt;This is the Second Release Candidate. If no serious problems are
+discovered until 2020-05-03, version 2.1.0 is going to be released
+shortly after that date.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happens-in-the-rc-phase&quot;&gt;What happens in the RC phase?&lt;/h2&gt;
+
+&lt;p&gt;The code is now considered to be final for the upcoming release. The RC
+phase is the last opportunity to test the game for serious problems;
+minor problems will not be fixed. No further changes will be made that
+are not related to serious problems. It is not expected that the game
+still contains serious problems.&lt;/p&gt;
+
+&lt;h2 id=&quot;can-i-help-tsc-as-a-user-now&quot;&gt;Can I help TSC as a user now?&lt;/h2&gt;
+
+&lt;p&gt;You can test the RC2 and see if you find problems that prevent the game
+from working. Please report such problems &lt;a href=&quot;/en/download/#development-version&quot;&gt;here&lt;/a&gt; or
+&lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;on our bug tracker&lt;/a&gt; (requires a GitHub account).&lt;/p&gt;
+
+&lt;p&gt;Sadly no nearly new level submissions were made during the beta phase, thus
+version 2.1.0 will not contain much different levels from version 2.0.0.
+Once version 2.1.0 has been released, we encourage all users to submit
+quality levels for inclusion in a subsequent release.&lt;/p&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+On behalf of the TSC team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2020/04/02/tsc-2/"/>
+    <title>TSC 2.1.0-rc1 released</title>
+    <id>secretchronicles.org/en;27</id>
+    <updated>2020-04-02</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">First Release Candidate of 2.1.0 has been released.</summary>
+    <content type="html">
+&lt;p&gt;With a delay of some months since the &lt;a href=&quot;/en/news/2020/01/28/tsc-2/&quot;&gt;second beta&lt;/a&gt; (which is to be
+attributed to the usual free-time constraints of the developers), the
+TSC team is pleased to announce the availability of the first Release
+Candidate of the upcoming 2.1.0 release for download. The release has
+been tagged on the Git repository as v2.1.0-rc1 and has been
+uploaded to our web server.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-has-changed-since-beta-2&quot;&gt;What has changed since beta-2?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Small fixes to the build system&lt;/li&gt;
+  &lt;li&gt;Small fixes to the build documentation&lt;/li&gt;
+  &lt;li&gt;Added experimental build support for FreeBSD/OpenBSD (GitHub PR &lt;a href=&quot;https://github.com/Secretchronicles/TSC/pull/678&quot;&gt;#678&lt;/a&gt; by devnexen)&lt;/li&gt;
+  &lt;li&gt;Finalised the new title theme (GitHub PR &lt;a href=&quot;https://github.com/Secretchronicles/TSC/pull/679&quot;&gt;#679&lt;/a&gt; by refi64)&lt;/li&gt;
+  &lt;li&gt;Removed battle.ogg music due to the author requesting removal (GitHub PR &lt;a href=&quot;https://github.com/Secretchronicles/TSC/pull/679&quot;&gt;#679&lt;/a&gt; by
+refi64)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-is-210-taking-so-long&quot;&gt;Why is 2.1.0 taking so long?&lt;/h2&gt;
+
+&lt;p&gt;TSC is a project entirely driven by volunteers in their free time. We
+all know that free time is scarce. TSC has a massive code base written
+in C++ over a course of now more than 10 years, as it builds upon the
+original codebase of Secret Maryo Chronicles (SMC). The inherited
+code’s quality is rather poor and it is difficult to work with this
+inherited code.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-can-we-expect-the-final-release&quot;&gt;When can we expect the final release?&lt;/h2&gt;
+
+&lt;p&gt;This is the first Release Candidate. If no serious problems are
+discovered until 2020-04-11, version 2.1.0 is going to be released
+shortly after that date.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happens-in-the-rc-phase&quot;&gt;What happens in the RC phase?&lt;/h2&gt;
+
+&lt;p&gt;The code is now considered to be final for the upcoming release. The
+RC phase is the last opportunity to test the game for serious
+problems; minor problems will not be fixed. No further changes will be
+made that are not related to serious problems. It is not expected that
+the game still contains serious problems.&lt;/p&gt;
+
+&lt;h2 id=&quot;can-i-help-tsc-as-a-user-now&quot;&gt;Can I help TSC as a user now?&lt;/h2&gt;
+
+&lt;p&gt;You can test the RC1 and see if you find problems that prevent the game
+from working. Please report such problems on the &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;mailinglist&lt;/a&gt;, the
+&lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;forum&lt;/a&gt;, or on our &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;bug tracker&lt;/a&gt; (requires a GitHub account).&lt;/p&gt;
+
+&lt;p&gt;Sadly no new level submissions were made during the beta phase, thus
+version 2.1.0 will not contain much different levels from version 2.0.0.
+Once version 2.1.0 has been released, we encourage all users to submit
+quality levels for inclusion in a subsequent release.&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;h3 id=&quot;source-code&quot;&gt;Source Code&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Source code:     &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc1.tar.gz&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc1.tar.gz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PGP signature:   &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc1.tar.gz&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc1.tar.gz.sig&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MD5 checksum:    5debf6d2cebd55f5e4e5717ca2c816c4&lt;/li&gt;
+  &lt;li&gt;SHA256 checksum: 5b2454e04e0214d8c2e336ca1ad8024877331eae99359244baba2a9e6ce44f18&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;binary-downloads&quot;&gt;Binary Downloads&lt;/h3&gt;
+
+&lt;h4 id=&quot;windows&quot;&gt;Windows&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win64.exe&quot;&gt;Installer for 64-bit Windows 7 or later&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win32.exe&quot;&gt;Installer for 32-bit Windows 7 or later&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win32.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-win32.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;linux&quot;&gt;Linux&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-amd64.deb&quot;&gt;amd64 .deb file for Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-amd64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-amd64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-i386.deb&quot;&gt;i386 .deb file for Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-i386.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-i386.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-armhf.deb&quot;&gt;armhf .deb file for Raspbian RasPi3/RasPi4&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-armhf.md5sum&quot;&gt;MD5&lt;/a&gt;,
+ &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-rc1-armhf.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+On behalf of the TSC team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2020/01/28/tsc-2/"/>
+    <title>TSC 2.1.0-beta2 released</title>
+    <id>secretchronicles.org/en;26</id>
+    <updated>2020-01-28</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">Second beta version of 2.1.0 has been released.</summary>
+    <content type="html">
+&lt;p&gt;About a month after the &lt;a href=&quot;/en/news/2019/12/23/tsc-2/&quot;&gt;first beta&lt;/a&gt;, the TSC team is pleased to
+announce the availability of the second beta version of the upcoming
+2.1.0 release for download.The release has been tagged on the Git
+repository as v2.1.0-beta2 and has been uploaded to our web server.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-has-changed-since-beta-1&quot;&gt;What has changed since beta-1?&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A windows build error was fixed (ticket &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/674&quot;&gt;#674&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;The included mruby is now build in release mode if TSC is compiled in
+release mode.&lt;/li&gt;
+  &lt;li&gt;A parsing error in the script docs parser was fixed.&lt;/li&gt;
+  &lt;li&gt;Level music is now stopped rather than faded out on death (ticket
+ &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/672&quot;&gt;#672&lt;/a&gt;).&lt;/li&gt;
+  &lt;li&gt;New great title theme music theme_2.ogg (title: Journey of the
+Chronicles) by refi64! The title theme has been switched to this.
+The music may change a little until the final release.&lt;/li&gt;
+  &lt;li&gt;Some outdated scripting API docs were fixed.&lt;/li&gt;
+  &lt;li&gt;Scripting expansion packs are back, and are now loaded from
+&lt;code&gt;$TSC_USER_DIR/scripting&lt;/code&gt;. A scripting expansion pack is a user-supplied
+scripting library for TSC.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;why-is-210-taking-so-long&quot;&gt;Why is 2.1.0 taking so long?&lt;/h2&gt;
+
+&lt;p&gt;TSC is a project entirely driven by volunteers in their free time. We
+all know that free time is scarce. TSC has a massive code base written
+in C++ over a course of now more than 10 years, as it builds upon the
+original codebase of Secret Maryo Chronicles (SMC). The inherited
+code’s quality is rather poor and it is difficult to work with this
+inherited code.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-can-we-expect-the-final-release&quot;&gt;When can we expect the final release?&lt;/h2&gt;
+
+&lt;p&gt;The current plan is to release the final 2.1.0 version early in 2020.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happens-in-the-beta-phase&quot;&gt;What happens in the Beta phase?&lt;/h2&gt;
+
+&lt;p&gt;The beta phase is intended to polish the rough edges of TSC. No new
+features are introduced into the game anymore, but any bugs found will
+be fixed. Additionally, the following changes can happen:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Addition of new static assets, namely of music and static images&lt;/li&gt;
+  &lt;li&gt;Addition of translations&lt;/li&gt;
+  &lt;li&gt;Addition of new levels&lt;/li&gt;
+  &lt;li&gt;Fine-tuning of the build system (this is not a user-visible aspect)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We reserve the right to make other changes as required if an urgent
+need arises.&lt;/p&gt;
+
+&lt;h2 id=&quot;can-i-help-tsc-as-a-user-now&quot;&gt;Can I help TSC as a user now?&lt;/h2&gt;
+
+&lt;p&gt;Yes, you can! Please set yourself into possession of a copy of TSC and
+play the game. Report any bugs found either on the &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;mailinglist&lt;/a&gt;,
+on the &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;forum&lt;/a&gt;, or directly on our &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;bug tracker&lt;/a&gt; (requires a
+GitHub account).&lt;/p&gt;
+
+&lt;p&gt;Please make levels and submit them for inclusion into TSC 2.1.0 on the
+&lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;forum&lt;/a&gt; or &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;mailinglist&lt;/a&gt;. As of now, the levelsets of TSC 2.1.0
+and 2.0.0 are nearly identical. The TSC team depends on the submission
+of levels by users as the work on the C++ code does not leave much
+time for the creation of new levels. The TSC team especially welcomes
+work on levels that implement parts of the &lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/18-001.pdf&quot;&gt;story draft&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;h3 id=&quot;source-code&quot;&gt;Source Code&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Source code:     &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta2.tar.gz&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta2.tar.gz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PGP signature:   &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta2.tar.gz.sig&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta2.tar.gz.sig&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MD5 checksum:    9e8e21e7faf643b190b6467bc1f4aadc&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;SHA256 checksum: ab4ad741f7a696cbfba1d71c2078581a34f5f80432b7a94ef87f077f083be509&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;binary-downloads&quot;&gt;Binary Downloads&lt;/h3&gt;
+
+&lt;h4 id=&quot;windows&quot;&gt;Windows&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win64.exe&quot;&gt;Installer for 64-bit Windows 7 or later&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win32.exe&quot;&gt;Installer for 32-bit Windows 7 or later&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win32.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-win32.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;linux&quot;&gt;Linux&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-amd64.deb&quot;&gt;amd64 .deb file for Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-amd64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-amd64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-i386.deb&quot;&gt;i386 .deb file for Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-i386.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-i386.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-armhf.deb&quot;&gt;armhf .deb file for Raspbian RasPi3/RasPi4&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-armhf.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta2-armhf.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+On behalf of the TSC team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2019/12/23/tsc-2/"/>
+    <title>TSC 2.1.0-beta1 released</title>
+    <id>secretchronicles.org/en;25</id>
+    <updated>2019-12-23</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">First beta version of 2.1.0 has been released.</summary>
+    <content type="html">
+&lt;p&gt;The TSC team is pleased to announce that after years of development,
+the first beta version of the upcoming 2.1.0 release is available for
+download now. The release has been tagged on the Git repository as
+v2.1.0-beta1 and has been uploaded to our web server.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-did-this-take-so-long&quot;&gt;Why did this take so long?&lt;/h2&gt;
+
+&lt;p&gt;TSC is a project entirely driven by volunteers in their free time. We
+all know that free time is scarce. TSC has a massive code base written
+in C++ over a course of now more than 10 years, as it builds upon the
+original codebase of Secret Maryo Chronicles (SMC). The inherited
+code’s quality is rather poor and it is difficult to work with this
+inherited code.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-has-changed&quot;&gt;What has changed?&lt;/h2&gt;
+
+&lt;p&gt;Our last stable release was version 2.0.0 in 2015. Since then, lots of
+improvements have been made to the game. A detailed listing can be
+found in the file &lt;a href=&quot;https://github.com/Secretchronicles/TSC/blob/v2.1.0-beta1/CHANGELOG&quot;&gt;CHANGELOG&lt;/a&gt; in the source tarball, and even that
+listing does not include all the improvements. These are the
+highlights:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Several new background music tracks&lt;/li&gt;
+  &lt;li&gt;Switched some SMC graphics for original TSC ones&lt;/li&gt;
+  &lt;li&gt;New enemies: Larry and Doom Larry, which fuse and ultimately explode
+if hit&lt;/li&gt;
+  &lt;li&gt;Improvements to level scripting&lt;/li&gt;
+  &lt;li&gt;Editor UI overhauled&lt;/li&gt;
+  &lt;li&gt;Levels load much faster compared to 2.0.0&lt;/li&gt;
+  &lt;li&gt;Secret Area markers are available in the editor&lt;/li&gt;
+  &lt;li&gt;New in-game scripting console on pressing [F7]&lt;/li&gt;
+  &lt;li&gt;Several bugfixes&lt;/li&gt;
+  &lt;li&gt;Upgrade CEGUI dependency from 0.7.9 to 0.8.7&lt;/li&gt;
+  &lt;li&gt;Support for and requirement of a C++11-capable C++ compiler&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The CEGUI upgrade deserves a separate mention. CEGUI 0.8.x broke their
+API and as more and more people do not have access to the outdated
+CEGUI 0.7.9, it was necessary to conduct this upgrade. This upgrade
+however bound so many of TSC’s team resources that the 2.1.0 release
+ultimately ended up with fewer new features than it was originally
+intended. Now that the upgrade has been done it should be much easier
+to compile TSC on modern Linux distributions than it was the case with
+the old 2.0.0 stable release.&lt;/p&gt;
+
+&lt;p&gt;A feature that will sadly not make it into 2.1.0 is a story. We have
+adopted a &lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/18-001.pdf&quot;&gt;final story draft&lt;/a&gt; for the future of the game, though.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-can-we-expect-the-final-release&quot;&gt;When can we expect the final release?&lt;/h2&gt;
+
+&lt;p&gt;The current plan is to release the final 2.1.0 version early in 2020.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happens-in-the-beta-phase&quot;&gt;What happens in the Beta phase?&lt;/h2&gt;
+
+&lt;p&gt;The beta phase is intended to polish the rough edges of TSC. No new
+features are introduced into the game anymore, but any bugs found will
+be fixed. Additionally, the following changes can happen:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Addition of new static assets, namely of music and static images&lt;/li&gt;
+  &lt;li&gt;Addition of translations&lt;/li&gt;
+  &lt;li&gt;Addition of new levels&lt;/li&gt;
+  &lt;li&gt;Fine-tuning of the build system (this is not a user-visible aspect)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We reserve the right to make other changes as required if an urgent
+need arises.&lt;/p&gt;
+
+&lt;h2 id=&quot;can-i-help-tsc-as-a-user-now&quot;&gt;Can I help TSC as a user now?&lt;/h2&gt;
+
+&lt;p&gt;Yes, you can! Please set yourself into possession of a copy of TSC and
+play the game. Report any bugs found either on the &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;mailinglist&lt;/a&gt;,
+on the &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;forum&lt;/a&gt;, or directly on our &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;bug tracker&lt;/a&gt; (requires a
+GitHub account).&lt;/p&gt;
+
+&lt;p&gt;Please make levels and submit them for inclusion into TSC 2.1.0 on the
+&lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;forum&lt;/a&gt; or &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/&quot;&gt;mailinglist&lt;/a&gt;. As of now, the levelsets of TSC 2.1.0
+and 2.0.0 are nearly identical. The TSC team depends on the submission
+of levels by users as the work on the C++ code does not leave much
+time for the creation of new levels. The TSC team especially welcomes
+work on levels that implement parts of the aforementioned story draft.&lt;/p&gt;
+
+&lt;h2 id=&quot;download&quot;&gt;Download&lt;/h2&gt;
+
+&lt;h3 id=&quot;source-code&quot;&gt;Source Code&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Source code:     &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;PGP signature:   &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz.sig&quot;&gt;https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz.sig&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;MD5 checksum:    6cad7277f34864ac09cd36f95a03885&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;SHA256 checksum: eb142df2c65f270d517771e72a9d60d167022c98d40fc0eea61894ca2b3e2a9b&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;binary-downloads&quot;&gt;Binary Downloads&lt;/h3&gt;
+
+&lt;h4 id=&quot;windows&quot;&gt;Windows&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win64.exe&quot;&gt;Installer for 64-bit Windows 7 or later&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win32.exe&quot;&gt;Installer for 32-bit Windows 7 or later&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win32.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win32.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;linux&quot;&gt;Linux&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-amd64.deb&quot;&gt;amd64 .deb file for Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-amd64.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-amd64.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-i386.deb&quot;&gt;i386 .deb file for Ubuntu 18.04/Linux Mint&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-i386.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-i386.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-armhf.deb&quot;&gt;armhf .deb file for Raspbian RasPi3/RasPi4&lt;/a&gt;
+(&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-armhf.md5sum&quot;&gt;MD5&lt;/a&gt;,
+&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-armhf.sha256sum&quot;&gt;SHA256&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+On behalf of the TSC team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2019/11/30/Updated-Windows-Packages/"/>
+    <title>Updated Windows Alpha Packages Available</title>
+    <id>secretchronicles.org/en;24</id>
+    <updated>2019-11-30</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Updated Windows Alpha Packages Available</summary>
+    <content type="html">
+&lt;p&gt;Thanks to Quintus, even more of TSC is now translatable.
+Quintus also fixed &lt;a href=&quot;https://github.com/Secretchronicles/TSC/commit/a481165eef417411bf5c01ca18605315f803f04e&quot;&gt;saving levels in level editor&lt;/a&gt;,
+&lt;a href=&quot;https://github.com/Secretchronicles/TSC/commit/b6656295046786bd9cc87b340731831f0fa4c243&quot;&gt;Level display_info_message doing nothing&lt;/a&gt;,
+and &lt;a href=&quot;https://github.com/Secretchronicles/TSC/commit/0b1f261e9cf13458253cb403e5b601761283a6ac&quot;&gt;Invisible radio buttons in “Selector” tab in editor&lt;/a&gt;.
+xet7 created new updated Windows Alpha packages.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Downloads&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&quot;/en/download/#development-version&quot;&gt;Downloads Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;More translations welcome&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We welcome &lt;a href=&quot;https://github.com/Secretchronicles/TSC/blob/devel/tsc/docs/pages/translating.md&quot;&gt;more translations of TSC&lt;/a&gt;. You can ask any TSC related
+questions at &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;forum&lt;/a&gt;. Thanks!&lt;/p&gt;
+
+&lt;p&gt;xet7&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2019/11/21/Updated-Windows-Packages/"/>
+    <title>Updated Windows Alpha Packages Available</title>
+    <id>secretchronicles.org/en;23</id>
+    <updated>2019-11-21</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Updated Windows Alpha Packages Available</summary>
+    <content type="html">
+&lt;p&gt;Thanks to Quintus, &lt;a href=&quot;https://github.com/Secretchronicles/TSC/commit/838c72398e4e3e69cfd94d9fa9d7fd6e127f5bc1&quot;&gt;with this commit&lt;/a&gt; much more of TSC is now translatable.
+For example, level editor is now mostly translated. Now all of those new strings
+are translated to German by Quintus and to Finnish by xet7. xet7 created new
+updated Windows Alpha packages.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Downloads&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&quot;/en/download/#development-version&quot;&gt;Downloads Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;More translations welcome&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;We welcome &lt;a href=&quot;https://github.com/Secretchronicles/TSC/blob/devel/tsc/docs/pages/translating.md&quot;&gt;more translations of TSC&lt;/a&gt;. You can ask any TSC related
+questions at &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;forum&lt;/a&gt;. Thanks!&lt;/p&gt;
+
+&lt;p&gt;xet7&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2019/10/24/Updated-Windows-and-Ubuntu-18/"/>
+    <title>Updated Windows and Ubuntu 18.04 Alpha Packages Available</title>
+    <id>secretchronicles.org/en;22</id>
+    <updated>2019-10-24</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Updated Windows and Ubuntu 18.04 Alpha Packages Available</summary>
+    <content type="html">
+&lt;p&gt;&lt;strong&gt;Windows&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Originally there was Windows version of TSC, but because of many code changes,
+building Windows version did not work for many years, until now.&lt;/p&gt;
+
+&lt;p&gt;Thanks to hgdagon and quintus for code changes required, and xet7 for building
+on Windows, we now have a prebuilt Alpha installer packages for Windows.&lt;/p&gt;
+
+&lt;p&gt;Alpha installer was updated 2019-10-24.&lt;/p&gt;
+
+&lt;p&gt;To install it head over to our &lt;a href=&quot;/en/download/#development-version&quot;&gt;Downloads Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ubuntu 18.04&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to Mario(Boospy) from the Github Tracker, we now have a prebuilt 64bit Alpha .deb
+package for Ubuntu 18.04. To install it head over to our &lt;a href=&quot;/en/download/#development-version&quot;&gt;Downloads Page&lt;/a&gt; to get the
+latest package.&lt;/p&gt;
+
+&lt;p&gt;To install the package, first cd into the folder where you downloaded the package to:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd Downloads/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install ./tsc_2.1.0+packagename.deb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Apt will take care of the installation and all required dependencies. After the install is finished you can launch TSC through the&lt;br /&gt;
+new &lt;code&gt;The Secret Chronicles of Dr. M.&lt;/code&gt; entry in your application menu or by running the &lt;code&gt;tsc&lt;/code&gt; command in your terminal.&lt;/p&gt;
+
+&lt;p&gt;NOTE: You must use apt, not apt-get to install the package, as the older apt-get cannot deal
+with installing .deb packages and resolving dependencies from a users home directory. You could
+also use &lt;code&gt;dpkg -i&lt;/code&gt; to install the package, then run &lt;code&gt;apt-get install -f&lt;/code&gt; to repair the broken dependencies.&lt;/p&gt;
+
+&lt;p&gt;Alpha installer was updated 2019-10-15.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Downloads&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;At &lt;a href=&quot;/en/download/#development-version&quot;&gt;Downloads Page&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;xet7&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2019/09/21/Windows-Alpha-Packages/"/>
+    <title>Windows Alpha Packages Available</title>
+    <id>secretchronicles.org/en;21</id>
+    <updated>2019-09-21</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Windows Alpha Packages Available</summary>
+    <content type="html">
+&lt;p&gt;Originally there was Windows version of TSC, but because of many code changes,
+building Windows version did not work for many years, until now.&lt;/p&gt;
+
+&lt;p&gt;Thanks to hgdagon and quintus for code changes required, and xet7 for building
+on Windows, we now have a prebuilt Alpha installer packages for Windows.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;64bit Win7 and newer:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/alpha/tsc_2.1.0_git20191024_amd64.exe&quot;&gt;tsc_2.1.0_git20191024_amd64.exe&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;MD5 sum:&lt;br /&gt;672dc286d81188df4d4f17e4da4d6d7c&lt;br /&gt;
+SHA256 hash:&lt;br /&gt;78c2b5d193ed172fc9182fe18d6b74ffb89b9731a714fc2ad98a69607b967af6&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;&lt;strong&gt;32bit Win7 and newer:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;dl&gt;
+  &lt;dt&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/alpha/tsc_2.1.0_git20191024_win32.exe&quot;&gt;tsc_2.1.0_git20191024_win32.exe&lt;/a&gt;&lt;/dt&gt;
+  &lt;dd&gt;
+    &lt;p&gt;MD5 sum:&lt;br /&gt;0c0e9463fd56a65c0df1bfcc68b0438c&lt;br /&gt;
+SHA256 hash:&lt;br /&gt;3fce83a862036c41adc5666acc24654be29361ac79989fcab42444c9ac0bd510&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+  &lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;p&gt;xet7&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2019/07/30/wiki-back-online/"/>
+    <title>The wiki has been re-activated!</title>
+    <id>secretchronicles.org/en;20</id>
+    <updated>2019-07-30</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">The wiki is now live again.</summary>
+    <content type="html">
+&lt;p&gt;Recently, &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/thread/KDYYKLITRZLCU7GI5WQ2REO6QKKVBBUO/&quot;&gt;efforts have started&lt;/a&gt; to prepare for a new release of
+TSC, 2.1.0, around the beginning of November. This is highly
+tentative, but as part of these efforts, the &lt;a href=&quot;https://wiki.secretchronicles.org/&quot;&gt;TSC Wiki&lt;/a&gt; has been
+re-activated. Said wiki was a set of static pages for years, because
+the original solution was heavily abused by spam bots. The new
+solution (which, again, uses &lt;a href=&quot;https://moinmo.in/&quot;&gt;Moinmoin&lt;/a&gt;) hopefully is set up in a
+way that is complicated enough for spam bots to not manage it.&lt;/p&gt;
+
+&lt;p&gt;The wiki requires an account to edit, but it’s not possible to create
+the account on the wiki page itself. Instead, the wiki has been
+directly coupled to the &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;forum/web interface for the mailing list&lt;/a&gt;, thus
+requires to sign up there for an account. This setup allows users
+to have a single “TSC account” that grants access both to the forum
+and to the wiki.&lt;/p&gt;
+
+&lt;p&gt;Everyone is invited to edit our wiki with TSC-related content. Please
+contribute! If you have any questions, you can post them on the forum.&lt;/p&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+on behalf on the TSC team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2019/03/25/server-outage-aftermath/"/>
+    <title>Server Outage Aftermath</title>
+    <id>secretchronicles.org/en;19</id>
+    <updated>2019-03-25</updated>
+    <author><name>quintus</name></author>
+    <summary type="html">Our server is back online.</summary>
+    <content type="html">
+&lt;p&gt;As it has been communicated via &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/649&quot;&gt;our bugtracker&lt;/a&gt;, our server,
+alexandria, went down on March 12&lt;sup&gt;th&lt;/sup&gt;, 2019. The most
+important thing first: the server is back online, and we have brought 
+all services back online already. Users of the forum interface on
+lists.secretchronicles.org or the tsc-devel mailing list should pay
+close attention to the section &lt;a href=&quot;#current-state&quot;&gt;Current State&lt;/a&gt; below
+as action is required.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-happened&quot;&gt;What happened?&lt;/h2&gt;
+
+&lt;p&gt;On March 12&lt;sup&gt;th&lt;/sup&gt;, 2019, our server
+&lt;code&gt;alexandria.secretchronicles.org&lt;/code&gt; became completely unresponsive. It
+neither served web pages, nor could we log in via SSH as the TCP
+connections just timed out. Alexandria was a VPS server running on an
+OpenVZ host and was sponsored by &lt;a href=&quot;https://www.first-root.com/&quot;&gt;First-Root UG&lt;/a&gt;, Germany. Quintus
+quickly got into contact with them by raising a support ticket on that
+day and they diagnosed that the server had “hung up” and could not be
+rescued. As an alternative, First-Root offered to provide us with a
+KVM server on March 13&lt;sup&gt;th&lt;/sup&gt;, 2019. We considered all data on
+the server as lost and checked our backups.&lt;/p&gt;
+
+&lt;p&gt;As it turns out, we had just a few months before upgraded the
+operating system from Debian 8 to Debian 9. Before that upgrade, we
+had automatic backups in use, but due to time constraints we didn’t
+set them up yet on Debian 9, although we intended to do so. Murphy’s
+law has no mercy, so the last backup we had available was from October
+2018. Given the low activity of the project in the time since October
+2018, this isn’t too much of a loss, though. The source code of TSC
+was entirely unaffected, and because it is stored in Git, every
+developer had a recent copy, and all code is available &lt;a href=&quot;https://github.com/Secretchronicles/TSC&quot;&gt;via
+GitHub&lt;/a&gt; anyway. &lt;strong&gt;We have not lost any source code&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was decided that the old VPS would not be set up again, because
+that would duplicate work for the TSC team, which is running low on
+free time anyway. Instead, we wanted to wait for First-Root to provide
+the KVM machine. During this time, which we expected to be short, all
+services hosted on the secretchronicles.org domain would be
+unavailable. On March 13&lt;sup&gt;th&lt;/sup&gt;, 2019, quintus &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/649&quot;&gt;opened a ticket&lt;/a&gt; on the
+bugtracker on GitHub to announce the problem publically as the
+tsc-devel mailing list was unavailable due to the outage.&lt;/p&gt;
+
+&lt;p&gt;At this point, all communication between the TSC team members
+basically happened in our IRC channel &lt;code&gt;#secretchronicles&lt;/code&gt; on
+freenode. Our IRC bot, furbot, was also hosted on our server, which
+means that for this time no public chat logs are available on
+&lt;a href=&quot;https://chatlogs.secretchronicles.org&quot;&gt;chatlogs.secretchronicles.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Despite some status queries, First-Root did not reply to the support
+ticket raised with them after March 13&lt;sup&gt;th&lt;/sup&gt;, nor did
+they provide the promised KVM server. By March 24&lt;sup&gt;th&lt;/sup&gt;, 2019,
+we had been offline for nearly two weeks and we decided that we need to
+venture for an alternative. TSC team member xet7 is involved in the
+&lt;a href=&quot;https://wekan.github.io/&quot;&gt;Wekan project&lt;/a&gt;, an open-source kanban board implementation. The
+Wekan project has a server that is used to &lt;a href=&quot;https://blog.wekan.team/2018/01/wekan-progress-on-x64-and-arm/index.html&quot;&gt;port Wekan to arm64&lt;/a&gt; and
+xet7 generously allowed TSC to move over to that server. Albeit this
+server has a rather unusual CPU architecture (aarch64), it is really
+powerful and is going to serve all of our hosting needs nicely. As
+it’s a bare metal server and not a VPS, it should be easier to fight
+any problems arising with the server.&lt;/p&gt;
+
+&lt;p&gt;On March 24&lt;sup&gt;th&lt;/sup&gt;, the new server was set up and DNS RRs were
+updated. The old VPS is now out of use.&lt;/p&gt;
+
+&lt;h2 id=&quot;current-state&quot;&gt;Current state&lt;/h2&gt;
+
+&lt;p&gt;All services have been restored since noon of March 25&lt;sup&gt;th&lt;/sup&gt;, 2019. In
+particular, our IRC bot is logging again to
+&lt;a href=&quot;https://chatlogs.secretchronicles.org&quot;&gt;chatlogs.secretchronicles.org&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The new server provided by the Wekan project runs Ubuntu 18.04 instead
+of Debian 9. We took the opportunity to switch our Mailman 3
+installation from a custom one over to one based on the mailman3
+packages in the Ubuntu repositories, as this should lower the
+maintenance overhead. As the versions in use were different, it was
+not possible to just copy the database over from the backup of
+2018-10-28. This has the following consequences:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you registered to the web interface or subscribed to the
+tsc-devel mailing list after 2018-10-28, you lost your account and
+subscription. You need to register and/or subscribe again.&lt;/li&gt;
+  &lt;li&gt;If you were subscribed before 2018-10-28 and use only e-mail to interact
+with the tsc-devel mailing list, you don’t need to do anything. You
+have already been subscribed again.&lt;/li&gt;
+  &lt;li&gt;If you were registered before 2018-10-28 and use the &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;web forum
+interface&lt;/a&gt; to interact with tsc-devel, you have been switched to
+an e-mail-only subscription for technical reasons, i.e. the forum
+account was lost. You need to go to the &lt;a href=&quot;https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/&quot;&gt;web forum interface&lt;/a&gt;
+and re-register with the address you receive e-mails from the forum
+at. The forum will automatically match your subscribed e-mail
+address to the forum account you create. Once you have logged in,
+you can configure e-mail notifications of posts by clicking on
+“Manage Lists” on the top right (alternatively, &lt;a href=&quot;https://lists.secretchronicles.org/postorius/lists/&quot;&gt;follow this link
+after login&lt;/a&gt;). Click the red “Unsubscribe” button on the page
+for the tsc-devel mailing list to stop receiving e-mails from the
+list. You can still post via the web interface after doing this.&lt;/li&gt;
+  &lt;li&gt;If you want to delete your subscription without creating a forum
+account, please join our IRC channel &lt;code&gt;#secretchronicles&lt;/code&gt; on
+chat.freenode.net and request this there.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The other mailing list, tsc-users, has not been restored, as it never saw
+any serious traffic. All discussion, even if it is user
+discussion like submission of levels, should just happen on tsc-devel
+from now on. All subscriptions to the tsc-users mailing list have been
+cancelled.&lt;/p&gt;
+
+&lt;p&gt;We apologize for the inconvenience caused by the Mailman version switch.&lt;/p&gt;
+
+&lt;h2 id=&quot;future&quot;&gt;Future&lt;/h2&gt;
+
+&lt;p&gt;We are going to evaluate our backup strategy and quickly get automatic
+backups up and running for the new server.&lt;/p&gt;
+
+&lt;p&gt;Additionally, beyond restoring the services that we had on the old
+VPS, we are considering the setup of more infrastructure. For instance,
+the Wiki, which we set to sleep after it got spammed, might see a
+rennaissance. The setup of a CI service is in discussion, as are
+automated nightly builds. TSC team member kirbyfan suggested
+installation of Discourse, a rails-based web forum software.&lt;/p&gt;
+
+&lt;p&gt;quintus&lt;br /&gt;
+on behalf of the TSC team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2019/03/10/Ubuntu-18/"/>
+    <title>Alpha Package for Ubuntu 18.04 Available</title>
+    <id>secretchronicles.org/en;18</id>
+    <updated>2019-03-10</updated>
+    <author><name>Sydney</name></author>
+    <summary type="html">Alpha Package for Ubuntu 18.04 Available</summary>
+    <content type="html">
+&lt;p&gt;Thanks to Mario(Boospy) from the Github Tracker, we now have a prebuilt 64bit Alpha .deb
+package for Ubuntu 18.04. To install it head over to our &lt;a href=&quot;/en/download/#development-version&quot;&gt;Downloads Page&lt;/a&gt; to get the
+latest package.&lt;/p&gt;
+
+&lt;p&gt;To install the package, first cd into the folder where you downloaded the package to:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd Downloads/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then run:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt install ./tsc_2.1.0+packagename.deb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Apt will take care of the installation and all required dependencies. After the install is finished you can launch TSC through the&lt;br /&gt;
+new &lt;code&gt;The Secret Chronicles of Dr. M.&lt;/code&gt; entry in your application menu or by running the &lt;code&gt;tsc&lt;/code&gt; command in your terminal.&lt;/p&gt;
+
+&lt;p&gt;NOTE: You must use apt, not apt-get to install the package, as the older apt-get cannot deal
+with installing .deb packages and resolving dependencies from a users home directory. You could
+also use &lt;code&gt;dpkg -i&lt;/code&gt; to install the package, then run &lt;code&gt;apt-get install -f&lt;/code&gt; to repair the broken dependencies.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2018/06/16/bootable-usb-image-available/"/>
+    <title>Bootable USB image available</title>
+    <id>secretchronicles.org/en;17</id>
+    <updated>2018-06-16</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Bootable USB image available</summary>
+    <content type="html">
+&lt;p&gt;xet7 released today bootable USB image version of TSC. It has &lt;a href=&quot;https://www.debian.org&quot;&gt;Debian 9&lt;/a&gt; 64bit Linux
+with LXDE desktop and TSC alpha version installed from git repo devel branch as of today 
+2018-06-16. Linux boots directly from USB stick, so it works fast and is
+very playable.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idchangelogachangelog&quot;&gt;&lt;a id=&quot;changelog&quot;&gt;&lt;/a&gt;ChangeLog&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;v0.02 2018-06-17 Added wlan drivers, and some graphics/audio/password etc software&lt;/li&gt;
+  &lt;li&gt;v0.01 2018-06-16 First release&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-idlongplayalongplay-15-hour-video-of-tsc&quot;&gt;&lt;a id=&quot;longplay&quot;&gt;&lt;/a&gt;Longplay 1.5 hour video of TSC&lt;/h2&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;
+  &lt;iframe src=&quot;https://www.youtube.com/embed/Dj7Ih5EBI6E&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;a-idrequirementsa1-requirements&quot;&gt;&lt;a id=&quot;requirements&quot;&gt;&lt;/a&gt;1) Requirements&lt;/h2&gt;
+
+&lt;p&gt;You most likely need bigger that 8 GB USB stick, because usb image if from
+8 GB USB stick. This is because some 8 GB USB sticks are a little smaller,
+and some are bigger. You can try does this fit on 8 GB USB stick.&lt;/p&gt;
+
+&lt;p&gt;If you have PlayStation 3 compatible USB gamepad, you can use it with
+TSC. For example, I use this gamepad.&lt;/p&gt;
+
+&lt;h3 id=&quot;goodbetterbest-ltd-gioteck-vx2-wired-controller&quot;&gt;Goodbetterbest Ltd Gioteck VX2 Wired Controller&lt;/h3&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/gamepad.jpg&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Gamepad&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-iddownloada2-download-usb-image-file&quot;&gt;&lt;a id=&quot;download&quot;&gt;&lt;/a&gt;2) Download USB image file&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/alpha/tsc-usb-2018-06-17.img.gz&quot;&gt;tsc-usb-2018-06-17.img.gz&lt;/a&gt; - 2.4 GB&lt;/p&gt;
+
+&lt;p&gt;SHA256SUM:&lt;br /&gt;
+dd6b64ac6b5f31c8f2783d8542f7d4cc1d39a9d0b3257513e09e68cc294ba2cc&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idwriteusba3-writing-image-to-usb-stick&quot;&gt;&lt;a id=&quot;writeusb&quot;&gt;&lt;/a&gt;3) Writing image to USB stick&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://etcher.io&quot;&gt;Download Etcher&lt;/a&gt; - Win/Mac/Linux&lt;/p&gt;
+
+&lt;p&gt;Start Etcher, select image file, and write to USB stick.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-iddonotformata4-do-not-format-stick-in-windows-it-will-make-stick-empty-click-peruutacancel&quot;&gt;&lt;a id=&quot;donotformat&quot;&gt;&lt;/a&gt;4) Do not format stick in Windows. It will make stick empty. Click Peruuta/Cancel.&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/windows-do-not-format.png&quot; width=&quot;60%&quot; height=&quot;auto&quot; alt=&quot;Do not format stick in Windows&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idbootingfromusba5-booting-from-usb&quot;&gt;&lt;a id=&quot;bootingfromusb&quot;&gt;&lt;/a&gt;5) Booting from USB&lt;/h2&gt;
+
+&lt;p&gt;Booting from USB is usually done by pressing Esc many times when computer
+is booting. From boot menu select USB drive with arrow keys down and Enter.&lt;/p&gt;
+
+&lt;p&gt;In one laptop’s case pressing F2 many times while booting did start
+BIOS/UEFI settings. There arrow key right to Boot menu, and on UEFI
+setting press Enter some times to accept OK messages, so that
+it is changed UEFI =&amp;gt; Legacy Mode. After that orderl all USB boot
+options to top, and F10 is Save and Exit. Then it boots from USB stick.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-iduefimodea6-before-uefi-mode&quot;&gt;&lt;a id=&quot;uefimode&quot;&gt;&lt;/a&gt;6) Before: UEFI mode&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/uefimode.jpg&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;UEFI Mode&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idlegacymodea7-after-legacy-mode-usb-options-moved-to-top-press-f10-that-is-save-and-exit&quot;&gt;&lt;a id=&quot;legacymode&quot;&gt;&lt;/a&gt;7) After: Legacy Mode, USB options moved to top. Press F10 that is Save and Exit.&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/legacymode.jpg&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Legacy Mode&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;a-idalternativebootaalternative-ways-to-boot-from-usb&quot;&gt;&lt;a id=&quot;alternativeboot&quot;&gt;&lt;/a&gt;Alternative ways to boot from USB&lt;/h3&gt;
+
+&lt;p&gt;Other alternative boot menu keys are F1 or Enter, that usually brings
+BIOS or UEFI settings where boot order can be changed. 
+Some laptop models have some special tiny pushable button at left side 
+of laptop, that brings settings menu.
+It could also be some other key, like F2, F10, F11 or F12.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idlinuxbootinga8-linux-booting-from-usb-press-enter-or-wait-some-seconds-to-continue-booting&quot;&gt;&lt;a id=&quot;linuxbooting&quot;&gt;&lt;/a&gt;8) Linux booting from USB: press enter, or wait some seconds to continue booting&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/boot.png&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Booting Linux from USB&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idenablefirewalla9-enable-firewall-because-ssh-server-remote-access-is-running-by-default&quot;&gt;&lt;a id=&quot;enablefirewall&quot;&gt;&lt;/a&gt;9) Enable firewall, because SSH server remote access is running by default&lt;/h2&gt;
+
+&lt;p&gt;You can see Linux IP address with right click at bottom right corner icon that has blue wire in
+white wall socket, and then click “Tietoja”.&lt;/p&gt;
+
+&lt;p&gt;Linux has remote SSH access with:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;ssh peli@192.x.x.x&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;ssh password: peli&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo password: peli&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;enable-firewall-to-prevent-remote-access&quot;&gt;Enable firewall to prevent remote access:&lt;/h3&gt;
+
+&lt;p&gt;Click Start-Bird-menu / Järjestelmätyökalut / LXTerminal&lt;/p&gt;
+
+&lt;p&gt;Write and then press enter:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo ufw enable&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;if-you-want-ssh-remote-access&quot;&gt;If you want SSH remote access&lt;/h3&gt;
+
+&lt;p&gt;Click Start-Bird-menu / Järjestelmätyökalut / LXTerminal&lt;/p&gt;
+
+&lt;p&gt;Write and then press enter:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo ufw disable&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/bootableusb/wlan.png&quot; align=&quot;right&quot; alt=&quot;Network Settings&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idnetworksettingsa10-network-settings&quot;&gt;&lt;a id=&quot;networksettings&quot;&gt;&lt;/a&gt;10) Network settings&lt;/h2&gt;
+
+&lt;p&gt;You can test network connection with Start-Bird-button /
+Internet / Firefox. Write there some web address.&lt;/p&gt;
+
+&lt;p&gt;LAN: If you have Ethernet cable connected, it should connect to
+Internet automatically.&lt;/p&gt;
+
+&lt;p&gt;WLAN: Click at bottom right corner icon that has blue wire in
+white wall socket. Select WLAN network and enter your WLAN password.&lt;/p&gt;
+
+&lt;p&gt;Android mobile phone or table USB cable: connect USB cable from mobile Android
+phone to laptop. In Android phone click Settings cogwheel /
+More / Shared connection and mobile hotspot /
+Internet sharing via USB . If it does not connect yet, you may
+need to set mobile connection on desktop bottom right corner icon
+that has blue wire in white wall socket. You may need to click cancel
+to file manage popups that try to connect to your mobile phone disk space.&lt;/p&gt;
+
+&lt;p&gt;Symbian phone USB cable: connect USB cable to your computer and select
+Nokia Suite mode on your Symbian phone. If it does not connect yet, you may
+need to set mobile connection on desktop bottom right corner icon
+that has blue wire in white wall socket. You may need to click cancel
+to file manage popups that try to connect to your mobile phone disk space.&lt;/p&gt;
+
+&lt;p&gt;USB 2G/3G/4G/5G modem: connect modem to computer. If it does not connect yet, you may
+need to set mobile connection on desktop bottom right corner icon
+that has blue wire in white wall socket. You may need to click cancel
+to file manage popups that try to connect to your mobile phone disk space.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idscreenmodea11-screenmode&quot;&gt;&lt;a id=&quot;screenmode&quot;&gt;&lt;/a&gt;11) Screenmode&lt;/h2&gt;
+
+&lt;p&gt;Click Bird-Start-button / Asetukset / Näytön asetukset. Select laptop local
+display, or external monitor “Ulkoinen näyttö”, or just try various
+options.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/display-settings1.png&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Display Settings 1&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/bootableusb/display-settings2.png&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Display Settings 2&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;img src=&quot;/assets/bootableusb/display-settings3.png&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Display Settings 3&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idstartingtsca12-starting-tsc-double-click-tsc-shortcut-at-desktop-and-click-suorita&quot;&gt;&lt;a id=&quot;startingtsc&quot;&gt;&lt;/a&gt;12) Starting TSC: Double click TSC shortcut at desktop and click “Suorita”.&lt;/h2&gt;
+
+&lt;p&gt;This runs script that starts the game.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/run-tsc-start-script.png&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Run TSC start script: Suorita&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idmainmenua13-main-menu-you-can-move-with-mouse-or-arrow-keys&quot;&gt;&lt;a id=&quot;mainmenu&quot;&gt;&lt;/a&gt;13) Main menu. You can move with mouse or arrow keys.&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/mainmenu.png&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;TSC main menu&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idgamepadsettingsa14-in-options-you-can-change-gamepad-settings&quot;&gt;&lt;a id=&quot;gamepadsettings&quot;&gt;&lt;/a&gt;14) In Options, you can change gamepad settings.&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/gamepad-settings.png&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Gamepad Settings&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idstoppingtsca15-stopping-tsc-press-esc-and-click-quit-with-mouse-or-arrow-keys-and-enter&quot;&gt;&lt;a id=&quot;stoppingtsc&quot;&gt;&lt;/a&gt;15) Stopping TSC: press Esc, and click Quit with mouse or arrow keys and Enter.&lt;/h2&gt;
+
+&lt;h2 id=&quot;a-idshutdownlinuxa16-shutdown-linux-click-start-bird-menu--kirjaudu-ulos--sammuta&quot;&gt;&lt;a id=&quot;shutdownlinux&quot;&gt;&lt;/a&gt;16) Shutdown Linux: Click Start-Bird-Menu / Kirjaudu ulos / Sammuta&lt;/h2&gt;
+
+&lt;p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;img src=&quot;/assets/bootableusb/shutdown-sammuta.png&quot; width=&quot;100%&quot; height=&quot;auto&quot; alt=&quot;Gamepad Settings&quot; /&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idbacktowindowsa17-going-back-to-windows&quot;&gt;&lt;a id=&quot;backtowindows&quot;&gt;&lt;/a&gt;17) Going back to Windows&lt;/h2&gt;
+
+&lt;p&gt;To get back to Windows, &lt;a href=&quot;#uefimode&quot;&gt;change back Legacy Mode =&amp;gt; UEFI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-idlinuxupdatesaoptional-install-linux-security-etc-updates&quot;&gt;&lt;a id=&quot;linuxupdates&quot;&gt;&lt;/a&gt;Optional: Install Linux security etc updates&lt;/h2&gt;
+
+&lt;p&gt;Click Bird-Start-button / Järjestelmätyökalut / LXTerminal.&lt;/p&gt;
+
+&lt;p&gt;Write this and press enter (password is peli) :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo apt update &amp;amp;&amp;amp; sudo apt -y dist-upgrade&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;after-updates-reboot-linux-click-bird-start-button--kirjaudu-ulos--kynnist-uudelleen&quot;&gt;After updates, reboot Linux: Click Bird-Start-button / Kirjaudu ulos / Käynnistä uudelleen.&lt;/h3&gt;
+
+&lt;h3 id=&quot;after-reboot-cleanup-to-free-space&quot;&gt;After reboot, cleanup to free space:&lt;/h3&gt;
+
+&lt;p&gt;Click Bird-Start-button / Järjestelmätyökalut / LXTerminal.&lt;/p&gt;
+
+&lt;p&gt;Write this and press enter after each line (password is peli) :&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo apt clean &amp;amp;&amp;amp; sudo apt autoclean &amp;amp;&amp;amp; sudo apt autoremove&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;exit&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;a-idupdatetscaoptional-update-tsc-to-newest-version&quot;&gt;&lt;a id=&quot;updatetsc&quot;&gt;&lt;/a&gt;Optional: Update TSC to newest version.&lt;/h2&gt;
+
+&lt;h3 id=&quot;click-bird-start-button--jrjestelmtykalut--lxterminal&quot;&gt;Click Bird-Start-button / Järjestelmätyökalut / LXTerminal.&lt;/h3&gt;
+
+&lt;h3 id=&quot;write-this-and-press-enter-after-each-line-password-is-peli-&quot;&gt;Write this and press enter after each line (password is peli) :&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;cd /home/peli/repos/Secretchronicles/TSC&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;git pull&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;./build-and-run.sh&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;exit&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;optional-change-language&quot;&gt;Optional: Change Language&lt;/h2&gt;
+
+&lt;p&gt;Because this bootable USB was originally created for friend at Finland, desktop 
+and keyboard is currently using Finnish, you can &lt;a href=&quot;https://wiki.debian.org/ChangeLanguage&quot;&gt;change language&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;TSC game language is also in Finnish, you can change it after starting
+TSC game from desktop TSC shortcut in game options “Kieli: fi-fi, etc.”&lt;/p&gt;
+
+&lt;h2 id=&quot;optional-enlarge-disk-space&quot;&gt;Optional: Enlarge Disk Space&lt;/h2&gt;
+
+&lt;p&gt;There is 7.5 GB / btrfs partition and 0.5 GB swap partition. If you write this
+to bigger USB stick, you can with GParted (for example Puppy Linux .iso booted
+in VirtualBox, and USB stick attached) delete swap and extended partitions,
+enlarge / partition to bigger, and add extended and swap partition. Then copy
+from GParted swap partition info the swap partition UUID to / partition
+textfile /etc/fstab editing it as root, replace old UUID, save /etc/fstab
+textfile, unmount USB stick, and boot from USB stick.&lt;/p&gt;
+
+&lt;p&gt;There is also &lt;a href=&quot;https://github.com/maharmstone/btrfs&quot;&gt;experimental btrfs driver for Windows&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;development-adding-changes-to-usb-image-file&quot;&gt;Development: Adding changes to USB image file&lt;/h2&gt;
+
+&lt;p&gt;If you want to use Linux image in VirtualBox for development
+(it’s too slow for playing in VirtualBox), you can extract it unar,
+that unarhives any archive:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo apt install unar zip unzip p7zip-full xmount&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Then you can mount .img as VirtualBox vdi file with xmount
+that writes changes to separate cache file, start VirtualBox as root
+with:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo virtualbox&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Install VirtualBox extensions pack downloaded from &lt;a href=&quot;https://virtualbox.org&quot;&gt;virtualbox.org&lt;/a&gt;
+in VirtualBox menu File / Preferences / Extensions,
+make new Debian 9 64bit VM with 2 GB RAM or more, use /mnt/tsc…vdi
+as hard disk, etc:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;unar tsc-usb-*.img.gz&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo xmount --in raw ./tsc-usb-2018-06-16.img --out vdi --cache ./disk.cache /mnt&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After changes to disk.cache file, writing modified disk image back to archived
+file requires having another harddisk vdi image, that you boot in virtualbox:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo mkdir /mnt2&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo xmount --in raw ./tsc-usb-2018-06-16.img --out vdi --cache ./disk2.cache /mnt2&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Then create new VirtualBox Debian 9 64bit VM with 2 GB RAM minimum, add
+to SATA controller, add to it harddisk drive /mnt2/tsc…vdi , then add
+cdrom and leave it empty, then add harddisk drive /mnt/tsc…vdi .
+Then add shared folder with auto-mount. Start VM.
+Click Start-Bird-button / Järjestelmätyökalut / Tiedostonallinta that is
+file manager. Click on file manager Linux partition at bottom, to see
+is it /dev/sdb. Install VirtualBox additions from top VirtualBox top menu.
+Then unmount /dev/sdb and make archive on Start-Bird-button /
+Järjestelmätyökalut / LXTerminal:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo su&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;See what shared drives there are:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;df -h&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;And write disk image:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code&gt;sudo dd if=/dev/sdb conv=sync,noerror status=progress | gzip -c &amp;gt; /YOUR-SHARED-FOLDER/tsc-usb-YEAR-MONTH-DATE.img.gz&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2017/12/10/virtualbox-appliance-available/"/>
+    <title>VirtualBox appliance available</title>
+    <id>secretchronicles.org/en;16</id>
+    <updated>2017-12-10</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">VirtualBox appliance available</summary>
+    <content type="html">
+&lt;p&gt;xet7 today released VirtualBox appliance version of TSC. It has &lt;a href=&quot;https://system76.com/pop&quot;&gt;Pop!_OS&lt;/a&gt; 64bit Linux
+and TSC alpha version 2.1.0-dev installed from devel branch as of today 2017-12-10.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://secretchronicles.org/en/download/&quot;&gt;Download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Lauri (xet7)&lt;br /&gt;
+On behalf of TSC team&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2017/10/26/infrastructure/"/>
+    <title>Server Infrastructure Update</title>
+    <id>secretchronicles.org/en;15</id>
+    <updated>2017-10-26</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">The project infrastructure got a major upgrade — all user accounts and subscriptions cancelled!</summary>
+    <content type="html">
+&lt;p&gt;&lt;strong&gt;NOTICE: This article contains important information for mailinglist and forum users! Please read it carefully!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On Sunday, 2017-10-15 our main server &lt;code&gt;alexandria&lt;/code&gt; suffered from a
+power outage at our sponsor’s datacenter that corrupted the SQL
+database. Luckily, thanks to a working backup procedure it was
+possible to restore all important data except for the very newest
+posts on the Chessboard forum.&lt;/p&gt;
+
+&lt;p&gt;However, we have taken the server outage as an opportunity to finally
+upgrade our long outdated server operating system (Debian 7) to the
+current Debian 9. This upgrade has now been completed, and we
+apologise for all the inconvenience that resulted from the procedure
+which especially included the forum and mailinglists being
+unavailable. Furthermore, former project lead Quintus (Marvin) has
+announced to devote some time again into a rewrite of TSC for version
+3.0.0. To support him in this, it was decided to shut down the
+Chessboard instance at forum.secretchronicles.org as Chessboard is a
+&lt;a href=&quot;https://github.com/Quintus/chessboard&quot;&gt;software written by Quintus himself&lt;/a&gt; that would otherwise need
+active maintenance by means of code changes in case security issues
+arise. This way he can now concentrate on the actual TSC code.&lt;/p&gt;
+
+&lt;p&gt;This move however does not mean that there is no communication medium
+left for TSC. First off, &lt;a href=&quot;https://forum.secretchronicles.org/&quot;&gt;forum.secretchronicles.org&lt;/a&gt; has been
+archived into a static copy that remains available for reference but
+causes no maintenance problems anymore as it’s only static HTML now
+(the copy has been created by means of &lt;a href=&quot;http://www.httrack.com/&quot;&gt;HTTrack&lt;/a&gt;). You cannot log
+into that site thus anymore, and &lt;em&gt;all user accounts on that site have
+been cancelled&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;The Chessboard instance has always been a frontend to two
+mailinglists, tsc-users@lists.secretchronicles.org and
+tsc-devel@lists.secretchronicles.org. These mailinglists were managed
+with the &lt;a href=&quot;http://mlmmj.org/&quot;&gt;mlmmj&lt;/a&gt; software whose lack of a web interface was the
+primary reason why Chessboard had originally been written. Since that
+time however, other mailinglist software has evolved. Most notably,
+the standard mailinglist software, &lt;a href=&quot;http://list.org/&quot;&gt;GNU Mailman&lt;/a&gt;, has seen a
+drastic update in its web user interface. The old “Pipermail” UI was
+dropped entirely in favour of a rewrite called “HyperKitty”, which
+uses modern technology and makes for a nice and clean
+experience. Consequently, the TSC project’s mailinglists have been
+moved from mlmmj to Mailman. In order to ease the transition from
+mlmmj+Chessboard to GNU Mailman however, &lt;em&gt;all subscriptions to both
+tsc-devel and tsc-users have been cancelled&lt;/em&gt;, just like the forum
+accounts.&lt;/p&gt;
+
+&lt;p&gt;The primary domain for interaction with the project is now
+&lt;a href=&quot;https://lists.secretchronicles.org/&quot;&gt;lists.secretchronicles.org&lt;/a&gt;. On that website, you will find a nice
+web interface that allows you to participate in the discussions on the
+mailinglists without having to use email if you don’t like
+to. HyperKitty should comfort all of those users who have complained
+that Chessboard’s interface looks too old. If on the other hand you
+prefer the email communication (and rightly so!), then this is of
+course possible as well; the website allows you to choose between
+subscription (email variant) or registration (web variant), or you can
+use both if you like to, in which case you should first register and
+then subscribe.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Therefore: Everyone still interested in the TSC community&lt;/strong&gt; has to visit the
+website at &lt;a href=&quot;https://lists.secretchronicles.org/&quot;&gt;lists.secretchronicles.org&lt;/a&gt; &lt;strong&gt;and subscribe there to the
+email versions of the desired lists&lt;/strong&gt; and/or &lt;strong&gt;create an account in
+order to be able to use the web interface&lt;/strong&gt; for posting.&lt;/p&gt;
+
+&lt;p&gt;Since all of this infrastructure is now completely new, it might well
+be that there are errors and problems. Don’t hesitate to contact us,
+ideally by posting to the tsc-users mailinglist, either via email, or
+via HyperKitty.&lt;/p&gt;
+
+&lt;p&gt;Another aspect revisited during the upgrade was our IRC bot,
+&lt;a href=&quot;https://github.com/Secretchronicles/furbot&quot;&gt;furbot&lt;/a&gt;, that has seen a general software upgrade which especially
+involved a facelift of the IRC logs. If you now visit
+&lt;a href=&quot;https://chatlogs.secretchronicles.org/&quot;&gt;chatlogs.secretchronicles.org&lt;/a&gt;, you’ll hopefully be pleasently
+surprised by the improved readability of the newer chatlogs (old logs
+have not been altered). The most annoying bug in the chatlogs, furbot
+repeating itself multiple times after it got disconnected from IRC,
+has been resolved as well.&lt;/p&gt;
+
+&lt;p&gt;The plans to move the ticket system to &lt;code&gt;alexandria&lt;/code&gt; are placed on
+hold for the moment due to lack of time. The mlmmj to Mailman
+conversion with the removal of Chessboard plus the OS upgrade have
+consumed quite a bit of time. Those plans are not given up, though.&lt;/p&gt;
+
+&lt;p&gt;Many thanks go to Lauri (xet7) who conducted the OS upgrade, to
+Quintus for moving Chessboard+mlmmj to Mailman, and to &lt;a href=&quot;http://first-root.com/&quot;&gt;First-Root
+UG&lt;/a&gt; to the continued sponsorship of the project in form of the
+&lt;code&gt;alexandria&lt;/code&gt; server.&lt;/p&gt;
+
+&lt;p&gt;Marvin (Quintus)&lt;br /&gt;
+On behalf of the TSC team&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2017/07/10/new-main-and-assistant-leaders/"/>
+    <title>New Main and Assistant Project Leaders</title>
+    <id>secretchronicles.org/en;14</id>
+    <updated>2017-07-10</updated>
+    <author><name>Sydney</name></author>
+    <summary type="html">The project has gained some new leaders</summary>
+    <content type="html">&lt;p&gt;Hello all,&lt;br /&gt;
+Happy mid-year to everyone.&lt;/p&gt;
+
+&lt;p&gt;We are all saddened to see both &lt;a href=&quot;https://forum.secretchronicles.org/forums/2/threads/2994&quot;&gt;Quintus&lt;/a&gt; and &lt;a href=&quot;https://forum.secretchronicles.org/forums/2/threads/3047&quot;&gt;Datahead&lt;/a&gt; step down from their leadership
+positions over the past couple months due to time constraints that exist in the real world. 
+Hats off to you both for all you have done, and we hope you will come back when you can!&lt;/p&gt;
+
+&lt;p&gt;Through this we have had two new project leaders step up.
+xet7, our former and current server admin, stepped up and is now our Main Project Leader.
+For filling the position of Assistant Project Leader we sent out an email to all of the 
+TSC team, and KirbyFan64sos volunteered to be our new assistant lead.&lt;/p&gt;
+
+&lt;p&gt;Thank you both for stepping up and volunteering for these positions. We all appreciate your 
+generousity to the community, and are excited to see what this will mean for the project!&lt;/p&gt;
+
+&lt;p&gt;Have a great summer!&lt;/p&gt;
+
+&lt;p&gt;-Sydney(sydney_untangle)&lt;br /&gt;
+On behalf of the TSC team&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2016/12/23/new-domain/"/>
+    <title>New Domain Name</title>
+    <id>secretchronicles.org/en;13</id>
+    <updated>2016-12-23</updated>
+    <author><name>Sydney</name></author>
+    <summary type="html">Info on our new Domain name</summary>
+    <content type="html">&lt;p&gt;Hello all, hope everyone is having a happy holiday.&lt;/p&gt;
+
+&lt;p&gt;On behalf of the Secretchronicles team, I am quite happy to announce that we have purchased
+the secretchronicles.org domain name, and for the most part we have it fully implemented. We will continue to
+have the secretchronicles.de domain for a while yet, but thanks to xet7’s hard work, it now redirects to our
+new domain.&lt;/p&gt;
+
+&lt;p&gt;We are also quite proud to have enabled HTTPS on our site and all of its resources in this process.&lt;/p&gt;
+
+&lt;p&gt;If you use email to post to our forum or mailinglist, please update your address book from
+&lt;code&gt;secretchronicles.de&lt;/code&gt; to
+&lt;code&gt;secretchronicles.org&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Also, if you run into any issues feel free to contact us using your favorite method listed in our &lt;a href=&quot;https://secretchronicles.org/en/community/&quot;&gt;Community page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Have a great holiday!&lt;/p&gt;
+
+&lt;p&gt;-Sydney(sydney_untangle)&lt;br /&gt;
+On behalf of the TSC team&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2016/11/06/upcoming-infra-upgrades/"/>
+    <title>Upcoming infra upgrades</title>
+    <id>secretchronicles.org/en;12</id>
+    <updated>2016-11-06</updated>
+    <author><name>xet7</name></author>
+    <summary type="html">Current plans for server software.</summary>
+    <content type="html">
+&lt;h2 id=&quot;upgrades&quot;&gt;Upgrades&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Redmine for bugtracking and Git repos&lt;/li&gt;
+  &lt;li&gt;Centralized login&lt;/li&gt;
+  &lt;li&gt;Let’s Encrypt SSL&lt;/li&gt;
+  &lt;li&gt;Automated reinstall using some Configuration Management tool&lt;/li&gt;
+  &lt;li&gt;Process monitoring&lt;/li&gt;
+  &lt;li&gt;Automated updates&lt;/li&gt;
+  &lt;li&gt;Distro upgrades or changes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;could-change&quot;&gt;Could change&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Backup software&lt;/li&gt;
+  &lt;li&gt;Mailing list email send/receive software&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;stays-same&quot;&gt;Stays same&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Chessboard forum&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;no-eta&quot;&gt;No ETA&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;xet7 will do upgrades as time permits.&lt;/li&gt;
+  &lt;li&gt;Downtime will be minimized.&lt;/li&gt;
+  &lt;li&gt;These current plans can change as needed.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2016/08/18/2/"/>
+    <title>2.0.0 Compile issues on Linux</title>
+    <id>secretchronicles.org/en;11</id>
+    <updated>2016-08-18</updated>
+    <author><name>Sydney</name></author>
+    <summary type="html">TSC 2.0.0 won&#39;t compile on most Linux distributions</summary>
+    <content type="html">
+&lt;p&gt;As many people have been bringing to our attention, on most modern distributions, or
+ones that have compiled their software with the &lt;code&gt;-std=c++11&lt;/code&gt; flag, the 2.0.0 release tarball
+has problems compiling. Unfortunately, we released version 2.0.0 right before most
+distributions made the change.&lt;/p&gt;
+
+&lt;p&gt;There has also been &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/500&quot;&gt;issue #500 with the game loading to a black screen&lt;/a&gt; when compiled
+with CEGUI 0.7.9.&lt;/p&gt;
+
+&lt;p&gt;We have fixed these issues and many more in the Devel branch of TSC, and are also fixed in
+our &lt;a href=&quot;/en/news/2016/08/17/alpha-builds-available/&quot;&gt;alpha&lt;/a&gt; builds(which are based on the Devel branch), so feel free to test the game, and
+ let us know if you run across any issues.&lt;/p&gt;
+
+&lt;p&gt;-Sydney(sydney_untangle)&lt;br /&gt;
+On behalf of the TSC team&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2016/08/17/alpha-builds-available/"/>
+    <title>Alpha Builds Now Available</title>
+    <id>secretchronicles.org/en;10</id>
+    <updated>2016-08-17</updated>
+    <author><name>Sydney</name></author>
+    <summary type="html">Alpha Builds Of TSC Are Now available for Debian users</summary>
+    <content type="html">
+&lt;p&gt;Over the past year Muammar, who is part of the Debian packaging
+team, has been putting alot of effort into compiling TSC for Debian, and through
+his work, and some recent dependency changes on TSC’s part, he has successfully been able to package
+TSC as a .deb, and have everything work properly. And through that, we now have access
+to pre-built .deb packages, giving us the ability to install TSC on Debian/Debian based systems
+without the need of compiling.&lt;/p&gt;
+
+&lt;p&gt;You can grab the .deb packages from &lt;a href=&quot;/en/download&quot;&gt;Download page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;These .deb packages are compiled directly from git on our Devel branch. We make no guarantee that
+these builds will work, and they most definitely are not bug free.&lt;/p&gt;
+
+&lt;p&gt;To install them you generally can use the &lt;code&gt;dpkg -i &quot;packagename&quot;&lt;/code&gt; command,
+or read the man pages on dpkg. Technically these &lt;em&gt;should&lt;/em&gt; also work on Ubuntu
+and its derivatives, but as said earlier, we make no guarantees.&lt;/p&gt;
+
+&lt;p&gt;Also, through this, we are excited to say that TSC is now in the Debian Unstable repositories.&lt;/p&gt;
+
+&lt;p&gt;As always, if you find a bug, &lt;strong&gt;please&lt;/strong&gt; report it, either on our &lt;a href=&quot;https://forum.secretchronicles.org&quot;&gt;Forum&lt;/a&gt; or &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enjoy!&lt;/p&gt;
+
+&lt;p&gt;-Sydney(sydney_untangle)&lt;br /&gt;
+On Behalf of the TSC team&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2016/04/10/results-of-the-2nd-gd/"/>
+    <title>Results of Second General Discussion</title>
+    <id>secretchronicles.org/en;9</id>
+    <updated>2016-04-10</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Summary of the 2nd TSC General Discussion.</summary>
+    <content type="html">
+&lt;p&gt;Yesterday, large parts of the TSC Development team met in IRC to
+conduct the Second General Discsussion (&lt;a href=&quot;https://lists.secretchronicles.org/tsc-devel/2016/04/0000004.html&quot;&gt;original schedule&lt;/a&gt;). In
+this article, I summarise what was discussed, what was decided, and
+what not was decided.&lt;/p&gt;
+
+&lt;p&gt;First, here’s the (anchored) link to the full &lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T17:13:07+00:00&quot;&gt;chatlogs&lt;/a&gt;, so that
+you can read what exactly happened if you want.&lt;/p&gt;
+
+&lt;h2 id=&quot;voting-rules-changes&quot;&gt;Voting Rules Changes&lt;/h2&gt;
+
+&lt;p&gt;The team voted on the following change proposal:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;                                 Art. 1
+
+§2(2) is changed to “The vote requires that two thirds of the team
+members voting are in favour of adding the new person to the team.”.
+
+§3(1)(Nr.3)(2nd sentence) is changed to “This requires a two thirds
+majority of those voting, and the candidate for removal is not allowed
+to participate in the vote.”
+
+In §20 the words “of the team members” are replaced with “of all
+existing team members”.
+
+                                 Art. 2
+
+A new §5a is introduced after §5 with the following text:
+
+§5a IRC Voting Announcement
+
+(1) For votings held in IRC — as an exception to § 5(2)(Nr.3) — it is
+sufficient to announce all available voting options in IRC prior to
+taking the votes.
+
+(2) If at least three team members are available in IRC and are not just
+idling, it is possible to waive the two-week preparation interval and
+vote immediately. The waiver requires all non-idling team members in the
+chatroom to agree on it.
+
+(3) Any team member can challenge a voting made under the conditions
+of (2) above until two weeks after the declaration of results have
+passed by approaching the project lead accordingly. If the voting is
+challenged, it is treated the same way as if it failed (§12).
+
+                                 Art. 3
+
+These changes enter into force immediately after the Declaration of
+Results of the vote for accepting them.
+
+Any votes running at the moment these changes enter into force are
+transferred to the changed version of the rules and do not remain under
+the old version.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of 8 team members allowed to vote, 7 participated and voted in favour
+of it. Thus, the required 2/3 majority was reached, and the changes are
+in force now.&lt;/p&gt;
+
+&lt;p&gt;The newly compiled voting rules document is available &lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/votingrules/votingrules-2016-04-09.pdf&quot;&gt;online in the
+documents repository now&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;team-additions&quot;&gt;Team Additions&lt;/h2&gt;
+
+&lt;p&gt;Under the new rules, the team then continued with voting on adding
+kirbyfan and skarfester to the team. &lt;a href=&quot;https://github.com/Secretchronicles/documents/blob/master/votes/004.md&quot;&gt;Both&lt;/a&gt; &lt;a href=&quot;https://github.com/Secretchronicles/documents/blob/master/votes/005.md&quot;&gt;votes&lt;/a&gt;
+succeeded. As of now, the two just need to accept their membership on
+GitHub.&lt;/p&gt;
+
+&lt;h2 id=&quot;bugtracker-software&quot;&gt;Bugtracker Software&lt;/h2&gt;
+
+&lt;p&gt;After &lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T17:40:52+00:00&quot;&gt;a fairly long discussion&lt;/a&gt;, all team members decided in consent to
+chose &lt;a href=&quot;https://www.redmine.org/&quot;&gt;Redmine&lt;/a&gt; as our future bugtracking system as it has a lot of
+nice and useful features (like especially dependencies between tasks
+as metadata with useful summaries in parent tickets). In addition, it’s written
+in Ruby, which most of us find a nice language, allowing us to fix
+things in Redmine itself if we are uncontent with it.&lt;/p&gt;
+
+&lt;h2 id=&quot;translation-software&quot;&gt;Translation Software&lt;/h2&gt;
+
+&lt;p&gt;This evergreen of discussion topic was meant to be cleared once and
+for all in the GD, but it didn’t happen. Albeit we have voted twice on
+the topic, no winning option could be determined – two options always
+received the same number of votes. As per §12 of the Voting Rules,
+this means the vote is failed and has no binding result, and the topic
+can be voted over again.&lt;/p&gt;
+
+&lt;p&gt;The failure of vote, which can spectacularly be seen &lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T18:16:08+00:00&quot;&gt;in the
+chatlogs&lt;/a&gt;, was most likely a result of the low participation of
+only 62.5% of the team members, i.e. 5 team members, and one of them
+abstained. It was determined we need to repeat the voting on the
+mailinglist.&lt;/p&gt;
+
+&lt;h2 id=&quot;audience-story-et-al&quot;&gt;Audience, Story, et al.&lt;/h2&gt;
+
+&lt;p&gt;Another topic we were unable to decide on was audience and story
+guidelines. It was noted that this discussion cannot be brought to
+conclusion without participation of Bugsbane, who was not available in
+the GD and could not be reached by email, but who is the project’s
+lead artist and thus must have a word to speak on this topic. Still,
+some interesting aspects were noted, which are worth to read &lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T19:07:40+00:00&quot;&gt;in the
+chatlogs&lt;/a&gt;. This was also the topics several documents (including
+story suggestions) were submitted to before. Since there have been no
+decisions, these documents might be of value for further work, and are
+thus referenced here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/16-001.pdf&quot;&gt;DNr. 16/1: Unofficial Story Development Document&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/16-002.pdf&quot;&gt;DNr. 16/2: Story Principles and Decisions for the Secret Chronicles
+of Dr. M.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/16-003.pdf&quot;&gt;DNr. 16/3: The Secret Chronicles of Dr. M. Story Development
+Document - Version 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/16-004.pdf&quot;&gt;DNr. 16/4: Proposal for a TSC story&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/16-006.pdf&quot;&gt;DNr. 16/6: Input on Meeting Topics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a result, we postponed topics 6-10 on the schedule.&lt;/p&gt;
+
+&lt;h2 id=&quot;life-energy-system&quot;&gt;Life energy system&lt;/h2&gt;
+
+&lt;p&gt;A more successful &lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T19:47:28+00:00&quot;&gt;discussion&lt;/a&gt; arose around the topic of life
+energy and its involvement into game mechanics. The discussion
+benefitted from thoughts by kirbyfan and Luiji, who missed everything
+prior but managed to join the channel during this topic.&lt;/p&gt;
+
+&lt;p&gt;In consent, it was determined that the current one/two hit + lifes +
+saves + gameover system is to be replaced with a Rayman-style system,
+which means that the player is given some amount of Hit points
+(HP). In levels, there will be check points distributed properly (task
+for level designers), and when the player’s HP sink to 0, he is reset
+to the last check point he passed. In this system, there is neither
+manual saving, neither lifes, neither game over. It does not suffer
+from the problem of infinite points (this saves) by repeatedly jumping
+on Army and is logically correctly build, i.e. there is no rivalty
+between different ways to (re)store game progress.&lt;/p&gt;
+
+&lt;p&gt;It was further determined that powerups shall not be lost at the first
+hit a player receives, but there have not been further decisions on
+when exactly this shall happen then instead.&lt;/p&gt;
+
+&lt;p&gt;The Rayman-style progress system was found to be a good balance
+between not having deathly pits at all, and having too many of them as
+part of tricky jump sections which may cause frustration on the
+player’s side. This way, we are able to keep deathly pits, since they
+will simply have the effect of setting the player’s HP to 0, which
+means resetting him to the last check point. The discussion about
+level designers who need to place respawn points for abysses is thus
+obsolete now.&lt;/p&gt;
+
+&lt;h2 id=&quot;cegui-vs-sfgui&quot;&gt;CEGUI vs. SFGUI&lt;/h2&gt;
+
+&lt;p&gt;This was the last topic on the schedule, and with regard to the work
+Quintus has already placed into the CEGUI porting, it was &lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2016-04-09.log.html#msg-2016-04-09T21:00:11+00:00&quot;&gt;decided&lt;/a&gt; we go
+with CEGUI. SFGUI was also mentioned to be still heavily developed,
+which was said to not be suitable for our game, which needs a stable
+API to develop against.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Once again, the GD managed to get the largest part of the TSC team
+into the IRC channel, allowing to talk to people one usually only sees
+on the tracker or the forum. The team grew by 2 members, and the
+decision was made to choose Redmine as our bugtracking system for the
+future. No decision was made on the story topic, but the life and
+energy system was finally defined to use a Rayman-like model without
+lifes, gameovers, and manual saving.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2016/03/05/second-general-discussion/"/>
+    <title>Second TSC General Discussion notice</title>
+    <id>secretchronicles.org/en;8</id>
+    <updated>2016-03-05</updated>
+    <author><name>Sydney D (sydney_untangle)</name></author>
+    <summary type="html">We have our second General Discussion coming up soon.</summary>
+    <content type="html">
+&lt;p&gt;Hello all,&lt;br /&gt;
+we are working on putting together our second General Discussion.
+At the moment, from discussion, we have set the date to hold the
+discussion in IRC for April 9th, but the date is still under discussion.&lt;/p&gt;
+
+&lt;p&gt;Some of the topics that have been brought to our attention for us to
+discuss so far are as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Audience and target age group&lt;/li&gt;
+  &lt;li&gt;Depth of the game’s story&lt;/li&gt;
+  &lt;li&gt;Themes&lt;/li&gt;
+  &lt;li&gt;Level of the game’s “cuteness”&lt;/li&gt;
+  &lt;li&gt;The naration, scenes, and the game’s story text&lt;/li&gt;
+  &lt;li&gt;Story submissions&lt;/li&gt;
+  &lt;li&gt;Translation websites&lt;/li&gt;
+  &lt;li&gt;Bug tracker software&lt;/li&gt;
+  &lt;li&gt;A Life-Energy system&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This list is not complete, but it is a starting point. If you have any
+objections or something you would like to see changed or added, feel free
+to contact us either through IRC, the mailing list, or the forum.&lt;/p&gt;
+
+&lt;p&gt;Also, if possible, we would love to see a lot of people at the general
+discussion. If you can make it, please do so! The more opinions, the better
+(usually).&lt;/p&gt;
+
+&lt;p&gt;Here are a couple related forum threads/mailing list posts:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forum.secretchronicles.org/topics/393&quot;&gt;Picking a Date for the Meeting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://forum.secretchronicles.org/topics/387&quot;&gt;2nd General Discussion, Agenda&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Anyways, I think that I tackled everything. If you have any questions,
+as I mentioned above, feel free to contact us.&lt;/p&gt;
+
+&lt;p&gt;Have a great day!&lt;/p&gt;
+
+&lt;p&gt;Sydney (&lt;em&gt;sydney_untangle&lt;/em&gt;)&lt;br /&gt;
+On behalf of the TSC team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2015/10/13/corrupt-win32-installer-on-ftp/"/>
+    <title>Corrupt Win32 installer on FTP</title>
+    <id>secretchronicles.org/en;7</id>
+    <updated>2015-10-13</updated>
+    <author><name>Marvin Gülker (Quintus)</name></author>
+    <summary type="html">There was a corrupt binary of the Win32 installer on the FTP.</summary>
+    <content type="html">
+&lt;p&gt;Several of our users noticed some weird behaviour of the game when run
+on Windows, manifesting itself most notably in crashing when loading
+the first level in the first world from the worldmap (it did not crash
+when the level was loaded directly from the level menu). There was a
+report &lt;a href=&quot;https://forum.secretchronicles.org/topics/285&quot;&gt;on the forum&lt;/a&gt; and one separately &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/452&quot;&gt;in the tracker&lt;/a&gt; about
+the issue, which I then traced down to a faulty binary on our FTP
+server. It is not clear where the binary got damaged, but a new
+installer generated from the very same code as the original 2.0.0
+installer did not exhibit the issue anymore. I have concluded that
+during copying it around between my computers or even during upload to
+alexandria the binary got defunct somehow. We’ll probably never find
+the root cause of the problem.&lt;/p&gt;
+
+&lt;p&gt;I uploaded a new Win32 installer to the FTP that replaces the faulty
+2.0.0 Win32 binary. If you downloaded and installed TSC 2.0.0 between
+2015-08-17 and 2015-10-13 we advise you to uninstall the version you
+downloaded, &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-win32.exe&quot;&gt;download the new installer&lt;/a&gt;, and install that one. The
+links on the “Download” page have been adjusted accordingly as well,
+including the MD5 and SHA256 checksums. The old, corrupt binary
+remains on the FTP for examination purposes under the name of
+&lt;code&gt;tsc-2.0.0-win32.defunct.exe&lt;/code&gt; and should not be used by endusers (and
+is not linked to anywhere).&lt;/p&gt;
+
+&lt;p&gt;We apologise for the inconvenience, but errors are human. We do want
+to say Thank You to the users who reported the problem with us,
+because as all of the developers are using Linux systems, we would
+probably not have noticed the corrupt binary at all without their
+reports.&lt;/p&gt;
+
+&lt;p&gt;Marvin Gülker (&lt;em&gt;Quintus&lt;/em&gt;)&lt;br /&gt;
+On behalf of the TSC development team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2015/08/17/2/"/>
+    <title>TSC 2.0.0 has been released</title>
+    <id>secretchronicles.org/en;6</id>
+    <updated>2015-08-17</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Stable version 2.0.0 of TSC has been released today.</summary>
+    <content type="html">
+&lt;p&gt;The TSC development team is proud to announce that exactly six years
+after the last release of SMC, 1.9, two years after I, Marvin
+Gülker aka &lt;em&gt;Quintus&lt;/em&gt;, forked the game under the name of TSC, after
+months of development and several backthrows, finally the new stable
+version 2.0.0 has been released today. As I write this, the source
+tarball and the Windows setup installer are being uploaded to
+alexandria, our server. So, what has changed?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The game now contains a very powerful scripting engine in mruby, a
+minimal implementation of the Ruby programming language. It allows
+you to do nearly everything imaginable as a level author. Most
+prominently it allows to create switches that can have arbitrary
+effects.&lt;/li&gt;
+  &lt;li&gt;New enemies: Larry the bomb, Pip the worm, and the Beetle Barrage.&lt;/li&gt;
+  &lt;li&gt;Movable crates were added as a new dynamic game object that may be
+involved in certain obstacles.&lt;/li&gt;
+  &lt;li&gt;All Mario-inspired music and most of the Mario-inspired graphics are
+gone. Especially all the powerup graphics have been exchanged.&lt;/li&gt;
+  &lt;li&gt;Several new pieces of music have been added.&lt;/li&gt;
+  &lt;li&gt;Several new levels have been added.&lt;/li&gt;
+  &lt;li&gt;The game now officially contains a Tutorial campaign.&lt;/li&gt;
+  &lt;li&gt;Many more strings have been made translatable, and we have a
+complete Finnish and German translation. Note that not all the
+strings are translatable yet, though, so you’ll still see some
+English.&lt;/li&gt;
+  &lt;li&gt;The ten year old C++ codebase was reworked largely. The code is now
+more clean, and it is possible to build the Windows version by
+crosscompilation from Linux without needing access to Microsoft’s proprietary
+compiler.&lt;/li&gt;
+  &lt;li&gt;Compiling people will enjoy that the dependency on CEGUI’s
+NullRenderer was removed. Also, the entire build system was changed
+to cmake, and CEGUI is compiled in statically if the old version we
+required is not found on your computer (we are working on upgrading
+our dependencies).&lt;/li&gt;
+  &lt;li&gt;Several bugfixes, smaller features, etc. You can take a look at the
+Git commit log if you really want to know them all.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Before the advent of The Secret Chronicles of Dr. M. the Secretmaryo
+project (Secret Maryo Chronicles, SMC) was basically dead. Its former
+lead developer, Florian Richter (&lt;em&gt;FluXy&lt;/em&gt;), abandoned it about the year
+2012. The once active forums grew more and more empty, were invaded by
+armies of spambots, and only few users still checked them when I took
+up the project in 2013. First I just wanted to contribute the long
+requested scripting engine, but after I posted its first version (then
+written in Lua) I soon realised that if I just leave it there, nobody
+would pick it up. Earlier I had come into contact with the former SMC
+assistant lead, &lt;em&gt;Luiji&lt;/em&gt;, to whom I express my special gratitude, and
+without whom there would be no TSC today. It was him who convinced me
+(probably he did not even realise that role himself) that there must
+be a future to this game. Till today, he has supported me as the
+assistant lead of the TSC project in various adminsitrative tasks, and
+continues to be an important part of TSC. He will certainly remember
+how we got in touch when working on the now obsolete &lt;code&gt;smc-get&lt;/code&gt;
+program…&lt;/p&gt;
+
+&lt;p&gt;Anyway, I forked the SMC sourcecode from its GitHub repository and
+implemented several new features and fixed some longer standing
+bugs. I posted my progress in the old SMC forums, and generated some
+interest there. Over time, some of the old users returned and
+encouraged me even further, so that after another while I decided that
+my role with the SMC project shall not be only an intermediary one
+(the early commits in the TSC repo list me as “Interim project lead”
+in the credits). I assumed the role of the project lead; after some
+more or less successful tries to contact Mr. Richter, the decision was
+made to declare TSC officially a fork of the SMC project. With the
+German company &lt;a href=&quot;http://www.first-root.com&quot;&gt;First Root UG&lt;/a&gt; we found a sponsor for our (little)
+infrastructure which we then used to set up this website, a wiki, a
+(currently surpisingly active) forum, and the development
+mailinglist. Many thanks to them; without their support it would have
+been much more difficult to manage the process.&lt;/p&gt;
+
+&lt;p&gt;With more and more features added, and more people joining the
+efforts, we came to the conclusion that while we enjoy the game of
+SMC, we need a different goal. SMC to a large extent was still a Mario
+clone, with different graphics, but with the game mechanics only very
+slightly changed. It was widely recognised as such. In a &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/92&quot;&gt;long and
+heated discussion&lt;/a&gt; we decided to rename the project to “The Secret
+Chronicles of Dr. M.” and try to remove Mariosms in graphics and game
+handling. While this ongoing effort is far from being completed, early
+results are already visible in the now released 2.0.0 stable version.&lt;/p&gt;
+
+&lt;p&gt;Due to various bugs and external circumstances, the release of 2.0.0
+was delayed for about one year after its planned publishment. While
+our timekeeping obviously has been unsatisfactory, we promise to do
+better for the next releases. However, before I show you the links, I
+think this is the place to say thank you also to those persons that I
+did not already mention. Let me say thank you to Chris Jacobsen
+(&lt;em&gt;datahead&lt;/em&gt;) for his sustained support in development albeit he was
+under time pressure for his graduate studies, thank you to Brian
+Vanderburg II (&lt;em&gt;simpletoon&lt;/em&gt;), who contributed probably the most code
+to TSC after me, and thank you to the earliest tester of the game,
+Justin Rissler (&lt;em&gt;DarkAceZ&lt;/em&gt;). Thank you to Sydney Dykstra (&lt;em&gt;sydneyjd&lt;/em&gt;)
+for an uncountable number of helping tasks reaching from graphical
+assets over game testing to server administration, and thank you to
+&lt;em&gt;Bugsbane&lt;/em&gt; for providing the game with his invaluable art. Thank you
+to Arik Burns (&lt;em&gt;aakburns&lt;/em&gt;) for several pieces of music, and likewise
+to Johan Brod (&lt;em&gt;jobromedia&lt;/em&gt;). Thank you to Lauri Ojansivu (&lt;em&gt;xet7&lt;/em&gt;),
+who did the first translation of the game to a foreign language
+(Finnish) and who wrote and maintains this website. There was involved
+the help of many more people, and I am unable to enumerate them
+all. Thank you everyone!&lt;/p&gt;
+
+&lt;p&gt;So, without further ado, here are the download links for &lt;strong&gt;the final
+stable version 2.0.0&lt;/strong&gt;, which will become valid once the uploads have
+finished:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0.tar.xz&quot;&gt;Sourcecode&lt;/a&gt; (MD5: 54688db473103299d867b0e52c39f51e, &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0.tar.xz.sig&quot;&gt;GPG
+signature&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-win32.exe&quot;&gt;Windows installer&lt;/a&gt; (MD5: e20d66fdf171e0b6d5f065803fcfcd02), &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-win32.exe.sig&quot;&gt;GPG
+signature&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Marvin Gülker (&lt;em&gt;Quintus&lt;/em&gt;)&lt;br /&gt;
+On behalf of the TSC development team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2015/07/27/2/"/>
+    <title>TSC 2.0.0-rc1 has been released</title>
+    <id>secretchronicles.org/en;5</id>
+    <updated>2015-07-27</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">The first release candidate (RC1) of the upcoming 2.0.0 version of The Secret Chronicles of Dr. M. (TSC) has been released today.</summary>
+    <content type="html">
+&lt;p&gt;We are proud to announce the release of the first release candidate
+for the upcoming 2.0.0 release, 2.0.0-rc1. There has only been one
+major change since beta8, which was the fix of bug &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/431&quot;&gt;#431&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The RC phase is the last phase in the release process before the final
+release. We will be cautiously watching the issue tracker for any new
+issues for two weeks after each release candidate. If an important issue
+is reported, we’re going to fix it as soon as possible and immediately
+issue a new release candidate. Then the two-week phase starts anew.&lt;/p&gt;
+
+&lt;p&gt;If no issues are reported within the two-week phase, the final release
+is made.&lt;/p&gt;
+
+&lt;p&gt;This is your last chance to test and report issues, so please take
+advantage of this and help the project so that the upcoming 2.0.0
+release will be a successful one.&lt;/p&gt;
+
+&lt;p&gt;These are the download links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-rc1.tar.xz&quot;&gt;Sourcecode&lt;/a&gt; (MD5: 2642ac8013f10cb4bd53a47241435194, &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-rc1.tar.xz.sig&quot;&gt;GPG
+signature&lt;/a&gt;)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-rc1-win32.exe&quot;&gt;Windows installer&lt;/a&gt; (MD5: 89e18675d2b44a4388da0210fb35a92d, &lt;a href=&quot;https://ftp.secretchronicles.org/releases/TSC-2.0.0-rc1-win32.exe.sig&quot;&gt;GPG
+signature&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Marvin Gülker (&lt;em&gt;Quintus&lt;/em&gt;)&lt;br /&gt;
+On behalf of the TSC development team.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2015/03/22/results-of-first-general-discussion/"/>
+    <title>Results of First General Discussion</title>
+    <id>secretchronicles.org/en;4</id>
+    <updated>2015-03-22</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Summary of what happened in IRC yesterday.</summary>
+    <content type="html">
+&lt;p&gt;Yesterday, the &lt;a href=&quot;/en/news/2015/03/12/first-general-discussion/&quot;&gt;First General Discussion&lt;/a&gt; has been held on IRC. For
+those of you who weren’t able to participate, you can read the entire
+thing in the IRC logs as protocolled by our friendly &lt;em&gt;furbot&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://chatlogs.secretchronicles.org/htmllogs/2015-03-21.log.html#msg-2015-03-21T20:00:52+00:00&quot;&gt;Chatlogs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;What follows is a summary of the decisions that have been made during
+the discussion.&lt;/p&gt;
+
+&lt;h2 id=&quot;voting-process&quot;&gt;Voting process&lt;/h2&gt;
+
+&lt;p&gt;The voting process as suggested by &lt;em&gt;Quintus&lt;/em&gt; has been accepted with
+slight modifications. For further General Discussions, the voting
+process with run like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;We try to find a consent on a topic, where everyone agrees to.&lt;/li&gt;
+    &lt;li&gt;If this is not possible, we will hold a vote.&lt;/li&gt;
+  &lt;/ol&gt;
+
+  &lt;p&gt;“Vote” means, anyone from the TSC team is free to post “I vote XYZ”
+or “I abstain”.
+This is an “open vote”.
+If someone requests a covert vote due to thinking he doesn’t want to
+reveal how he votes, this is possible.
+Before we start voting, I will ask if anyone requests that.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Every member of the TSC team is allowed to vote. Team member is, who
+is listed as a member of the &lt;a href=&quot;https://github.com/orgs/Secretchronicles/people&quot;&gt;&lt;em&gt;Secretchronicles&lt;/em&gt; organisation on
+GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was determined we have to clean up with the team status on some
+people. &lt;em&gt;sauer2&lt;/em&gt; should be invited to the team, the existing team
+members have to publish their membership status, and we need to define
+a timeframe when people are removed from the team due to inactivity
+(suggested was half a year).&lt;/p&gt;
+
+&lt;h3 id=&quot;tasks&quot;&gt;Tasks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Publish team membership&lt;/li&gt;
+  &lt;li&gt;Invite &lt;em&gt;sauer2&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Define removal timeframe&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;decision-result&quot;&gt;Decision result&lt;/h3&gt;
+
+&lt;p&gt;Participating team members: 6&lt;br /&gt;
+In favour: 6&lt;br /&gt;
+Against: 0&lt;br /&gt;
+Abstained: 0&lt;/p&gt;
+
+&lt;h2 id=&quot;turtle-boss-and-moon&quot;&gt;Turtle boss and moon&lt;/h2&gt;
+
+&lt;p&gt;The turtle boss will be removed for 2.0.0 due to the lack of
+replacements. sydney’s moon cookie will be used as the replacement for
+the current moon.&lt;/p&gt;
+
+&lt;p&gt;It was also decided that jobromedia’s title and credit music are
+removed from 2.0.0 unless we receive a license confirmation from
+him. As an interim solution, the &lt;code&gt;hyper_1&lt;/code&gt; music is reinstalled.&lt;/p&gt;
+
+&lt;p&gt;Both the turtle boss and the two songs will be re-added in the 2.x
+series if possible and not delayed to 3.x.&lt;/p&gt;
+
+&lt;p&gt;The turtle boss level is replaced by the &lt;em&gt;Mountain Trials&lt;/em&gt; level on
+the world map.&lt;/p&gt;
+
+&lt;p&gt;A new topic was suggested for replacing the existing Mario-like music,
+but we didn’t make it due to time constraints. A new task on the
+tracker has to be added for that.&lt;/p&gt;
+
+&lt;h3 id=&quot;tasks-1&quot;&gt;Tasks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add task for reviewing Mario-like music in existing levels&lt;/li&gt;
+  &lt;li&gt;Replacing turtle boss level&lt;/li&gt;
+  &lt;li&gt;Replacing title/credit music&lt;/li&gt;
+  &lt;li&gt;Removing turtle boss&lt;/li&gt;
+  &lt;li&gt;Add cookie moon&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;decision-result-1&quot;&gt;Decision result&lt;/h3&gt;
+
+&lt;p&gt;Participating team members: 6&lt;br /&gt;
+In favour: 6&lt;br /&gt;
+Against: 0&lt;br /&gt;
+Abstained: 0&lt;/p&gt;
+
+&lt;h2 id=&quot;x-and-3x-series&quot;&gt;2.x and 3.x series&lt;/h2&gt;
+
+&lt;p&gt;This was a hotly debated topic, with the surprising result of everyone
+agreeing on a solution. To keep long story short (see IRC logs for the
+full discussion):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Turtle boss and music replacements are guaranteed to be added to 2.x
+if replacements are proposed on the tracker.&lt;/li&gt;
+  &lt;li&gt;The 2.x series is targetted for a short life. Shortly before the 3.0.0
+release, a fixed dropping date for the 2.x series is to be
+set. Until the 3.0.0 release, 2.x can receive new features, but the
+features that require breaking compatibility will directly be
+implemented in the 3.x series and not backported to 2.x. 2.x and 3.x
+are thus developed in parallel until 3.0.0, with a quick 3.0.0
+release being the target.&lt;/li&gt;
+  &lt;li&gt;Estimation of 2.x lifetime is half a year upto one year at maximum.&lt;/li&gt;
+  &lt;li&gt;After the 3.0.0 release, 2.x will only receive critical bugfixes
+until the defined dropping date, then it will be abandoned.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;decision-result-2&quot;&gt;Decision result&lt;/h3&gt;
+
+&lt;p&gt;Participating team members: 6&lt;br /&gt;
+In favour: 6&lt;br /&gt;
+Against: 0&lt;br /&gt;
+Abstained: 0&lt;/p&gt;
+
+&lt;h2 id=&quot;release-date&quot;&gt;2.0.0 release date&lt;/h2&gt;
+
+&lt;p&gt;A tentative release has been set to the 2015-04-26 for the final 2.0.0
+release. We will try hard to fulfill this, but if we can’t, we have to
+postpone a bit. There’s a list of tickets that need to be resolved &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues?q=is%3Aopen+is%3Aissue+milestone%3A%22Version+2.0.0%22&quot;&gt;on
+the tracker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Participating team members: 6&lt;br /&gt;
+In favour: 6&lt;br /&gt;
+Against: 0&lt;br /&gt;
+Abstained: 0&lt;/p&gt;
+
+&lt;h2 id=&quot;eyes-hedge-replacement-and-the-story&quot;&gt;Eyes, hedge replacement, and the story&lt;/h2&gt;
+
+&lt;p&gt;Topics 6 and 7 from the schedule were combined into one, only to
+divide them up later on again.&lt;/p&gt;
+
+&lt;p&gt;As for topic 7, there are two large story draft documents that need to
+be read before a decision can be made. Hence, deciding on this topic
+has been postponed.&lt;/p&gt;
+
+&lt;p&gt;The discussion on eyes and hedges was also long and heated. It wasn’t
+possible to resolve this topic in consent, and it was noted that with
+&lt;em&gt;sydney&lt;/em&gt; and &lt;em&gt;Bugsbane&lt;/em&gt; the two main protagonists of the discussion —
+the artists — were missing. Therefore, the final discussion on the
+amount of eyes in the game has been postponed indefinitely until
+&lt;em&gt;Bugsbane&lt;/em&gt; shows up again. As an interim compromise,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;sydney&lt;/em&gt;’s hedge replacement stays in 2.0.0.&lt;/li&gt;
+  &lt;li&gt;The eyes on the background images are removed.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tasks-2&quot;&gt;Tasks&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Read &lt;a href=&quot;https://wiki.secretchronicles.org/Story%20Development%20Document%20-%20Version%202&quot;&gt;datahead’s&lt;/a&gt; and &lt;a href=&quot;http://www.mediafire.com/view/igovgwcf4pizc8b/TSC-DF64.odt&quot;&gt;danfun64’s&lt;/a&gt; story documents&lt;/li&gt;
+  &lt;li&gt;Remove eyes on background images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;level-format&quot;&gt;Level format&lt;/h2&gt;
+
+&lt;p&gt;Topic 8 was skipped as the main points have been mentioned in the 2.x
+and 3.x discussion already. 3.x will start with the 2.0.0 release and
+it can break level format as hard as it needs to. With 3.0.0 release,
+2.x goes into maintenance mode to be finally dropped after a short
+time.&lt;/p&gt;
+
+&lt;h2 id=&quot;and-the-other-topics&quot;&gt;And the other topics?&lt;/h2&gt;
+
+&lt;p&gt;The discussion was estimated at 2 hours and took 3,5 hours until
+here. People left one by one, and thus it was decided to skip the rest
+of the schedule, which were topics 9 – 12. It was also noted topic 10
+needs &lt;em&gt;Luiji&lt;/em&gt;’s input, who wasn’t available.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2015/03/12/first-general-discussion/"/>
+    <title>First General Discussion</title>
+    <id>secretchronicles.org/en;3</id>
+    <updated>2015-03-12</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Official announcement of the first General Discussion of the TSC development team.</summary>
+    <content type="html">
+&lt;p&gt;Everybody is invited!&lt;/p&gt;
+
+&lt;p&gt;The 1&lt;sup&gt;st&lt;/sup&gt; General Discussion of the entire TSC team has been
+announced officially today. It will be taken out on 2015-03-21
+20:00:00 UTC in IRC on the Freenode IRC chat network. A large number
+of team members have already announced they’re going to join the
+meeting, and as several important things are going to be discussed and
+probably being decided on, everybody is invited to join and provide
+their thoughts to the team.&lt;/p&gt;
+
+&lt;p&gt;For all details and modalities, please read the &lt;a href=&quot;https://team.secretchronicles.org/~quintus/general-discussions/1st-general-discussion.txt&quot;&gt;announcement in
+full&lt;/a&gt;. That file will be updated while more topics and speakers are
+suggested.&lt;/p&gt;
+
+&lt;p&gt;Quintus&lt;br /&gt;
+TSC project lead.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2014/10/01/new-name-and-mailinglist/"/>
+    <title>New name and mailinglist</title>
+    <id>secretchronicles.org/en;2</id>
+    <updated>2014-10-01</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">Our new name has been decided on, and a mailinglist has been created.</summary>
+    <content type="html">
+&lt;p&gt;Today is a great day. After weeks of discussion, we have finally come
+to a decision on the issue ticket numbered &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/92&quot;&gt;#92&lt;/a&gt;, which was the
+main place where the discussion around our project name was
+happening. We have departed from the &lt;a href=&quot;http://secretmaryo.org&quot;&gt;SMC project&lt;/a&gt; in our goals
+already, but the game still announced itself under this name. From
+today, we are now to be known under the following name:&lt;/p&gt;
+
+&lt;h3 id=&quot;the-secret-chronicles-of-dr-m&quot;&gt;The Secret Chronicles of Dr. M.&lt;/h3&gt;
+
+&lt;p&gt;Dr. M., whose full name has not yet been decided on, will be the
+villain of a new and darker story which will probably be centered
+around libraries and ancient ruins. The current draft of the story,
+which is being authored by datahead, is available &lt;a href=&quot;https://wiki.secretchronicles.org/Story%20Development%20Document%20-%20Version%202&quot;&gt;on our wiki&lt;/a&gt;,
+and any contribution to our story is appreciated. You may join &lt;a href=&quot;https://forum.secretchronicles.org&quot;&gt;our
+forums&lt;/a&gt; or visit us on IRC in &lt;code&gt;#secretchronicles&lt;/code&gt; on Freenode.&lt;/p&gt;
+
+&lt;p&gt;Having found a name for our fork, it now is time to also design a new
+logo, as the old SMC one obviously cannot be used anymore. &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/203&quot;&gt;An issue
+ticket&lt;/a&gt; has been created to take care of the task, and we welcome
+every suggestion on a new logo for the game.&lt;/p&gt;
+
+&lt;p&gt;Apart from the logo, we also need many different artistic
+contributions. If you feel you have artistic capabilities with regard
+to creating graphics or music, you can browse our issue tracker with a
+filter applied for the &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues?q=is%3Aopen+is%3Aissue+label%3AGraphics&quot;&gt;Graphics&lt;/a&gt; or &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues?q=is%3Aopen+is%3Aissue+label%3A%22Music+%26+Sounds%22&quot;&gt;Music &amp;amp; Sounds&lt;/a&gt;. There is plenty to do,
+and chances are your contributions will be included quickly into the
+game, as we strive to make a difference from the SMC project. Among
+those tickets, the one regarding &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/103&quot;&gt;removal and replacement of the
+Mario-style music&lt;/a&gt; deserves a specific mention, as it is of utmost
+importance to us to depart from the Mario roots of the SMC project. To
+the current day, however, we do not have had enough background music
+contribution to allow for the removal of the remixes without leaving a
+large gap behind us, hindering both level designers and players of the
+game.&lt;/p&gt;
+
+&lt;p&gt;In parallel to this article, the fourth beta version of the now
+renamed fork is being made available. You will soon be able to
+download it from the &lt;a href=&quot;/en/download/&quot;&gt;corresponding page&lt;/a&gt;, and we appreciate any
+tests of it, as they aid us in creating a stable 2.0.0 release.&lt;/p&gt;
+
+&lt;p&gt;Finally, I am proud to say we have set up a mailinglist to help us
+developing the game. The list has no online archives at the moment,
+but we are working on setting those up. In the meantime, we invite you
+to subscribe and participate on &lt;code&gt;tsc-devel@lists.secretchronicles.org&lt;/code&gt;
+by sending an empty email (subject does not matter) to
+&lt;code&gt;tsc-devel+subscribe@lists.secretchronicles.org&lt;/code&gt;. You will receive a
+confirmation email with further instructions, which when followed will
+grant you read and post access to the otherwise public mailinglist.&lt;/p&gt;
+
+&lt;p&gt;Help us moving the game forward.&lt;/p&gt;
+
+&lt;p&gt;Valete,&lt;br /&gt;
+Quintus.&lt;/p&gt;
+
+&lt;h2 id=&quot;update-2014-10-02&quot;&gt;Update 2014-10-02&lt;/h2&gt;
+
+&lt;p&gt;The 4&lt;sup&gt;th&lt;/sup&gt; beta has been released. Please &lt;a href=&quot;/en/download/&quot;&gt;download&lt;/a&gt; and test it.&lt;/p&gt;
+
+</content>
+  </entry>
+
+  
+  <entry>
+    <link href="/en/news/2014/09/13/new-server-and-website/"/>
+    <title>New server and website</title>
+    <id>secretchronicles.org/en;1</id>
+    <updated>2014-09-13</updated>
+    <author><name>Quintus</name></author>
+    <summary type="html">We finally have a server and a website specifically for our fork.</summary>
+    <content type="html">
+&lt;p&gt;After long discussions on IRC and the old SMC forums, we have finally
+decided to declare this project an official &lt;em&gt;fork&lt;/em&gt; of the &lt;a href=&quot;http://www.secretmaryo.org&quot;&gt;Secretmaryo
+Chronicles project&lt;/a&gt;. From this day on, we are no longer a simple
+continuation of that project, but rather a project of our own, with
+our own goals, and, hopefully, our own new name. This website
+currently does mention &lt;em&gt;Secretchronicles&lt;/em&gt; as the name of the
+project, but as outlined on the start page, this is not final yet and
+subject to change, because we do not want to keep the “SMC”
+acronym. Please feel free to give your input to the discussion, either
+on &lt;a href=&quot;https://github.com/Secretchronicles/TSC/issues/92&quot;&gt;ticket #92&lt;/a&gt; or in IRC; note we already had a channel
+&lt;code&gt;#secretchronicles&lt;/code&gt; on &lt;code&gt;freenode.net&lt;/code&gt; for a while.&lt;/p&gt;
+
+&lt;div class=&quot;img-right&quot;&gt;
+&lt;img src=&quot;/assets/news-images/2014-09-13-new-server-and-website_firstroot.png&quot; alt=&quot;First Root Logo&quot; /&gt;
+&lt;p&gt;First Root is sponsoring us. Thanks!&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note we are in the process of changing our infrastructure. We have
+been kindly granted a free virtual server by the German company &lt;a href=&quot;http://www.first-root.com&quot;&gt;First
+Root UG&lt;/a&gt;, to whom I express my explicit gratitude. Additionally, I
+have purchased the domain &lt;code&gt;secretchronicles.org&lt;/code&gt; so that we can now
+unite all of our infrastructure on a single domain and server.&lt;/p&gt;
+
+&lt;p&gt;As a consequence, the websites on Secretchronicles that were
+previously scattered around my private &lt;code&gt;quintilianus.eu&lt;/code&gt; domain will
+now be moved gradually over to the new &lt;code&gt;secretchronicles.org&lt;/code&gt;
+domain. The sites hosted on my private server and even on my Raspberry
+Pi will be moved over to the new server. This process will take time,
+but I will continue to inform you on this blog. As of this writing,
+the following sites have already been moved:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The scripting forum from &lt;code&gt;smc.quintilianus.eu&lt;/code&gt; has been moved to
+&lt;code&gt;forum.secretchronicles.org&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;The chatlogs have been moved from &lt;code&gt;secretmaryo.quintilianus.eu&lt;/code&gt;
+to &lt;code&gt;chatlogs.secretchronicles.org&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;furbot&lt;/em&gt;, our helpful IRC bot, now runs on &lt;code&gt;alexandria&lt;/code&gt;, which is the
+nickname of our new server.&lt;/li&gt;
+  &lt;li&gt;A new website (this one) has been added as &lt;code&gt;secretchronicles.org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Please help us to give this fork the necessary momentum it needs to
+evolve and grow, so that the old SMC gains new life with new
+goals. Currently, we are shortly before the 2.0.0 release, with
+2.0.0-beta3 being the current beta version. Test it, and give
+feedback.&lt;/p&gt;
+
+&lt;p&gt;Vale,&lt;br /&gt;
+Quintus.&lt;/p&gt;
+
+</content>
+  </entry>
+
+</feed>

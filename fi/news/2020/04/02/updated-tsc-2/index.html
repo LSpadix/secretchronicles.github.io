@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <title>Päivitetyt paketit TSC 2.1.0-rc2 julkaistu | Secretchronicles Blogi</title>
+    <link rel="stylesheet" href="/stylesheets/default.css" />
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="/fi/feed.atom" />
+    <meta name="generator" content="nanoc 3.8.0" />
+  </head>
+  <body>
+  <div id="fullpage">
+   <div id="page">
+
+    <div id="header">
+  <a href="/fi"><img class="logo" src="/assets/logo.png" alt="The Secret Chronicles of Dr.M." /></a>
+</div>
+<ul id="navbar">
+  <li><a href="/fi">Etusivu</a></li>
+  <li><a href="/fi/screenshots">Kuvat</a></li>
+  <li><a href="/fi/news">Uutiset</a></li>
+  <li><a href="/fi/download">Lataa</a></li>
+  <li><a href="https://github.com/Secretchronicles/TSC">GitHub</a></li>
+  <li><a href="/fi/community">Yhteisö ja osallistuminen</a></li>
+  <li><a href="https://wiki.secretchronicles.org/">Wiki</a></li>
+  <li><a href="/fi/documentation">Dokumentaatio</a></li>
+  <li><a href="/fi/support">Kaupallinen tuki</a></li>
+  <li><a>Language</a>
+    <ul>
+      <li><a href="/fi"><img class="flag" alt="Finnish" src="/assets/flags/fi.png"/><br />Finnish</a></li>
+      <li><a href="/en"><img class="flag" alt="English" src="/assets/flags/en.png"/><br />English</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div id="main">
+      <h1>Päivitetyt paketit TSC 2.1.0-rc2 julkaistu</h1>
+
+      <p class="summary">
+	<i>Kirjoittanut <b>xet7</b> <b>2020-05-10</b></i>.
+
+        
+	  <br />
+	  <i>Suomentanut <b>xet7</b></i>.
+	
+
+	<br />
+
+	
+	  <br />
+	  <i><b>Päivitetyt paketit toisesta 2.1.0 julkaisu kandidaatista on julkaistu.</b></i>
+	
+      </p>
+
+      
+<p>RC2 julkaisussa oli <a href="https://github.com/Secretchronicles/TSC/issues/683">puuttuva riippuvuus libboost-chrono</a> joka on nyt
+lisätty kaikkiin .deb paketteihin. Kiitos agrr että ilmoitit puuttuvasta
+riippuvuudesta ja kiitos xet7 päivitettyjen pakettien tekemisestä.</p>
+
+<p>RC2 Windows asennusohjelmiin ei tarvinnut näitä muutoksia tehdä.</p>
+
+<h3 id="binri-lataukset">Binääri lataukset</h3>
+
+<p><a href="/fi/download/#kehitys-versio">Lataukset sivulla</a> on .deb paketit ja Windows asennusohjelmat.</p>
+
+<h2 id="tietoja-toisesta-210-julkaisu-kandidaatista">Tietoja toisesta 2.1.0 julkaisu kandidaatista</h2>
+
+<p>quintus julkaisi RC2:n <a href="https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/thread/C2MYMC5C45OUGKWOKGND5LV6CAKNABK3/">postituslistalla</a> 26.4.2020, xet7 kopioi
+sen julkaisu uutisen tähän alle.</p>
+
+<p>xet7<br />
+TSC tiimin puolesta.</p>
+
+<h2 id="toinen-julkaisu-kandidaatti-210sta-julkaisu">Toinen julkaisu kandidaatti 2.1.0:sta julkaisu</h2>
+
+<p>quintusilta:</p>
+
+<p>The Secret Chronicles of Dr. M. (TSC) projektin vetäjänä, minulla on ilo
+ilmoittaa että toinen julkaisu kandidaatti (RC2) uudesta
+TSC versiosta 2.1.0 on nyt saatavilla. Julkaisu on tägätty
+Git repossa v2.1.0-rc2 ja on upattu web palvelimellemme..
+Lähdekoodi on saatavilla seuraavista osoitteista:</p>
+
+<ul>
+  <li>Lähdekoodi:            https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc2.tar.gz</li>
+  <li>PGP allekirjoitus:     https://ftp.secretchronicles.org/releases/TSC-2.1.0.rc2.tar.gz.sig</li>
+  <li>MD5 tarkistussumma:    2b81a441cd963428bff46f19c2604150</li>
+  <li>SHA256 tarkistussumma: 377600c13c4a16b249a3879d6d9169ca75ae476d97824218f29a91fe482a2fb1</li>
+</ul>
+
+<p>TGZ tiedosto on kooltaan hieman yli 240 MiB. Ota tämä huomioon ennen
+ennen lataamista.</p>
+
+<p>Pyydämme anteeksi viivettä edellisen RC version jälkeen, mutta kehittäminen
+vapaa-ajalla on aikaa vaikeaa koordinoida.</p>
+
+<h2 id="mit-on-muuttunut-rc1n-jlkeen">Mitä on muuttunut RC1:n jälkeen?</h2>
+
+<ul>
+  <li>Ongelma “Options” valikon tabeissa Hi-DPI näytöissä on
+ehkä korjattu (tiketti #681, ongelman löysi Öyvind Sæther)</li>
+  <li>Ongelma kirjainten encoodayksessa käännetyissä HUD viesteissä oli korjattu</li>
+  <li>Uusi taso desert_fortress</li>
+  <li>Lisätty 3 tasoa world_3:een, mukaanlukien desert_fortress.</li>
+</ul>
+
+<p>Itse asiassa nämä muutokset ovat enemmän kuin pitäisi olla RC:ssä, mutta me
+ajattelimme että ne ovat tarpeeksi pieniä liitettäväksi suoraan.
+Tämän tuloksena, olen päättänyt julkaista toisen julkaisu kandidaatin,
+enkä vielä lopullista versiota.</p>
+
+<h2 id="milloin-voimme-olettaa-lopullisen-julkaisun-tapahtuvan">Milloin voimme olettaa lopullisen julkaisun tapahtuvan?</h2>
+
+<p>Tämä on toinen julkaisu kandidaatti. Jos vakavia ongelmia ei ole löydetty
+ennen 3.5.2020, versio 2.1.0 julkaistaan pian tämän päivän jälkeen.</p>
+
+<h2 id="mit-tapahtuu-rc-vaiheessa">Mitä tapahtuu RC vaiheessa?</h2>
+
+<p>Tätä koodia pidetään nyt lopullisena tulevaa julkaisua varten. RC
+vaiheessa on viimeinen mahdollisuus testata peliä vakavien ongelmien
+varalta; pieniä ongelmia ei korjata. Niitä muutoksia ei tehdä mitkä
+ei liity vakaviin ongelmiin. Emme oleta että pelissä on enää
+vakavia ongelmia.</p>
+
+<h2 id="voinko-auttaa-tsct-kyttjn-nyt">Voinko auttaa TSC:tä käyttäjänä nyt?</h2>
+
+<p>Voit testata RC2:sta ja katsoa löydätkö ongelmia joiden vuoksi peli
+ei toimisi. Ole hyvä ja raportoi ne <a href="https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/thread/C2MYMC5C45OUGKWOKGND5LV6CAKNABK3/">tänne</a> tai 
+<a href="https://github.com/Secretchronicles/TSC/issues">bugienseurantaan</a> (vaatii GitHub tilin).</p>
+
+<p>Valitettavasta ihan uusia tasoja ei tehty beta vaiheen aikana, joten
+versiossa 2.1.0 ei tule olemaan kovin erilaisia tasoja verrattuna 2.0.0:aan.
+Kunhan versio 2.1.0 on julkaistu, rohkaisemme kaikkia käyttäjiä lähettämään
+laadkkaita tasoja liitettäväksi tuleviin julkaisuihin.</p>
+
+<p>quintus<br />
+TSC tiimin puolesta.</p>
+
+
+    </div>
+
+   </div>
+
+    <div id="footer">
+
+  <p id="utc-time"></p>
+
+  <script>
+  (function() {
+    'use strict';
+    function updateUTCTime() {
+      document.getElementById("utc-time").innerHTML = 'UTC Time Now: ' + (new Date()).toUTCString();
+    }
+    window.setInterval(updateUTCTime, 1000);
+    updateUTCTime();
+  })();
+  </script>
+
+  <p>Copyright © 2022 The Secret Chronicles Team</p>
+  <p id="sponsor">Hosting thanks to our collegues from <a href="https://wekan.github.io/"><img src="/assets/wekan-logo.svg" alt="Wekan" style="height: 24px"/></a></p>
+  </p>
+</div>
+
+  </div>
+  </body>
+</html>

@@ -1,0 +1,441 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bootable USB image available | Secretchronicles Blog</title>
+    <link rel="stylesheet" href="/stylesheets/default.css" />
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="/en/feed.atom" />
+    <meta name="generator" content="nanoc 3.8.0" />
+  </head>
+  <body>
+  <div id="fullpage">
+   <div id="page">
+
+    <div id="header">
+  <a href="/en"><img class="logo" src="/assets/logo.png" alt="The Secret Chronicles of Dr.M." /></a>
+</div>
+<ul id="navbar">
+  <li><a href="/en">Home</a></li>
+  <li><a href="/en/screenshots">Screenshots</a></li>
+  <li><a href="/en/news">News</a></li>
+  <li><a href="/en/download">Download</a></li>
+  <li><a href="https://github.com/Secretchronicles/TSC">GitHub</a></li>
+  <li><a href="/en/community">Community/Contributing</a></li>
+  <li><a href="https://wiki.secretchronicles.org/">Wiki</a></li>
+  <li><a href="/en/documentation">Docs</a></li>
+  <li><a href="/en/support">Commercial Support</a></li>
+  <li><a>Language</a>
+    <ul>
+      <li><a href="/fi"><img class="flag" alt="Finnish" src="/assets/flags/fi.png"/><br />Finnish</a></li>
+      <li><a href="/en"><img class="flag" alt="English" src="/assets/flags/en.png"/><br />English</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div id="main">
+      <h1>Bootable USB image available</h1>
+
+      <p class="summary">
+	<i>Written by <b>xet7</b> on <b>2018-06-16</b></i>.
+
+        
+
+	<br />
+
+	
+	  <br />
+	  <i><b>Bootable USB image available</b></i>
+        
+      </p>
+      
+      
+<p>xet7 released today bootable USB image version of TSC. It has <a href="https://www.debian.org">Debian 9</a> 64bit Linux
+with LXDE desktop and TSC alpha version installed from git repo devel branch as of today 
+2018-06-16. Linux boots directly from USB stick, so it works fast and is
+very playable.</p>
+
+<h2 id="a-idchangelogachangelog"><a id="changelog"></a>ChangeLog</h2>
+
+<ul>
+  <li>v0.02 2018-06-17 Added wlan drivers, and some graphics/audio/password etc software</li>
+  <li>v0.01 2018-06-16 First release</li>
+</ul>
+
+<h2 id="a-idlongplayalongplay-15-hour-video-of-tsc"><a id="longplay"></a>Longplay 1.5 hour video of TSC</h2>
+
+<div class="embed-container">
+  <iframe src="https://www.youtube.com/embed/Dj7Ih5EBI6E" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
+
+<h2 id="a-idrequirementsa1-requirements"><a id="requirements"></a>1) Requirements</h2>
+
+<p>You most likely need bigger that 8 GB USB stick, because usb image if from
+8 GB USB stick. This is because some 8 GB USB sticks are a little smaller,
+and some are bigger. You can try does this fit on 8 GB USB stick.</p>
+
+<p>If you have PlayStation 3 compatible USB gamepad, you can use it with
+TSC. For example, I use this gamepad.</p>
+
+<h3 id="goodbetterbest-ltd-gioteck-vx2-wired-controller">Goodbetterbest Ltd Gioteck VX2 Wired Controller</h3>
+
+<p>
+<div class="embed-container">
+<img src="/assets/bootableusb/gamepad.jpg" width="100%" height="auto" alt="Gamepad" />
+</div>
+</p>
+
+<h2 id="a-iddownloada2-download-usb-image-file"><a id="download"></a>2) Download USB image file</h2>
+
+<p><a href="https://ftp.secretchronicles.org/alpha/tsc-usb-2018-06-17.img.gz">tsc-usb-2018-06-17.img.gz</a> - 2.4 GB</p>
+
+<p>SHA256SUM:<br />
+dd6b64ac6b5f31c8f2783d8542f7d4cc1d39a9d0b3257513e09e68cc294ba2cc</p>
+
+<h2 id="a-idwriteusba3-writing-image-to-usb-stick"><a id="writeusb"></a>3) Writing image to USB stick</h2>
+
+<p><a href="https://etcher.io">Download Etcher</a> - Win/Mac/Linux</p>
+
+<p>Start Etcher, select image file, and write to USB stick.</p>
+
+<h2 id="a-iddonotformata4-do-not-format-stick-in-windows-it-will-make-stick-empty-click-peruutacancel"><a id="donotformat"></a>4) Do not format stick in Windows. It will make stick empty. Click Peruuta/Cancel.</h2>
+
+<p style="text-align: center;">
+<img src="/assets/bootableusb/windows-do-not-format.png" width="60%" height="auto" alt="Do not format stick in Windows" />
+</p>
+
+<h2 id="a-idbootingfromusba5-booting-from-usb"><a id="bootingfromusb"></a>5) Booting from USB</h2>
+
+<p>Booting from USB is usually done by pressing Esc many times when computer
+is booting. From boot menu select USB drive with arrow keys down and Enter.</p>
+
+<p>In one laptop’s case pressing F2 many times while booting did start
+BIOS/UEFI settings. There arrow key right to Boot menu, and on UEFI
+setting press Enter some times to accept OK messages, so that
+it is changed UEFI =&gt; Legacy Mode. After that orderl all USB boot
+options to top, and F10 is Save and Exit. Then it boots from USB stick.</p>
+
+<h2 id="a-iduefimodea6-before-uefi-mode"><a id="uefimode"></a>6) Before: UEFI mode</h2>
+
+<p>
+<div class="embed-container">
+<img src="/assets/bootableusb/uefimode.jpg" width="100%" height="auto" alt="UEFI Mode" />
+</div>
+</p>
+
+<h2 id="a-idlegacymodea7-after-legacy-mode-usb-options-moved-to-top-press-f10-that-is-save-and-exit"><a id="legacymode"></a>7) After: Legacy Mode, USB options moved to top. Press F10 that is Save and Exit.</h2>
+
+<p>
+<div class="embed-container">
+<img src="/assets/bootableusb/legacymode.jpg" width="100%" height="auto" alt="Legacy Mode" />
+</div>
+</p>
+
+<h3 id="a-idalternativebootaalternative-ways-to-boot-from-usb"><a id="alternativeboot"></a>Alternative ways to boot from USB</h3>
+
+<p>Other alternative boot menu keys are F1 or Enter, that usually brings
+BIOS or UEFI settings where boot order can be changed. 
+Some laptop models have some special tiny pushable button at left side 
+of laptop, that brings settings menu.
+It could also be some other key, like F2, F10, F11 or F12.</p>
+
+<h2 id="a-idlinuxbootinga8-linux-booting-from-usb-press-enter-or-wait-some-seconds-to-continue-booting"><a id="linuxbooting"></a>8) Linux booting from USB: press enter, or wait some seconds to continue booting</h2>
+
+<p>
+<div class="embed-container">
+<img src="/assets/bootableusb/boot.png" width="100%" height="auto" alt="Booting Linux from USB" />
+</div>
+</p>
+
+<h2 id="a-idenablefirewalla9-enable-firewall-because-ssh-server-remote-access-is-running-by-default"><a id="enablefirewall"></a>9) Enable firewall, because SSH server remote access is running by default</h2>
+
+<p>You can see Linux IP address with right click at bottom right corner icon that has blue wire in
+white wall socket, and then click “Tietoja”.</p>
+
+<p>Linux has remote SSH access with:</p>
+
+<blockquote>
+  <p><code>ssh peli@192.x.x.x</code></p>
+</blockquote>
+
+<blockquote>
+  <p><code>ssh password: peli</code></p>
+</blockquote>
+
+<blockquote>
+  <p><code>sudo password: peli</code></p>
+</blockquote>
+
+<h3 id="enable-firewall-to-prevent-remote-access">Enable firewall to prevent remote access:</h3>
+
+<p>Click Start-Bird-menu / Järjestelmätyökalut / LXTerminal</p>
+
+<p>Write and then press enter:</p>
+
+<blockquote>
+  <p><code>sudo ufw enable</code></p>
+</blockquote>
+
+<h3 id="if-you-want-ssh-remote-access">If you want SSH remote access</h3>
+
+<p>Click Start-Bird-menu / Järjestelmätyökalut / LXTerminal</p>
+
+<p>Write and then press enter:</p>
+
+<blockquote>
+  <p><code>sudo ufw disable</code></p>
+</blockquote>
+
+<p><img src="/assets/bootableusb/wlan.png" align="right" alt="Network Settings" /></p>
+
+<h2 id="a-idnetworksettingsa10-network-settings"><a id="networksettings"></a>10) Network settings</h2>
+
+<p>You can test network connection with Start-Bird-button /
+Internet / Firefox. Write there some web address.</p>
+
+<p>LAN: If you have Ethernet cable connected, it should connect to
+Internet automatically.</p>
+
+<p>WLAN: Click at bottom right corner icon that has blue wire in
+white wall socket. Select WLAN network and enter your WLAN password.</p>
+
+<p>Android mobile phone or table USB cable: connect USB cable from mobile Android
+phone to laptop. In Android phone click Settings cogwheel /
+More / Shared connection and mobile hotspot /
+Internet sharing via USB . If it does not connect yet, you may
+need to set mobile connection on desktop bottom right corner icon
+that has blue wire in white wall socket. You may need to click cancel
+to file manage popups that try to connect to your mobile phone disk space.</p>
+
+<p>Symbian phone USB cable: connect USB cable to your computer and select
+Nokia Suite mode on your Symbian phone. If it does not connect yet, you may
+need to set mobile connection on desktop bottom right corner icon
+that has blue wire in white wall socket. You may need to click cancel
+to file manage popups that try to connect to your mobile phone disk space.</p>
+
+<p>USB 2G/3G/4G/5G modem: connect modem to computer. If it does not connect yet, you may
+need to set mobile connection on desktop bottom right corner icon
+that has blue wire in white wall socket. You may need to click cancel
+to file manage popups that try to connect to your mobile phone disk space.</p>
+
+<h2 id="a-idscreenmodea11-screenmode"><a id="screenmode"></a>11) Screenmode</h2>
+
+<p>Click Bird-Start-button / Asetukset / Näytön asetukset. Select laptop local
+display, or external monitor “Ulkoinen näyttö”, or just try various
+options.</p>
+
+<p style="text-align: center;">
+<img src="/assets/bootableusb/display-settings1.png" width="100%" height="auto" alt="Display Settings 1" />
+<br /><br />
+<img src="/assets/bootableusb/display-settings2.png" width="100%" height="auto" alt="Display Settings 2" />
+<br /><br />
+<img src="/assets/bootableusb/display-settings3.png" width="100%" height="auto" alt="Display Settings 3" />
+</p>
+
+<h2 id="a-idstartingtsca12-starting-tsc-double-click-tsc-shortcut-at-desktop-and-click-suorita"><a id="startingtsc"></a>12) Starting TSC: Double click TSC shortcut at desktop and click “Suorita”.</h2>
+
+<p>This runs script that starts the game.</p>
+
+<p style="text-align: center;">
+<img src="/assets/bootableusb/run-tsc-start-script.png" width="100%" height="auto" alt="Run TSC start script: Suorita" />
+</p>
+
+<h2 id="a-idmainmenua13-main-menu-you-can-move-with-mouse-or-arrow-keys"><a id="mainmenu"></a>13) Main menu. You can move with mouse or arrow keys.</h2>
+
+<p>
+<div class="embed-container">
+<img src="/assets/bootableusb/mainmenu.png" width="100%" height="auto" alt="TSC main menu" />
+</div>
+</p>
+
+<h2 id="a-idgamepadsettingsa14-in-options-you-can-change-gamepad-settings"><a id="gamepadsettings"></a>14) In Options, you can change gamepad settings.</h2>
+
+<p>
+<div class="embed-container">
+<img src="/assets/bootableusb/gamepad-settings.png" width="100%" height="auto" alt="Gamepad Settings" />
+</div>
+</p>
+
+<h2 id="a-idstoppingtsca15-stopping-tsc-press-esc-and-click-quit-with-mouse-or-arrow-keys-and-enter"><a id="stoppingtsc"></a>15) Stopping TSC: press Esc, and click Quit with mouse or arrow keys and Enter.</h2>
+
+<h2 id="a-idshutdownlinuxa16-shutdown-linux-click-start-bird-menu--kirjaudu-ulos--sammuta"><a id="shutdownlinux"></a>16) Shutdown Linux: Click Start-Bird-Menu / Kirjaudu ulos / Sammuta</h2>
+
+<p>
+<div class="embed-container">
+<img src="/assets/bootableusb/shutdown-sammuta.png" width="100%" height="auto" alt="Gamepad Settings" />
+</div>
+</p>
+
+<h2 id="a-idbacktowindowsa17-going-back-to-windows"><a id="backtowindows"></a>17) Going back to Windows</h2>
+
+<p>To get back to Windows, <a href="#uefimode">change back Legacy Mode =&gt; UEFI</a>.</p>
+
+<h2 id="a-idlinuxupdatesaoptional-install-linux-security-etc-updates"><a id="linuxupdates"></a>Optional: Install Linux security etc updates</h2>
+
+<p>Click Bird-Start-button / Järjestelmätyökalut / LXTerminal.</p>
+
+<p>Write this and press enter (password is peli) :</p>
+
+<blockquote>
+  <p><code>sudo apt update &amp;&amp; sudo apt -y dist-upgrade</code></p>
+</blockquote>
+
+<h3 id="after-updates-reboot-linux-click-bird-start-button--kirjaudu-ulos--kynnist-uudelleen">After updates, reboot Linux: Click Bird-Start-button / Kirjaudu ulos / Käynnistä uudelleen.</h3>
+
+<h3 id="after-reboot-cleanup-to-free-space">After reboot, cleanup to free space:</h3>
+
+<p>Click Bird-Start-button / Järjestelmätyökalut / LXTerminal.</p>
+
+<p>Write this and press enter after each line (password is peli) :</p>
+
+<blockquote>
+  <p><code>sudo apt clean &amp;&amp; sudo apt autoclean &amp;&amp; sudo apt autoremove</code></p>
+</blockquote>
+
+<blockquote>
+  <p><code>exit</code></p>
+</blockquote>
+
+<h2 id="a-idupdatetscaoptional-update-tsc-to-newest-version"><a id="updatetsc"></a>Optional: Update TSC to newest version.</h2>
+
+<h3 id="click-bird-start-button--jrjestelmtykalut--lxterminal">Click Bird-Start-button / Järjestelmätyökalut / LXTerminal.</h3>
+
+<h3 id="write-this-and-press-enter-after-each-line-password-is-peli-">Write this and press enter after each line (password is peli) :</h3>
+
+<blockquote>
+  <p><code>cd /home/peli/repos/Secretchronicles/TSC</code></p>
+</blockquote>
+
+<blockquote>
+  <p><code>git pull</code></p>
+</blockquote>
+
+<blockquote>
+  <p><code>./build-and-run.sh</code></p>
+</blockquote>
+
+<blockquote>
+  <p><code>exit</code></p>
+</blockquote>
+
+<h2 id="optional-change-language">Optional: Change Language</h2>
+
+<p>Because this bootable USB was originally created for friend at Finland, desktop 
+and keyboard is currently using Finnish, you can <a href="https://wiki.debian.org/ChangeLanguage">change language</a>.</p>
+
+<p>TSC game language is also in Finnish, you can change it after starting
+TSC game from desktop TSC shortcut in game options “Kieli: fi-fi, etc.”</p>
+
+<h2 id="optional-enlarge-disk-space">Optional: Enlarge Disk Space</h2>
+
+<p>There is 7.5 GB / btrfs partition and 0.5 GB swap partition. If you write this
+to bigger USB stick, you can with GParted (for example Puppy Linux .iso booted
+in VirtualBox, and USB stick attached) delete swap and extended partitions,
+enlarge / partition to bigger, and add extended and swap partition. Then copy
+from GParted swap partition info the swap partition UUID to / partition
+textfile /etc/fstab editing it as root, replace old UUID, save /etc/fstab
+textfile, unmount USB stick, and boot from USB stick.</p>
+
+<p>There is also <a href="https://github.com/maharmstone/btrfs">experimental btrfs driver for Windows</a>.</p>
+
+<h2 id="development-adding-changes-to-usb-image-file">Development: Adding changes to USB image file</h2>
+
+<p>If you want to use Linux image in VirtualBox for development
+(it’s too slow for playing in VirtualBox), you can extract it unar,
+that unarhives any archive:</p>
+
+<blockquote>
+  <p><code>sudo apt install unar zip unzip p7zip-full xmount</code></p>
+</blockquote>
+
+<p>Then you can mount .img as VirtualBox vdi file with xmount
+that writes changes to separate cache file, start VirtualBox as root
+with:</p>
+
+<blockquote>
+  <p><code>sudo virtualbox</code></p>
+</blockquote>
+
+<p>Install VirtualBox extensions pack downloaded from <a href="https://virtualbox.org">virtualbox.org</a>
+in VirtualBox menu File / Preferences / Extensions,
+make new Debian 9 64bit VM with 2 GB RAM or more, use /mnt/tsc…vdi
+as hard disk, etc:</p>
+
+<blockquote>
+  <p><code>unar tsc-usb-*.img.gz</code></p>
+</blockquote>
+
+<blockquote>
+  <p><code>sudo xmount --in raw ./tsc-usb-2018-06-16.img --out vdi --cache ./disk.cache /mnt</code></p>
+</blockquote>
+
+<p>After changes to disk.cache file, writing modified disk image back to archived
+file requires having another harddisk vdi image, that you boot in virtualbox:</p>
+
+<blockquote>
+  <p><code>sudo mkdir /mnt2</code></p>
+</blockquote>
+
+<blockquote>
+  <p><code>sudo xmount --in raw ./tsc-usb-2018-06-16.img --out vdi --cache ./disk2.cache /mnt2</code></p>
+</blockquote>
+
+<p>Then create new VirtualBox Debian 9 64bit VM with 2 GB RAM minimum, add
+to SATA controller, add to it harddisk drive /mnt2/tsc…vdi , then add
+cdrom and leave it empty, then add harddisk drive /mnt/tsc…vdi .
+Then add shared folder with auto-mount. Start VM.
+Click Start-Bird-button / Järjestelmätyökalut / Tiedostonallinta that is
+file manager. Click on file manager Linux partition at bottom, to see
+is it /dev/sdb. Install VirtualBox additions from top VirtualBox top menu.
+Then unmount /dev/sdb and make archive on Start-Bird-button /
+Järjestelmätyökalut / LXTerminal:</p>
+
+<blockquote>
+  <p><code>sudo su</code></p>
+</blockquote>
+
+<p>See what shared drives there are:</p>
+
+<blockquote>
+  <p><code>df -h</code></p>
+</blockquote>
+
+<p>And write disk image:</p>
+
+<blockquote>
+  <p><code>sudo dd if=/dev/sdb conv=sync,noerror status=progress | gzip -c &gt; /YOUR-SHARED-FOLDER/tsc-usb-YEAR-MONTH-DATE.img.gz</code></p>
+</blockquote>
+
+<p>Lauri (xet7)<br />
+On behalf of TSC team</p>
+
+
+    </div>
+
+   </div>
+
+    <div id="footer">
+
+  <p id="utc-time"></p>
+
+  <script>
+  (function() {
+    'use strict';
+    function updateUTCTime() {
+      document.getElementById("utc-time").innerHTML = 'UTC Time Now: ' + (new Date()).toUTCString();
+    }
+    window.setInterval(updateUTCTime, 1000);
+    updateUTCTime();
+  })();
+  </script>
+
+  <p>Copyright © 2022 The Secret Chronicles Team</p>
+  <p id="sponsor">Hosting thanks to our collegues from <a href="https://wekan.github.io/"><img src="/assets/wekan-logo.svg" alt="Wekan" style="height: 24px"/></a></p>
+  </p>
+</div>
+
+
+  </div>
+  </body>
+</html>

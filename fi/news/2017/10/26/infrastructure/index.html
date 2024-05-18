@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <title>Palvelin infran päivitys | Secretchronicles Blogi</title>
+    <link rel="stylesheet" href="/stylesheets/default.css" />
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="/fi/feed.atom" />
+    <meta name="generator" content="nanoc 3.8.0" />
+  </head>
+  <body>
+  <div id="fullpage">
+   <div id="page">
+
+    <div id="header">
+  <a href="/fi"><img class="logo" src="/assets/logo.png" alt="The Secret Chronicles of Dr.M." /></a>
+</div>
+<ul id="navbar">
+  <li><a href="/fi">Etusivu</a></li>
+  <li><a href="/fi/screenshots">Kuvat</a></li>
+  <li><a href="/fi/news">Uutiset</a></li>
+  <li><a href="/fi/download">Lataa</a></li>
+  <li><a href="https://github.com/Secretchronicles/TSC">GitHub</a></li>
+  <li><a href="/fi/community">Yhteisö ja osallistuminen</a></li>
+  <li><a href="https://wiki.secretchronicles.org/">Wiki</a></li>
+  <li><a href="/fi/documentation">Dokumentaatio</a></li>
+  <li><a href="/fi/support">Kaupallinen tuki</a></li>
+  <li><a>Language</a>
+    <ul>
+      <li><a href="/fi"><img class="flag" alt="Finnish" src="/assets/flags/fi.png"/><br />Finnish</a></li>
+      <li><a href="/en"><img class="flag" alt="English" src="/assets/flags/en.png"/><br />English</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div id="main">
+      <h1>Palvelin infran päivitys</h1>
+
+      <p class="summary">
+	<i>Kirjoittanut <b>Quintus</b> <b>2017-10-26</b></i>.
+
+        
+	  <br />
+	  <i>Suomentanut <b>xet7</b></i>.
+	
+
+	<br />
+
+	
+	  <br />
+	  <i><b>Projektin infra sai suuren päivityksen — kaikki käyttäjätilit ja tilaukset peruttu!</b></i>
+	
+      </p>
+
+      
+<p><strong>HUOM: Tämä artikkeli sisältää tärkeätä tietoa postituslistan ja foorumin käyttäjille! Ole hyvä ja lue tarkkaan!</strong></p>
+
+<p>Sunnuntaina, 15.10.2017 pääpalvelimemme <code>alexandria</code> kärsi
+sähkökatkosta sponsorimme palvelinkeskuksessa  joka vioitti SQL
+tietokantaa. Onneksi, kiitos toimiville varmuuskopioille, oli
+mahdollista palauttaa kaikki tärkeät tiedot paitsi ihan uusimmat
+viestit Chessboard foorumilla.</p>
+
+<p>Kuitenkin, otimme palvelinkatkon mahdollisuutena viimeinkin
+päivittää vanhentunut palvelin käyttöjärjestelmä (Debian 7)
+nykyiseen Debian 9 versioon. Tämä päivitys on nyt valmistunut,
+ja pyydämem anteeksi kaikkea haittaa joka aiheutui siitä että
+erityisesti foorumimme ja postituslistamme eivät olleet
+saatavilla päivityksen aikana. Lisäksi, entinen projektin vetäjä
+Quintus (Marvin) on ilmoittanut käyttävänsä jälleen jonkin verran
+aikaa kirjoittaaksen uudelleen TSC:n versioksi 3.0.0.  Tukeaksemme
+häntä tässä, päätimme sulkea Chessboardin osoitteessa
+forum.secretchronicles.org koska Chessboard on
+<a href="https://github.com/Quintus/chessboard">ohjelmisto jonka Quintus on itse kirjoittanut</a> ja muutoin
+tarvitsisi aktiivista ylläpitoa koodimuutoksina mahdollisten
+tietoturvaongelmien ilmetessä. Tällöin hän voi nyt keskittyä
+varsinaiseen TSC koodaukseen.</p>
+
+<p>Tämä siirto ei kuitenkaan tarkoita että TSC:llä ei olisi
+viestintävälinettä jäljellä. Ensinnäkin, <a href="https://forum.secretchronicles.org/">forum.secretchronicles.org</a>
+on arkistoitu staattiseksi kopioksi joka säilyy saatavilla referenssinä
+mutta ei aiheita ylläpito ongelmia enää koska se on vain staattista
+HTML:ään nyt (kopio on tehty <a href="http://www.httrack.com/">HTTrack</a> ohjelmalla). Et voi kirjautua
+siihen enää, ja <em>kaikki käyttäjätilin on peruttu</em>.</p>
+
+<p>Chessboard on aina ollut käyttöliittymä kahdelle postituslistalle,
+tsc-users@lists.secretchronicles.org ja
+tsc-devel@lists.secretchronicles.org. Näitä postituslistoja
+hallittiin <a href="http://mlmmj.org/">mlmmj</a> ohjelmistolla jonka web käyttöliittymän puute
+oli syy miksi Chessboard alunperin kirjoitettiin. Tämän jälkeen
+kuitenkin, muut postituslista ohjelmistot ovat kehittyneet.
+Merkittävimpänä, standardi postituslista ohjelmisto,
+<a href="http://list.org/">GNU Mailman</a>, on nähnyt merkittävän päivityksen web käyttöliittymässä.
+Vanha “Pipermail” käyttöliittymä oli poistettu kokonaan ja sen
+tilalle tullut uudelleenkirjoitettu version nimeltään “HyperKitty”,
+joka käyttää modernia teknologiaa ja tarjoaa hienon ja siistin
+käyttökokemuksen. Siis, TSC projektin postituslistat on siirretty
+mljmmj:stä Mailman:iin. Helpottaaksemme siirtymistä mlmmj+Chessboardista
+GNU Mailmaniin kuitenkin, <em>kaikki tilaukset molempiin tsc-devel ja
+tsc-user on peruttu</em>, kuten foorumi tilitkin.</p>
+
+<p>Projektin pääviestintäväline on nyt <a href="https://lists.secretchronicles.org/">lists.secretchronicles.org</a>.
+Sillä sivustolla löydät hienon web käyttöliittymän, joka sallii
+osallitua postituslista keskusteluihin käyttämättä sähköpostia,
+jos et halua käyttää sähköpostia. HyperKittyn pitäisi tuoda mukavuutta
+niille jotka valittivat että Chessboardin käyttöliittymä näyttää
+liian vanhalta. Jos toisaalta pidät ensisijaisesti sähköposti
+viestinnästä (ja oikeutetusti!), niin tämä on tietysti myös
+mahdollista; sivusto sallii sinun valita tilauksen (subscription,
+sähköposti mahdollisuus) tai rekisteröinnin (web mahdollisuus)
+välillä, tai voit käyttää molempia jos haluat niin, jolloin sinun
+tulee ensin rekisteröityä ja sitten tilata.</p>
+
+<p><strong>Näinollen: Jokaisen joka on yhä kiinnostunut TSC yhteisöstä</strong>
+täytyy vierailla sivustolla <a href="https://lists.secretchronicles.org/">lists.secretchronicles.org</a>
+<strong>ja tilata sieltä sähköposti versiot halutuista listoista</strong>
+ja/tai <strong>luoda tili haluttujen listojen sähköposti versioihin</strong>
+ja/tai <strong>luoda tili käyttääkseen web käyttöliittymää</strong>
+viestien lähettämiseen.</p>
+
+<p>Koska kaikki tämä infra on nyt täysin uutta, voi hyvin olla niin
+että löytyy virheitä ja ongelmia. Älä ujostele ottaa yhteyttä
+meihin, mieluiten kirjoittamalla tsc-users postituslistalle,
+kirjoittamalla sähköpostia, tai käyttäen HyperKittyä.</p>
+
+<p>Toinen jota katsottiin uudelleen infra päivitysten yhteydessä
+on päivitys IRC bottiimme, <a href="https://github.com/Secretchronicles/furbot">furbot</a>, joka on nähtyt
+yleisen ohjelmistopäivityksen erityksesti kasvonkohotuksena
+IRC logeihin. Jos nyt vierailet <a href="https://chatlogs.secretchronicles.org/">chatlogs.secretchronicles.org</a>,
+tulet toivottavasti mieluisasti yllätetyksi paremmasta luettavuudesta
+uudemmissa chattilogeissa (vanhoja logeja ei ole muokattu).
+Ärsyttävin ongelma chattilogeissa, kun forbot toisti itseään
+monta kertaa kun siltä katkesi IRC yhteys, on ratkaistu myös.</p>
+
+<p>Suunnitelmat siirtää tikettisysteemin <code>alexandrialle</code> on
+pysäytetty hetkeksi johtuen ajanpuutteesta. mlmmj:stä Mailmaniin
+siirto mukaanlukien Chessboardin poisto sekä käyttöjärjestelmän
+päivitys veivät aika paljon aikaan. Näitä suunnitelmia ei ole
+kuitenkaan hylätty.</p>
+
+<p>Monet kiitokset Laurille (xet7) joka suoritti käyttöjärjestelmän
+päivityksen, Quintukselle Chessboard+mlmmj siirrosta Mailmaniin,
+ja <a href="http://first-root.com/">First-Root UG</a>:n jatkuvasta projektin sponsoroinnista
+<code>alexandria</code> palvelimen muodossa.</p>
+
+<p>Marvin (Quintus)<br />
+TSC tiimin puolesta</p>
+
+
+    </div>
+
+   </div>
+
+    <div id="footer">
+
+  <p id="utc-time"></p>
+
+  <script>
+  (function() {
+    'use strict';
+    function updateUTCTime() {
+      document.getElementById("utc-time").innerHTML = 'UTC Time Now: ' + (new Date()).toUTCString();
+    }
+    window.setInterval(updateUTCTime, 1000);
+    updateUTCTime();
+  })();
+  </script>
+
+  <p>Copyright © 2022 The Secret Chronicles Team</p>
+  <p id="sponsor">Hosting thanks to our collegues from <a href="https://wekan.github.io/"><img src="/assets/wekan-logo.svg" alt="Wekan" style="height: 24px"/></a></p>
+  </p>
+</div>
+
+  </div>
+  </body>
+</html>

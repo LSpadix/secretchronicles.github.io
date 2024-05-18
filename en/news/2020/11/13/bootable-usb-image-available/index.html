@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Bootable USB image available | Secretchronicles Blog</title>
+    <link rel="stylesheet" href="/stylesheets/default.css" />
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="/en/feed.atom" />
+    <meta name="generator" content="nanoc 3.8.0" />
+  </head>
+  <body>
+  <div id="fullpage">
+   <div id="page">
+
+    <div id="header">
+  <a href="/en"><img class="logo" src="/assets/logo.png" alt="The Secret Chronicles of Dr.M." /></a>
+</div>
+<ul id="navbar">
+  <li><a href="/en">Home</a></li>
+  <li><a href="/en/screenshots">Screenshots</a></li>
+  <li><a href="/en/news">News</a></li>
+  <li><a href="/en/download">Download</a></li>
+  <li><a href="https://github.com/Secretchronicles/TSC">GitHub</a></li>
+  <li><a href="/en/community">Community/Contributing</a></li>
+  <li><a href="https://wiki.secretchronicles.org/">Wiki</a></li>
+  <li><a href="/en/documentation">Docs</a></li>
+  <li><a href="/en/support">Commercial Support</a></li>
+  <li><a>Language</a>
+    <ul>
+      <li><a href="/fi"><img class="flag" alt="Finnish" src="/assets/flags/fi.png"/><br />Finnish</a></li>
+      <li><a href="/en"><img class="flag" alt="English" src="/assets/flags/en.png"/><br />English</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div id="main">
+      <h1>Bootable USB image available</h1>
+
+      <p class="summary">
+	<i>Written by <b>xet7</b> on <b>2020-11-13</b></i>.
+
+        
+
+	<br />
+
+	
+	  <br />
+	  <i><b>Bootable USB image available</b></i>
+        
+      </p>
+      
+      
+<p>xet7 released today bootable USB image version of TSC. It has <a href="http://puppylinux.com">Puppy Linux Bionic</a> 32bit Linux
+and TSC 2.1.0 release version installed from .deb package (dependenices from package manager,
+and unarchived .deb package to target directories) as of today 
+2020-11-13. Linux boots directly from USB stick, so it works fast and is
+very playable. It works on x86 and x64 computers.</p>
+
+<p>TSC game is at desktop menu: Applications / Fun / Secret Chronicles of Dr.M.</p>
+
+<h2 id="a-idchangelogachangelog"><a id="changelog"></a>ChangeLog</h2>
+
+<ul>
+  <li>v0.01 2020-11-13 First release that has TSC 2.1.0</li>
+</ul>
+
+<h2 id="a-idrequirementsa1-requirements"><a id="requirements"></a>1) Requirements</h2>
+
+<p>You neen minimum 8 GB USB stick, because usb image size is 6 GB.</p>
+
+<p>If you have PlayStation 3 compatible USB gamepad, you can use it with
+TSC. For example, I use this gamepad.</p>
+
+<h3 id="goodbetterbest-ltd-gioteck-vx2-wired-controller">Goodbetterbest Ltd Gioteck VX2 Wired Controller</h3>
+
+<p>
+<div class="embed-container">
+<img src="/assets/bootableusb/gamepad.jpg" width="100%" height="auto" alt="Gamepad" />
+</div>
+</p>
+
+<h2 id="a-iddownloada2-download-usb-image-file"><a id="download"></a>2) Download USB image file</h2>
+
+<p><a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-usb-i386.7z">TSC-2.1.0-usb-i386.7z</a> - 1.1 GB</p>
+
+<p>MD5SUM:<br />
+68983ef6aac47febd7fc126db2d3c9a4<br />
+<br /></p>
+
+<p>SHA256SUM:<br />
+cb16d88bb150318683c5bc1ee57f92db22341181102d523dce93bcc318c56f74<br />
+<br /></p>
+
+<h2 id="a-idwriteusba3-writing-image-to-usb-stick"><a id="writeusb"></a>3) Writing image to USB stick</h2>
+
+<p><a href="https://etcher.io">Download Etcher</a> - Win/Mac/Linux</p>
+
+<p>Start Etcher, select image file, and write to USB stick.</p>
+
+<h2 id="a-iddonotformata4-do-not-format-stick-in-windows-it-will-make-stick-empty-click-peruutacancel"><a id="donotformat"></a>4) Do not format stick in Windows. It will make stick empty. Click Peruuta/Cancel.</h2>
+
+<p style="text-align: center;">
+<img src="/assets/bootableusb/windows-do-not-format.png" width="60%" height="auto" alt="Do not format stick in Windows" />
+</p>
+
+<h2 id="a-idbootingfromusba5-booting-from-usb"><a id="bootingfromusb"></a>5) Booting from USB</h2>
+
+<p>Booting from USB is usually done by pressing Esc many times when computer
+is booting. From boot menu select USB drive with arrow keys down and Enter.</p>
+
+<p>In one laptop’s case pressing F2 many times while booting did start
+BIOS/UEFI settings. There arrow key right to Boot menu, and on UEFI
+setting press Enter some times to accept OK messages, so that
+it is changed UEFI =&gt; Legacy Mode. After that orderl all USB boot
+options to top, and F10 is Save and Exit. Then it boots from USB stick.</p>
+
+<h2 id="a-iduefimodea6-before-uefi-mode"><a id="uefimode"></a>6) Before: UEFI mode</h2>
+
+<p>
+<div class="embed-container">
+<img src="/assets/bootableusb/uefimode.jpg" width="100%" height="auto" alt="UEFI Mode" />
+</div>
+</p>
+
+<h2 id="a-idlegacymodea7-after-legacy-mode-usb-options-moved-to-top-press-f10-that-is-save-and-exit"><a id="legacymode"></a>7) After: Legacy Mode, USB options moved to top. Press F10 that is Save and Exit.</h2>
+
+<p>
+<div class="embed-container">
+<img src="/assets/bootableusb/legacymode.jpg" width="100%" height="auto" alt="Legacy Mode" />
+</div>
+</p>
+
+<h3 id="a-idalternativebootaalternative-ways-to-boot-from-usb"><a id="alternativeboot"></a>Alternative ways to boot from USB</h3>
+
+<p>Other alternative boot menu keys are F1 or Enter, that usually brings
+BIOS or UEFI settings where boot order can be changed. 
+Some laptop models have some special tiny pushable button at left side 
+of laptop, that brings settings menu.
+It could also be some other key, like F2, F10, F11 or F12.</p>
+
+<h2 id="a-idlinuxbootinga8-linux-booting-from-usb-press-enter-or-wait-some-seconds-to-continue-booting"><a id="linuxbooting"></a>8) Linux booting from USB: press enter, or wait some seconds to continue booting</h2>
+
+<h2 id="a-idgamepadsettingsa9-in-options-you-can-change-gamepad-settings"><a id="gamepadsettings"></a>9) In Options, you can change gamepad settings.</h2>
+
+<h2 id="a-idstoppingtsca10-stopping-tsc-press-esc-and-click-quit-with-mouse-or-arrow-keys-and-enter"><a id="stoppingtsc"></a>10) Stopping TSC: press Esc, and click Quit with mouse or arrow keys and Enter.</h2>
+
+<h2 id="a-idbacktowindowsa11-going-back-to-windows"><a id="backtowindows"></a>11) Going back to Windows</h2>
+
+<p>To get back to Windows, <a href="#uefimode">change back Legacy Mode =&gt; UEFI</a>.</p>
+
+<p>Lauri (xet7)<br />
+On behalf of TSC team</p>
+
+
+    </div>
+
+   </div>
+
+    <div id="footer">
+
+  <p id="utc-time"></p>
+
+  <script>
+  (function() {
+    'use strict';
+    function updateUTCTime() {
+      document.getElementById("utc-time").innerHTML = 'UTC Time Now: ' + (new Date()).toUTCString();
+    }
+    window.setInterval(updateUTCTime, 1000);
+    updateUTCTime();
+  })();
+  </script>
+
+  <p>Copyright © 2022 The Secret Chronicles Team</p>
+  <p id="sponsor">Hosting thanks to our collegues from <a href="https://wekan.github.io/"><img src="/assets/wekan-logo.svg" alt="Wekan" style="height: 24px"/></a></p>
+  </p>
+</div>
+
+
+  </div>
+  </body>
+</html>

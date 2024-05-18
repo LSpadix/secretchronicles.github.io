@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <title>Alpha paketti Ubuntu 18.04:lle saatavilla | Secretchronicles Blogi</title>
+    <link rel="stylesheet" href="/stylesheets/default.css" />
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="/fi/feed.atom" />
+    <meta name="generator" content="nanoc 3.8.0" />
+  </head>
+  <body>
+  <div id="fullpage">
+   <div id="page">
+
+    <div id="header">
+  <a href="/fi"><img class="logo" src="/assets/logo.png" alt="The Secret Chronicles of Dr.M." /></a>
+</div>
+<ul id="navbar">
+  <li><a href="/fi">Etusivu</a></li>
+  <li><a href="/fi/screenshots">Kuvat</a></li>
+  <li><a href="/fi/news">Uutiset</a></li>
+  <li><a href="/fi/download">Lataa</a></li>
+  <li><a href="https://github.com/Secretchronicles/TSC">GitHub</a></li>
+  <li><a href="/fi/community">Yhteisö ja osallistuminen</a></li>
+  <li><a href="https://wiki.secretchronicles.org/">Wiki</a></li>
+  <li><a href="/fi/documentation">Dokumentaatio</a></li>
+  <li><a href="/fi/support">Kaupallinen tuki</a></li>
+  <li><a>Language</a>
+    <ul>
+      <li><a href="/fi"><img class="flag" alt="Finnish" src="/assets/flags/fi.png"/><br />Finnish</a></li>
+      <li><a href="/en"><img class="flag" alt="English" src="/assets/flags/en.png"/><br />English</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div id="main">
+      <h1>Alpha paketti Ubuntu 18.04:lle saatavilla</h1>
+
+      <p class="summary">
+	<i>Kirjoittanut <b>Sydney</b> <b>2019-03-10</b></i>.
+
+        
+	  <br />
+	  <i>Suomentanut <b>xet7</b></i>.
+	
+
+	<br />
+
+	
+	  <br />
+	  <i><b>Alpha paketti Ubuntu 18.04:lle saatavilla</b></i>
+	
+      </p>
+
+      
+<p>Kiitos Mario(Boospy) GitHub-käyttäjälle, meillä on nyt 64bit Alpha .deb
+paketti Ubuntu 18.04:lle. Asentaaksesi sen suunnista <a href="/fi/download/#kehitys-versio">Lataukset sivulle</a> ladataksesi
+uusimman paketin.</p>
+
+<p>Asentaaksesi paketin, ensimmäiseksi mene kansioon johon latasit paketin:</p>
+
+<pre><code>cd Lataukset/
+</code></pre>
+
+<p>Sitten suorita:</p>
+
+<pre><code>sudo apt install ./tsc_2.1.0+packagename.deb
+</code></pre>
+
+<p>Apt pitää huolen asennuksesta ja riippuvuuksista. Asennuksen jälkeen voit käynnistää TSC pelin<br />
+uudesta <code>The Secret Chronicles of Dr. M.</code> kuvasta Pelit valikossa tai tai suorittamalla
+<code>tsc</code> komento päätteessäsi.</p>
+
+<p>HUOM: Sinun täytää käyttää apt, ei apt-get komentoa asentaaksesi paketin, koska vanhempi apt-get ei pysty
+asentamaan .deb-pakettia ja kaikkia sen riippuvuuksia käyttäjän kotikansioista. Voit myös käyttää
+<code>dpkg -i</code> asentaaksesi paketin, ja sitten suorittaa <code>apt-get install -f</code> korjataksesi riippuvuudet.</p>
+
+
+    </div>
+
+   </div>
+
+    <div id="footer">
+
+  <p id="utc-time"></p>
+
+  <script>
+  (function() {
+    'use strict';
+    function updateUTCTime() {
+      document.getElementById("utc-time").innerHTML = 'UTC Time Now: ' + (new Date()).toUTCString();
+    }
+    window.setInterval(updateUTCTime, 1000);
+    updateUTCTime();
+  })();
+  </script>
+
+  <p>Copyright © 2022 The Secret Chronicles Team</p>
+  <p id="sponsor">Hosting thanks to our collegues from <a href="https://wekan.github.io/"><img src="/assets/wekan-logo.svg" alt="Wekan" style="height: 24px"/></a></p>
+  </p>
+</div>
+
+  </div>
+  </body>
+</html>

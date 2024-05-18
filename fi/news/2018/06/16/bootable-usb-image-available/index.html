@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <title>USB tikulta käynnistyvä versio saatavilla | Secretchronicles Blogi</title>
+    <link rel="stylesheet" href="/stylesheets/default.css" />
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="/fi/feed.atom" />
+    <meta name="generator" content="nanoc 3.8.0" />
+  </head>
+  <body>
+  <div id="fullpage">
+   <div id="page">
+
+    <div id="header">
+  <a href="/fi"><img class="logo" src="/assets/logo.png" alt="The Secret Chronicles of Dr.M." /></a>
+</div>
+<ul id="navbar">
+  <li><a href="/fi">Etusivu</a></li>
+  <li><a href="/fi/screenshots">Kuvat</a></li>
+  <li><a href="/fi/news">Uutiset</a></li>
+  <li><a href="/fi/download">Lataa</a></li>
+  <li><a href="https://github.com/Secretchronicles/TSC">GitHub</a></li>
+  <li><a href="/fi/community">Yhteisö ja osallistuminen</a></li>
+  <li><a href="https://wiki.secretchronicles.org/">Wiki</a></li>
+  <li><a href="/fi/documentation">Dokumentaatio</a></li>
+  <li><a href="/fi/support">Kaupallinen tuki</a></li>
+  <li><a>Language</a>
+    <ul>
+      <li><a href="/fi"><img class="flag" alt="Finnish" src="/assets/flags/fi.png"/><br />Finnish</a></li>
+      <li><a href="/en"><img class="flag" alt="English" src="/assets/flags/en.png"/><br />English</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div id="main">
+      <h1>USB tikulta käynnistyvä versio saatavilla</h1>
+
+      <p class="summary">
+	<i>Kirjoittanut <b>xet7</b> <b>2018-06-16</b></i>.
+
+        
+	  <br />
+	  <i>Suomentanut <b>xet7</b></i>.
+	
+
+	<br />
+
+	
+	  <br />
+	  <i><b>USB tikulta käynnistyvä versio saatavilla</b></i>
+	
+      </p>
+
+      
+<p>xet7 julkaisi tänään USB tikulta suoraan käynnistyvän version TSC:stä.
+Siinä on <a href="https://www.debian.org">Debian 9</a> 64bit Linux, LXDE työpöytä ja TSC alpha versio
+asennettuna git repo devel haarasta tänään 16.6.2018. Linux käynnistyy suoraan
+USB tikulta, joten se toimii nopeasti ja on hyvin pelattava.</p>
+
+<h2 id="muutosloki">Muutosloki</h2>
+
+<ul>
+  <li>v0.02 2018-06-17 Lisätty langattoman verkon ajurit, ja kuva/ääni/salasana jne ohjelmia</li>
+  <li>v0.01 2018-06-16 Ensimmäinen julkaisu</li>
+</ul>
+
+<h2 id="vaatimukset">1) Vaatimukset</h2>
+
+<p>Todennäköisesti tarvitset suuremman kuin 8 GB USB tikun, koska USB
+levykuva on 8 GB USB tikulta. Tämä johtuu siitä, että jotkin 8 GB
+USB tikut ovat hieman pienempiä, ja jotkin ovat isompia.
+Voit kokeilla sopiiko tämä 8 GB USB tikulle.</p>
+
+<p>Jos sinulla on PlayStation 3 yhteensopiva USB peliohjain,
+voit ottaa sen käyttöön pelin valikossa Options / Joystick.</p>
+
+<h2 id="lataa-usb-levykuva-tiedosto">2) Lataa USB levykuva tiedosto</h2>
+
+<p><a href="https://ftp.secretchronicles.org/alpha/tsc-usb-2018-06-17.img.gz">tsc-usb-2018-06-17.img.gz</a> - 2,4 GB</p>
+
+<p>SHA256SUM:<br />
+dd6b64ac6b5f31c8f2783d8542f7d4cc1d39a9d0b3257513e09e68cc294ba2cc</p>
+
+<h2 id="levykuva-tiedoston-kirjoittaminen-usb-tikulle">3) Levykuva tiedoston kirjoittaminen USB tikulle</h2>
+
+<p><a href="https://etcher.io">Lataa Etcher</a> - Win/Mac/Linux</p>
+
+<p>Käynnistä Etcher, valitse levykuva tiedosto, ja kirjoita USB tikulle.</p>
+
+<h2 id="usb-tikulta-kynnistminen">4) USB tikulta käynnistäminen</h2>
+
+<p>USB tikulta käynnistäminen tehdään yleensä painamalla Esc monta kertaa
+konetta käynnistäessä.
+Boot menusta valitaan USB asema nuolinäppäimillä alaspäin ja Enterillä.</p>
+
+<p>Erään kannettavan tietokoneen tapauksessa F2 näppäintä painelemalla konetta
+käynnistäessä pääsi BIOS/UEFI valikkoon, jossa nuolinäppäimillä oikealle Boot
+valikosta UEFI kohdalla Enterillä muutaman kerran painelemalla pääsi
+Legacy Mode tilaan, ja sitten kaikki USB-alkuiset käynnistysvaihtoehdot
+ylimmäksi, ja F10 eli Save and Exit, niin käynnistyi tikulta.
+Windowsiin pääsee takaisin kun vaihtaa Legacy Moden takaisin
+UEFI tilaan.</p>
+
+<p>Muita vaihtoehtoisia tapoja saada Boot menu näkyviin ovat F1 tai Enter,
+se yleensä tuo näkyviin BIOS tai UEFI asetukset jossa käynnistysjärjestystä
+voi muuttaa. Joissakin läppärimalleissa on erityinen pieni painettava
+painike kannettavan vasemmalla sivulla, josta tulee asetus valikko.
+Se voi olla myös jokin muu näppäin, kuten F2, F10, F11 tai F12.</p>
+
+<h2 id="nytn-asetukset">Näytön asetukset</h2>
+
+<p>Klikkaa Käynnistä-Lintu-painiketta / Asetukset / Näytön asetukset.
+Voit käyttää kannettavan näyttöä, ulkoista näyttöä tai molempia.</p>
+
+<h2 id="verkkoasetukset">Verkkoasetukset</h2>
+
+<p>Jos olet liittänyt koneen nettiin Ethernet-kaapelilla, nettiyhteys
+yhdistyy yleensä automaattisesti.</p>
+
+<p>Langattoman verkon voit valita klikkaamalla työpöydän oikeasta
+alakulmasta ikonia jossa sininen johto menee valkoiseen seinäpistokkeeseen.
+Voit kirjoittaa langattoman verkon salasanan ja yhdistää siihen.</p>
+
+<p>Android puhelin tai tabletti USB-kaapelilla: Liitä Android puhelin tai tabletti
+USB johdolla tietokoneeseen. Androidissa klikkaa Asetukset ratas /
+Lisää / Jaettu yhteys ja kannettava yhteyspiste / Internetin jakaminen
+USB:n kautta. Jos nettiyhteys ei muodostu, klikkaa työpöydän oikeasta
+alakulmasta ikonia jossa sininen johto menee valkoiseen seinäpistokkeeseen,
+ja muodosta mobiili yhteys.</p>
+
+<p>Symbian puhelin USB kaapelilla: liitä puhelin USB johdolla tietokoneeseen
+ja valitse Nokia Suite tila. Jos nettiyhteys ei muodostu, klikkaa työpöydän oikeasta
+alakulmasta ikonia jossa sininen johto menee valkoiseen seinäpistokkeeseen,
+ja muodosta mobiili yhteys.</p>
+
+<p>USB 2G/3G/4G/5G mokkula: liitä mokkula USB johdolla tietokoneeseen
+Jos nettiyhteys ei muodostu, klikkaa työpöydän oikeasta alakulmasta
+ikonia jossa sininen johto menee valkoiseen seinäpistokkeeseen,
+ja muodosta mobiili yhteys.</p>
+
+<h2 id="valinnainen-vaihda-kieli">Valinnainen: Vaihda kieli</h2>
+
+<p>Koska tämä käynnistyvä USB oli alunperin tehty ystävälle Suomessa,
+työpöytä ja näppäimiston käyttävät suomea, voit vaihtaa kielen
+toiseksi:</p>
+
+<p>https://wiki.debian.org/ChangeLanguage</p>
+
+<p>TSC pelin kieli on myös suomi, voit vaihtaa sitä kun olet ensin
+käynnistänyt TSC pelin työpöydältä TSC pikakuvakkeesta, ja sitten
+tehdä muutoksen peli asetuksissa “Kieli: fi-fi, jne”.</p>
+
+<h2 id="valinnainen-laajenna-levytilaa">Valinnainen: Laajenna levytilaa</h2>
+
+<p>Tikulla on 7,5 GB / btrfs partitio ja 0,5 GB swap partitio. Jos kirjoitat
+tämän isommalle USB tikulle, voit GParted:illa (esimerkiksi Puppy Linux .iso
+käynnistettynä VirtualBoxissa, ja USB tikku liitettynä) poistaa swap ja
+extended partition, laajentaa / partitiota isommaksi, ja lisätä extended ja
+swap partitiot. Sitten kopioi Gpartedin näyttämästä swap partition tiedoista
+UUID / partitiolle tekstitiedostoon /etc/fstab muokkaamalla sitä roottina,
+korvaa vanha UUID, tallenna /etc/fstab tekstitiedosto, unmounttaa USB tikku,
+ja käynnistä USB tikulta.</p>
+
+<p>Windowsille on myös kokeellinen btrfs tiedostojärjestelmän ajuri
+https://github.com/maharmstone/btrfs .</p>
+
+<h2 id="kehitys-muutosten-teko-usb-levykuva-tiedostoon">Kehitys: Muutosten teko USB levykuva tiedostoon</h2>
+
+<p>Tätä ei ole suomennettu vielä.</p>
+
+<p>If you want to use Linux image in VirtualBox for development
+(it’s too slow for playing in VirtualBox), you can extract it unar,
+that unarhives any archive:</p>
+
+<p>sudo apt install unar zip unzip p7zip-full xmount</p>
+
+<p>Then you can mount .img as VirtualBox vdi file with xmount
+that writes changes to separate cache file, start VirtualBox as root
+with:</p>
+
+<p>sudo virtualbox</p>
+
+<p>Install VirtualBox extensions pack downloaded from https://virtualbox.org
+in VirtualBox menu File / Preferences / Extensions,
+make new Debian 9 64bit VM with 2 GB RAM or more, use /mnt/tsc…vdi
+as hard disk, etc:</p>
+
+<p>unar tsc-usb-*.img.gz</p>
+
+<p>sudo xmount –in raw ./tsc-usb-2018-06-17.img –out vdi –cache ./disk.cache /mnt</p>
+
+<p>After changes to disk.cache file, writing modified disk image back to archived
+file requires having another harddisk vdi image, that you boot in virtualbox:</p>
+
+<p>sudo mkdir /mnt2</p>
+
+<p>sudo xmount –in raw ./tsc-usb-2018-06-17.img –out vdi –cache ./disk2.cache /mnt2</p>
+
+<p>sudo xmount –in raw ./tsc-usb-2018-06-17.img –out vdi –cache ./disk2.cache /mnt2</p>
+
+<p>Then create new VirtualBox Debian 9 64bit VM with 2 GB RAM minimum, add
+to SATA controller, add to it harddisk drive /mnt2/tsc…vdi , then add
+cdrom and leave it empty, then add harddisk drive /mnt/tsc…vdi .
+Then add shared folder with auto-mount. Start VM.
+Click Start-Bird-button / Järjestelmätyökalut / Tiedostonallinta that is
+file manager. Click on file manager Linux partition at bottom, to see
+is it /dev/sdb. Install VirtualBox additions from top VirtualBox top menu.
+Then unmount /dev/sdb and make archive on Start-Bird-button /
+Järjestelmätyökalut / LXTerminal:</p>
+
+<p>sudo su</p>
+
+<p>See what shared drives there are:</p>
+
+<p>df -h</p>
+
+<p>And write disk image:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>sudo dd if=/dev/sdb conv=sync,noerror status=progress</td>
+      <td>gzip -c &gt; /YOUR-SHARED-FOLDER/tsc-usb-YEAR-MONTH-DATE.img.gz</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Lauri (xet7)<br />
+TSC tiimin puolesta</p>
+
+
+    </div>
+
+   </div>
+
+    <div id="footer">
+
+  <p id="utc-time"></p>
+
+  <script>
+  (function() {
+    'use strict';
+    function updateUTCTime() {
+      document.getElementById("utc-time").innerHTML = 'UTC Time Now: ' + (new Date()).toUTCString();
+    }
+    window.setInterval(updateUTCTime, 1000);
+    updateUTCTime();
+  })();
+  </script>
+
+  <p>Copyright © 2022 The Secret Chronicles Team</p>
+  <p id="sponsor">Hosting thanks to our collegues from <a href="https://wekan.github.io/"><img src="/assets/wekan-logo.svg" alt="Wekan" style="height: 24px"/></a></p>
+  </p>
+</div>
+
+  </div>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <title>TSC 2.0.0 on julkaistu | Secretchronicles Blogi</title>
+    <link rel="stylesheet" href="/stylesheets/default.css" />
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="/fi/feed.atom" />
+    <meta name="generator" content="nanoc 3.8.0" />
+  </head>
+  <body>
+  <div id="fullpage">
+   <div id="page">
+
+    <div id="header">
+  <a href="/fi"><img class="logo" src="/assets/logo.png" alt="The Secret Chronicles of Dr.M." /></a>
+</div>
+<ul id="navbar">
+  <li><a href="/fi">Etusivu</a></li>
+  <li><a href="/fi/screenshots">Kuvat</a></li>
+  <li><a href="/fi/news">Uutiset</a></li>
+  <li><a href="/fi/download">Lataa</a></li>
+  <li><a href="https://github.com/Secretchronicles/TSC">GitHub</a></li>
+  <li><a href="/fi/community">Yhteisö ja osallistuminen</a></li>
+  <li><a href="https://wiki.secretchronicles.org/">Wiki</a></li>
+  <li><a href="/fi/documentation">Dokumentaatio</a></li>
+  <li><a href="/fi/support">Kaupallinen tuki</a></li>
+  <li><a>Language</a>
+    <ul>
+      <li><a href="/fi"><img class="flag" alt="Finnish" src="/assets/flags/fi.png"/><br />Finnish</a></li>
+      <li><a href="/en"><img class="flag" alt="English" src="/assets/flags/en.png"/><br />English</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div id="main">
+      <h1>TSC 2.0.0 on julkaistu</h1>
+
+      <p class="summary">
+	<i>Kirjoittanut <b>Quintus</b> <b>2015-08-17</b></i>.
+
+        
+	  <br />
+	  <i>Suomentanut <b>xet7</b></i>.
+	
+
+	<br />
+
+	
+	  <br />
+	  <i><b>Vakaa versio 2.0.0 TSC pelistä on julkaistu tänään.</b></i>
+	
+      </p>
+
+      
+<p>TSC kehitystiimi on ylpeä voidessaan ilmoittaa että täsmälleen kuusi
+vuotta edellisen SMC julkaisun 1.9 jälkeen, kaksi vuotta sitten kun minä, Marvin
+Gülker nimimerkillä <em>Quintus</em>, haaroitin pelin uudelle nimelle TSC,
+kuukausien kehityksen ja useiden takaiskujen jälkeen, lopulta uusi vakaa
+versio 2.0.0 on julkaistu tänään. Kirjoittaessani tätä, lähdekoodi
+tarpaketti ja Windows asennusohjelma siirtyy alexandrialle, palvelimellemme.
+Joten, mitä on muuttunut?</p>
+
+<ul>
+  <li>Peli sisältää nyt erittäin voimakkaan skriptausmoottorin mruby,
+joka on minimaalinen toteutus Ruby ohjelmointikielestä. Se mahdollistaa
+sinun tehdä melkein mitä tahansa kuvittelemaasi tasontekijänä.
+Näkyvimmin se mahdollistaa luoda kytkimiä joilla saadaan tehtyä
+satunnaisia efektejä.</li>
+  <li>Uusia vihollisia: Larry pommi, Pip mato, kovakuoriainen Barrage.</li>
+  <li>Siirrettävät laatikot lisättiin uutena voimaperäisenä pelikohteena
+joita voidaan käyttää tiettyjen esteiden kanssa.</li>
+  <li>Kaikki Mario-inspiroitunut musiikki ja suurin osa Mario-inspiroidusta
+grafiikasta on poissa. Erityisesti kaikki voimaylös grafiikka on vaihdettu.</li>
+  <li>Useita uusia musiikkeja on lisätty.</li>
+  <li>Useita uusia tasoja on lisätty.</li>
+  <li>Pelissä nyt virallisesti on opetusohjelma kampanja.</li>
+  <li>Monta tekstiä lisää on tehty käännettäväksi, ja meillä on
+täydellinen suomi ja saksa käännös. Huomioi että kaikki tekstit eivät
+vielä ole käännettävissä, tosin, joten näet yhä vielä jonkin
+verran englantia.</li>
+  <li>Kymmenen vuotta vanha C++ koodipohja on uudelleenmuokattu suurimmaksi osin.
+Koodi on nyt siistimpää, ja on mahdollista rakentaa Windows versio
+ristiinkääntämällä Linuxin puolella käyttämättä Microsoftin
+lähdekoodiltaan suljettua kääntäjää.</li>
+  <li>Kääntäjä ihmiset tulevat nauttimaan siitä että riippuvuus CEGUI’n
+NullRendereriin on poistettu. Myös, koko rakennusjärjestelmä vaihdettiin
+cmakeen, ja CEGUI on käännetty staattisesti jos vanha versio jonka tarvitsimme
+ei löydy tietokoneestasi (olemme työskentelemässä päivittääksemme
+riippuvuuksiamme).</li>
+  <li>Useita bugikorjauksia, pienempiä toimintoja, jne. Voit katsoa
+Git commit logeista jos todella haluat tietää ne kaikki.</li>
+</ul>
+
+<p>Ennen The Secret Chronicles of Dr. M. tuloa Secretmaryo projekti
+(Secret Maryo Chronicles, SMC) oli käytännöllisesti katsoen kuollut. Sen
+edellinen johtava kehittäjä, Florian Richter (<em>FluXy</em>), hylkäsi sen noin vuonna
+2012. Kerran aktiiviset foorumit tyhjenivät vähitellen, ja kokivat hyökkäyksiä
+roskapostirobotti armeijoilta, ja vain muutama käyttäjä yhä tarkisti niitä kun ryhdyin
+projektiin 2013. Ensin halusin vain osallistua pitkään toivottuun skriptausmoottoriin,
+mutta ensimmäisen version lähettämisen jälkeen (silloin kirjoitettu Lualla) huomasin
+pian että jos minä vain jätän sen sinne, kukaan ei jatkaisi sitä. Aiemmin olin saanut
+yhteyden edelliseen SMC avustaja vetäjään, <em>Luiji</em>, jolle haluan osoittaa erityistä
+kiitollisuutta, ja ilman häntä ei olisi TSCtä tänään. Se oli hän joka vakuutti minut
+(mahdollisesti hän ei edes tajunnut rooliansa itse) että tällä pelillä tulee olla
+tulevaisuus. Tähän päivään saakka, hän on tukenut minua TSC projektin apuvetäjänä
+vaihtelevissa ylläpito tehtävissä, ja jatkaa olemalla tärkeä osa TSCtä. Hän
+tulee takuulla muistamaan kuinka tapasimme kun olimme työskentelemässä nyt
+käytöstä poistuneen <code>smc-get</code> ohjelman parissa…</p>
+
+<p>Kuitenkin, haaroitin SMC lähdekoodin sen GitHub reposta ja
+täytäntöönpanin useita uusia toimintoja ja korjasin joitakin pitkäaikaisia
+bugeja. Kirjoitin edistymisestä vanhoille SMC foorumeille, ja sain
+aikaan jonkinverran kiinnostusta siellä. Ajan mittaan, jotkin vanhoista
+käyttäjistä palasivat ja rohkaisivat minua edelleen, joten jonkin ajan jälkeen
+päätin että roolini SMC projektissa ei tule olla vain väliaikainen
+(aikaisimmat commitit TSC repossa listaavat minut “väliaikaisena projektin
+vetäjänä” tekijät listassa). Oletin roolini projektin vetäjäksi;
+muutamien enemmän tai vähemmän menestyksekkäiden yritysten jälkeen ottaa yhteyttä
+Mr. Richteriin, päätettiin julistaa TSC virallisesti haarautuneeksi
+SMC projektista. Saksalaisesta yrityksestä <a href="http://www.first-root.com">First Root UG</a> löysimme
+sponsorin meidän (vähälle) infrallemme jota käytimme saadaksemme nämä
+nettisivut, wikin, (tällä hetkellä yllättävän aktiivisen) foorumin, ja
+kehitys postituslistan. Paljon kiitoksia heille; ilman heidän tukeaan
+olisi ollut paljon vaikeampaa hallita prosessia.</p>
+
+<p>Kun yhä enemmän ja enemmän toimintoja lisättiin, ja enemmän ihmisiä liittyen
+ponnisteluihimme, me tulimme siihen johtopäätökseen että vaikka nautimme
+SMC pelistä, tarvitsemme eri tavoitteen. SMC enimmäkseen oli yhä Mario
+klooni, eri grafiikoilla, mutta pelimekaniikaltaan vain hieman muutettuna.
+Se oli laajalti tunnistettu sellaisena. <a href="https://github.com/Secretchronicles/TSC/issues/92">Pitkässä ja kiivaassa
+keskustelussa</a> päätimme nimetä uudelleen projektin nimelle “The Secret
+Chronicles of Dr. M.” ja yrittää poistaa Mariomaisuudet grafiikassa ja
+pelitoiminnoissa. Vaikka tämä jatkuva työ on kaukana päätöksestä,
+aikaisimmat tulokset ovat jo näkyvissä nyt julkaistussa 2.0.0 vakaassa
+versiossa.</p>
+
+<p>Johtuen erinäisistä bugeista ja ulkoisista tekijöistä, 2.0.0 julkaisu
+viivästyi noin yhden vuoden suunnitellusta julkaista. Vaikka
+ajankäyttömme ilmeisesti on ollut epätyydyttävää, lupaamme tehdä
+paremmin seuraavissa julkaisuissa. Kuitenkin, ennen kun näytän teille
+linkit, ajattelen että on aika sanoa kiitokset myös niille henkilöille
+joita en jo maininnut. Sallikaa minun sanoa kiitos Chris Jacobsen
+(<em>datahead</em>) hänen jatkuvasta tuestaan kehityksessä vaikka hänellä
+oli kiireitä hänen opinnoissaan, kiitos Brian Vanderburg II
+(<em>simpletoon</em>), joka osallistui mahdollisesti suurimmalla määrällä koodia
+TSCssä minun jälkeeni, ja kiitos varhaisimmille pelin testaajalle,
+Justin Rissler (<em>DarkAceZ</em>). Kiitos Sydney Dykstra (<em>sydneyjd</em>)
+lukemattomista määristä aputehtäviä ulottuen grafiikasta pelitestaukseen
+ja palvelin ylläpitoon, ja kiitos <em>Bugsbane</em> kun tarjosit peliin
+korvaamattoman arvokasta taidettasi. Kiitos Arik Burns (<em>aakburns</em>)
+useista musiikkikappaleista, kuten myös Johan Brod (<em>jobromedia</em>).
+Kiitos Lauri Ojansivu (<em>xet7</em>), joka teki ensimmäisen käännöksen pelistä
+ulkomaiselle kielelle (suomi) ja joka kirjoitti ja ylläpitää tätä
+nettisivustoa. Lisäksi mukana oli apua monilta muilta henkilöiltä,
+joita kaikkia en pysty tässä tarkasti luettelemaan. Kiitos teille kaikille!</p>
+
+<p>Joten, pitemmittä puheitta, tässä on imurointi linkit <strong>lopulliseen
+vakaaseen versioon 2.0.0</strong>, jotka tulevat käyttöön kun lähetys palvelimelle
+on valmistunut:</p>
+
+<ul>
+  <li><a href="https://ftp.secretchronicles.org/releases/TSC-2.0.0.tar.xz">Lähdekoodi</a> (MD5: 54688db473103299d867b0e52c39f51e, <a href="https://ftp.secretchronicles.org/releases/TSC-2.0.0.tar.xz.sig">GPG
+allekirjoitus</a>)</li>
+  <li><a href="https://ftp.secretchronicles.org/releases/TSC-2.0.0-win32.exe">Windows asennusohjelma</a> (MD5: e20d66fdf171e0b6d5f065803fcfcd02), <a href="https://ftp.secretchronicles.org/releases/TSC-2.0.0-win32.exe.sig">GPG
+allekirjoitus</a>)</li>
+</ul>
+
+<p>Marvin Gülker (<em>Quintus</em>)<br />
+TSC kehitystiimin puolesta.</p>
+
+
+    </div>
+
+   </div>
+
+    <div id="footer">
+
+  <p id="utc-time"></p>
+
+  <script>
+  (function() {
+    'use strict';
+    function updateUTCTime() {
+      document.getElementById("utc-time").innerHTML = 'UTC Time Now: ' + (new Date()).toUTCString();
+    }
+    window.setInterval(updateUTCTime, 1000);
+    updateUTCTime();
+  })();
+  </script>
+
+  <p>Copyright © 2022 The Secret Chronicles Team</p>
+  <p id="sponsor">Hosting thanks to our collegues from <a href="https://wekan.github.io/"><img src="/assets/wekan-logo.svg" alt="Wekan" style="height: 24px"/></a></p>
+  </p>
+</div>
+
+  </div>
+  </body>
+</html>
