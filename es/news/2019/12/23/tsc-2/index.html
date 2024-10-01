@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TSC 2.1.0-beta1 released | Secretchronicles Blog</title>
+    <link rel="stylesheet" href="/stylesheets/default.css" />
+    <link rel="alternate" type="application/atom+xml" title="Feed" href="/en/feed.atom" />
+    <meta name="generator" content="nanoc 3.8.0" />
+  </head>
+  <body>
+  <div id="fullpage">
+   <div id="page">
+
+    <div id="header">
+  <a href="/en"><img class="logo" src="/assets/logo.png" alt="The Secret Chronicles of Dr.M." /></a>
+</div>
+<ul id="navbar">
+  <li><a href="/en">Home</a></li>
+  <li><a href="/en/screenshots">Screenshots</a></li>
+  <li><a href="/en/news">News</a></li>
+  <li><a href="/en/download">Download</a></li>
+  <li><a href="https://github.com/Secretchronicles/TSC">GitHub</a></li>
+  <li><a href="/en/community">Community/Contributing</a></li>
+  
+  <li><a href="/en/documentation">Docs</a></li>
+  <li><a href="/en/support">Commercial Support</a></li>
+  <li><a>Language</a>
+    <ul>
+      <li><a href="/fi"><img class="flag" alt="Finnish" src="/assets/flags/fi.png"/><br />Finnish</a></li>
+      <li><a href="/en"><img class="flag" alt="English" src="/assets/flags/en.png"/><br />English</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+    <div id="main">
+      <h1>TSC 2.1.0-beta1 released</h1>
+
+      <p class="summary">
+	<i>Written by <b>quintus</b> on <b>2019-12-23</b></i>.
+
+        
+
+	<br />
+
+	
+	  <br />
+	  <i><b>First beta version of 2.1.0 has been released.</b></i>
+        
+      </p>
+      
+      
+<p>The TSC team is pleased to announce that after years of development,
+the first beta version of the upcoming 2.1.0 release is available for
+download now. The release has been tagged on the Git repository as
+v2.1.0-beta1 and has been uploaded to our web server.</p>
+
+<h2 id="why-did-this-take-so-long">Why did this take so long?</h2>
+
+<p>TSC is a project entirely driven by volunteers in their free time. We
+all know that free time is scarce. TSC has a massive code base written
+in C++ over a course of now more than 10 years, as it builds upon the
+original codebase of Secret Maryo Chronicles (SMC). The inherited
+code’s quality is rather poor and it is difficult to work with this
+inherited code.</p>
+
+<h2 id="what-has-changed">What has changed?</h2>
+
+<p>Our last stable release was version 2.0.0 in 2015. Since then, lots of
+improvements have been made to the game. A detailed listing can be
+found in the file <a href="https://github.com/Secretchronicles/TSC/blob/v2.1.0-beta1/CHANGELOG">CHANGELOG</a> in the source tarball, and even that
+listing does not include all the improvements. These are the
+highlights:</p>
+
+<ul>
+  <li>Several new background music tracks</li>
+  <li>Switched some SMC graphics for original TSC ones</li>
+  <li>New enemies: Larry and Doom Larry, which fuse and ultimately explode
+if hit</li>
+  <li>Improvements to level scripting</li>
+  <li>Editor UI overhauled</li>
+  <li>Levels load much faster compared to 2.0.0</li>
+  <li>Secret Area markers are available in the editor</li>
+  <li>New in-game scripting console on pressing [F7]</li>
+  <li>Several bugfixes</li>
+  <li>Upgrade CEGUI dependency from 0.7.9 to 0.8.7</li>
+  <li>Support for and requirement of a C++11-capable C++ compiler</li>
+</ul>
+
+<p>The CEGUI upgrade deserves a separate mention. CEGUI 0.8.x broke their
+API and as more and more people do not have access to the outdated
+CEGUI 0.7.9, it was necessary to conduct this upgrade. This upgrade
+however bound so many of TSC’s team resources that the 2.1.0 release
+ultimately ended up with fewer new features than it was originally
+intended. Now that the upgrade has been done it should be much easier
+to compile TSC on modern Linux distributions than it was the case with
+the old 2.0.0 stable release.</p>
+
+<p>A feature that will sadly not make it into 2.1.0 is a story. We have
+adopted a <a href="https://github.com/Secretchronicles/documents/raw/master/gd/documents/pdf/18-001.pdf">final story draft</a> for the future of the game, though.</p>
+
+<h2 id="when-can-we-expect-the-final-release">When can we expect the final release?</h2>
+
+<p>The current plan is to release the final 2.1.0 version early in 2020.</p>
+
+<h2 id="what-happens-in-the-beta-phase">What happens in the Beta phase?</h2>
+
+<p>The beta phase is intended to polish the rough edges of TSC. No new
+features are introduced into the game anymore, but any bugs found will
+be fixed. Additionally, the following changes can happen:</p>
+
+<ul>
+  <li>Addition of new static assets, namely of music and static images</li>
+  <li>Addition of translations</li>
+  <li>Addition of new levels</li>
+  <li>Fine-tuning of the build system (this is not a user-visible aspect)</li>
+</ul>
+
+<p>We reserve the right to make other changes as required if an urgent
+need arises.</p>
+
+<h2 id="can-i-help-tsc-as-a-user-now">Can I help TSC as a user now?</h2>
+
+<p>Yes, you can! Please set yourself into possession of a copy of TSC and
+play the game. Report any bugs found either on the <a href="https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/">mailinglist</a>,
+on the <a href="https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/">forum</a>, or directly on our <a href="https://github.com/Secretchronicles/TSC/issues">bug tracker</a> (requires a
+GitHub account).</p>
+
+<p>Please make levels and submit them for inclusion into TSC 2.1.0 on the
+<a href="https://lists.secretchronicles.org/hyperkitty/list/tsc-devel@lists.secretchronicles.org/">forum</a> or <a href="https://lists.secretchronicles.org/postorius/lists/tsc-devel.lists.secretchronicles.org/">mailinglist</a>. As of now, the levelsets of TSC 2.1.0
+and 2.0.0 are nearly identical. The TSC team depends on the submission
+of levels by users as the work on the C++ code does not leave much
+time for the creation of new levels. The TSC team especially welcomes
+work on levels that implement parts of the aforementioned story draft.</p>
+
+<h2 id="download">Download</h2>
+
+<h3 id="source-code">Source Code</h3>
+
+<ul>
+  <li>Source code:     <a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz">https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz</a></li>
+  <li>PGP signature:   <a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz.sig">https://ftp.secretchronicles.org/releases/TSC-2.1.0.beta1.tar.gz.sig</a></li>
+  <li>MD5 checksum:    6cad7277f34864ac09cd36f95a03885<br /></li>
+  <li>SHA256 checksum: eb142df2c65f270d517771e72a9d60d167022c98d40fc0eea61894ca2b3e2a9b</li>
+</ul>
+
+<h3 id="binary-downloads">Binary Downloads</h3>
+
+<h4 id="windows">Windows</h4>
+
+<ul>
+  <li><a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win64.exe">Installer for 64-bit Windows 7 or later</a>
+(<a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win64.md5sum">MD5</a>,
+<a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win64.sha256sum">SHA256</a>)</li>
+  <li><a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win32.exe">Installer for 32-bit Windows 7 or later</a>
+(<a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win32.md5sum">MD5</a>,
+<a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-win32.sha256sum">SHA256</a>)</li>
+</ul>
+
+<h4 id="linux">Linux</h4>
+
+<ul>
+  <li><a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-amd64.deb">amd64 .deb file for Ubuntu 18.04/Linux Mint</a>
+(<a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-amd64.md5sum">MD5</a>,
+<a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-amd64.sha256sum">SHA256</a>)</li>
+  <li><a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-i386.deb">i386 .deb file for Ubuntu 18.04/Linux Mint</a>
+(<a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-i386.md5sum">MD5</a>,
+<a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-i386.sha256sum">SHA256</a>)</li>
+  <li><a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-armhf.deb">armhf .deb file for Raspbian RasPi3/RasPi4</a>
+(<a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-armhf.md5sum">MD5</a>,
+<a href="https://ftp.secretchronicles.org/releases/TSC-2.1.0-beta1-armhf.sha256sum">SHA256</a>)</li>
+</ul>
+
+<p>quintus<br />
+On behalf of the TSC team.</p>
+
+
+    </div>
+
+   </div>
+
+    <div id="footer">
+
+  <p id="utc-time"></p>
+
+  <script>
+  (function() {
+    'use strict';
+    function updateUTCTime() {
+      document.getElementById("utc-time").innerHTML = 'UTC Time Now: ' + (new Date()).toUTCString();
+    }
+    window.setInterval(updateUTCTime, 1000);
+    updateUTCTime();
+  })();
+  </script>
+
+  <p>Copyright © 2022 The Secret Chronicles Team</p>
+  <p id="sponsor">Hosting thanks to our collegues from <a href="https://wekan.github.io/"><img src="/assets/wekan-logo.svg" alt="Wekan" style="height: 24px"/></a></p>
+  </p>
+</div>
+
+
+  </div>
+  </body>
+</html>
