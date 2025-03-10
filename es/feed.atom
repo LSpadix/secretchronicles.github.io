@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <link rel="self" type="application/atom+xml" href="https://secretchronicles.org/en/feed/"/>
-  <link rel="alternate" type="text/html" href="https://secretchronicles.org/en/"/>
+  <link rel="self" type="application/atom+xml" href="https://secretchronicles.org/es/feed/"/>
+  <link rel="alternate" type="text/html" href="https://secretchronicles.org/es/"/>
   <title>Secretchronicles en Feed</title>
   <updated>2022-09-04T20:25:05Z</updated>
   <id>secretchronicles.org;enfeed</id>
 
   
   <entry>
-    <link href="/en/news/2022/09/04/tsc-for-jammy-and-bullseye-many-cpu-platforms-available/"/>
+    <link href="/es/news/2022/09/04/tsc-for-jammy-and-bullseye-many-cpu-platforms-available/"/>
     <title>TSC .deb packages for Ubuntu 22.04 amd64/arm64/s390x and Debian 11 amd64/i386/arm64/ppc64el/s390 available</title>
     <id>secretchronicles.org/en;35</id>
     <updated>2022-09-04</updated>
@@ -62,7 +62,7 @@ On behalf of TSC team&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2021/09/01/tsc-for-hirsute-and-bullseye-many-cpu-platforms-available/"/>
+    <link href="/es/news/2021/09/01/tsc-for-hirsute-and-bullseye-many-cpu-platforms-available/"/>
     <title>TSC .deb packages for Ubuntu 21.04 amd64/arm64/ppc64el/s390x and Debian 11 amd64/i386/arm64/ppc64el/s390 available</title>
     <id>secretchronicles.org/en;34</id>
     <updated>2021-09-01</updated>
@@ -113,7 +113,7 @@ On behalf of TSC team&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2021/08/26/tsc-for-hirsute-available/"/>
+    <link href="/es/news/2021/08/26/tsc-for-hirsute-available/"/>
     <title>TSC .deb package for Ubuntu 21.04 x64 available</title>
     <id>secretchronicles.org/en;33</id>
     <updated>2021-08-26</updated>
@@ -134,7 +134,7 @@ On behalf of TSC team&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2021/05/26/liberachat/"/>
+    <link href="/es/news/2021/05/26/liberachat/"/>
     <title>IRC channel moved to libera.chat</title>
     <id>secretchronicles.org/en;32</id>
     <updated>2021-05-26</updated>
@@ -152,7 +152,7 @@ desire.&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2020/11/16/tsc-for-s390x-available/"/>
+    <link href="/es/news/2020/11/16/tsc-for-s390x-available/"/>
     <title>TSC for s390x available</title>
     <id>secretchronicles.org/en;31</id>
     <updated>2020-11-16</updated>
@@ -184,7 +184,7 @@ On behalf of TSC team&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2020/11/13/bootable-usb-image-available/"/>
+    <link href="/es/news/2020/11/13/bootable-usb-image-available/"/>
     <title>Bootable USB image available</title>
     <id>secretchronicles.org/en;30</id>
     <updated>2020-11-13</updated>
@@ -297,7 +297,7 @@ On behalf of TSC team&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2020/05/18/tsc21-released/"/>
+    <link href="/es/news/2020/05/18/tsc21-released/"/>
     <title>TSC 2.1.0 released</title>
     <id>secretchronicles.org/en;29</id>
     <updated>2020-05-18</updated>
@@ -448,7 +448,7 @@ On behalf of the TSC team.&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2020/05/10/updated-tsc-2/"/>
+    <link href="/es/news/2020/05/10/updated-tsc-2/"/>
     <title>Updated packages for TSC 2.1.0-rc2 released</title>
     <id>secretchronicles.org/en;28</id>
     <updated>2020-05-10</updated>
@@ -543,7 +543,7 @@ On behalf of the TSC team.&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2020/04/02/tsc-2/"/>
+    <link href="/es/news/2020/04/02/tsc-2/"/>
     <title>TSC 2.1.0-rc1 released</title>
     <id>secretchronicles.org/en;27</id>
     <updated>2020-04-02</updated>
@@ -648,7 +648,7 @@ On behalf of the TSC team.&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2020/01/28/tsc-2/"/>
+    <link href="/es/news/2020/01/28/tsc-2/"/>
     <title>TSC 2.1.0-beta2 released</title>
     <id>secretchronicles.org/en;26</id>
     <updated>2020-01-28</updated>
@@ -767,7 +767,7 @@ On behalf of the TSC team.&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2019/12/23/tsc-2/"/>
+    <link href="/es/news/2019/12/23/tsc-2/"/>
     <title>TSC 2.1.0-beta1 released</title>
     <id>secretchronicles.org/en;25</id>
     <updated>2019-12-23</updated>
@@ -903,7 +903,7 @@ On behalf of the TSC team.&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2019/11/30/Updated-Windows-Packages/"/>
+    <link href="/es/news/2019/11/30/Updated-Windows-Packages/"/>
     <title>Updated Windows Alpha Packages Available</title>
     <id>secretchronicles.org/en;24</id>
     <updated>2019-11-30</updated>
@@ -932,7 +932,7 @@ On behalf of TSC team&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2019/11/21/Updated-Windows-Packages/"/>
+    <link href="/es/news/2019/11/21/Updated-Windows-Packages/"/>
     <title>Updated Windows Alpha Packages Available</title>
     <id>secretchronicles.org/en;23</id>
     <updated>2019-11-21</updated>
@@ -960,7 +960,7 @@ On behalf of TSC team&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2019/10/24/Updated-Windows-and-Ubuntu-18/"/>
+    <link href="/es/news/2019/10/24/Updated-Windows-and-Ubuntu-18/"/>
     <title>Updated Windows and Ubuntu 18.04 Alpha Packages Available</title>
     <id>secretchronicles.org/en;22</id>
     <updated>2019-10-24</updated>
@@ -1015,7 +1015,7 @@ On behalf of TSC team&lt;/p&gt;
 
   
   <entry>
-    <link href="/en/news/2019/09/21/Windows-Alpha-Packages/"/>
+    <link href="/es/news/2019/09/21/Windows-Alpha-Packages/"/>
     <title>Windows Alpha Packages Available</title>
     <id>secretchronicles.org/en;21</id>
     <updated>2019-09-21</updated>
